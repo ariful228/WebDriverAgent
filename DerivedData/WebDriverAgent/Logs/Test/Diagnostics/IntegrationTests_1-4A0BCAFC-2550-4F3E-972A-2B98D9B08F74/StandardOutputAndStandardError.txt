@@ -1,0 +1,140 @@
+objc[5792]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x12629d4d0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x124d4ae38). One of the two will be used. Which one is undefined.
+2019-10-03 01:41:26.094634-0700 IntegrationTests_1-Runner[5792:121996] +[CATransaction synchronize] called within transaction
+2019-10-03 01:41:26.357796-0700 IntegrationTests_1-Runner[5792:121996] Running tests...
+objc[5792]: Class GCDAsyncSocketPreBuffer is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x127b75738) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x127ae8620). One of the two will be used. Which one is undefined.
+objc[5792]: Class GCDAsyncReadPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x127b75788) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x127ae8670). One of the two will be used. Which one is undefined.
+objc[5792]: Class GCDAsyncWritePacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x127b757d8) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x127ae86c0). One of the two will be used. Which one is undefined.
+objc[5792]: Class GCDAsyncSpecialPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x127b75828) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x127ae8710). One of the two will be used. Which one is undefined.
+objc[5792]: Class GCDAsyncSocket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x127b75878) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x127ae8760). One of the two will be used. Which one is undefined.
+2019-10-03 01:41:27.322905-0700 IntegrationTests_1-Runner[5792:121996] Continuing to run tests in the background with task ID 1
+Test Suite 'Selected tests' started at 2019-10-03 01:41:28.354
+Test Suite 'IntegrationTests_1.xctest' started at 2019-10-03 01:41:28.362
+Test Suite 'FBAlertTests' started at 2019-10-03 01:41:28.363
+Test Case '-[FBAlertTests testClickAlertButton]' started.
+    t =     0.00s Start Test at 2019-10-03 01:41:28.401
+    t =     0.29s Set Up
+    t =     0.37s     Open com.facebook.wda.integrationApp
+    t =     0.61s         Launch com.facebook.wda.integrationApp
+    t =     5.38s             Wait for accessibility to load
+    t =     5.52s             Wait for com.facebook.wda.integrationApp to idle
+    t =    12.04s     Find the "Alerts" Button
+    t =    12.04s         Snapshot accessibility hierarchy for app with pid 5799
+    t =    12.22s         Find: Descendants matching type Button
+    t =    12.22s         Find: Elements matching predicate '"Alerts" IN identifiers'
+2019-10-03 01:41:40.616248-0700 IntegrationTests_1-Runner[5792:121996] Using singleton test manager
+    t =    13.53s     Set device orientation to Portrait
+    t =    15.16s     Tap "Alerts" Button
+    t =    15.17s         Wait for com.facebook.wda.integrationApp to idle
+    t =    15.31s         Find the "Alerts" Button
+    t =    15.32s             Snapshot accessibility hierarchy for app with pid 5799
+    t =    15.37s             Find: Descendants matching type Button
+    t =    15.37s             Find: Elements matching predicate '"Alerts" IN identifiers'
+    t =    15.50s         Synthesize event
+    t =    15.67s         Wait for com.facebook.wda.integrationApp to idle
+    t =    15.85s     Find the "Create App Alert" Button
+    t =    15.85s         Snapshot accessibility hierarchy for app with pid 5799
+    t =    15.97s         Find: Descendants matching type Button
+    t =    15.97s         Find: Elements matching predicate '"Create App Alert" IN identifiers'
+    t =    15.98s     Find the "Create Sheet Alert" Button
+    t =    15.98s         Snapshot accessibility hierarchy for app with pid 5799
+    t =    15.98s         Find: Descendants matching type Button
+    t =    15.98s         Find: Elements matching predicate '"Create Sheet Alert" IN identifiers'
+    t =    16.05s Snapshot accessibility hierarchy for app with pid 5799
+    t =    16.05s Find: Descendants matching type Alert
+    t =    16.08s Snapshot accessibility hierarchy for app with pid 5799
+    t =    16.09s Find: Descendants matching type Sheet
+    t =    16.12s Snapshot accessibility hierarchy for app with pid 1967
+    t =    16.20s Find: Descendants matching type Alert
+    t =    16.20s Snapshot accessibility hierarchy for app with pid 1967
+    t =    16.21s Find: Descendants matching type Sheet
+    t =    16.21s Find the "Create App Alert" Button
+    t =    16.21s     Snapshot accessibility hierarchy for app with pid 5799
+    t =    16.27s     Find: Descendants matching type Button
+    t =    16.27s     Find: Elements matching predicate '"Create App Alert" IN identifiers'
+    t =    16.39s Find the "Create App Alert" Button
+    t =    16.39s     Snapshot accessibility hierarchy for app with pid 5799
+    t =    16.44s     Find: Descendants matching type Button
+    t =    16.45s     Find: Elements matching predicate '"Create App Alert" IN identifiers'
+    t =    16.45s Find the "Create App Alert" Button
+    t =    16.45s     Snapshot accessibility hierarchy for app with pid 5799
+    t =    16.55s     Find: Descendants matching type Button
+    t =    16.55s     Find: Elements matching predicate '"Create App Alert" IN identifiers'
+    t =    16.55s Snapshot accessibility hierarchy for app with pid 5799
+    t =    16.55s Find: Descendants matching type Button
+    t =    16.55s Find: Elements matching predicate '"Create App Alert" IN identifiers'
+    t =    16.76s Get number of matches for: Descendants matching type Alert
+    t =    16.85s     Snapshot accessibility hierarchy for app with pid 5799
+    t =    17.05s     Find: Descendants matching type Alert
+    t =    17.10s Snapshot accessibility hierarchy for app with pid 5799
+    t =    17.12s Find: Descendants matching type Alert
+    t =    17.13s Snapshot accessibility hierarchy for app with pid 5799
+    t =    17.14s Find: Descendants matching type Alert
+    t =    17.14s Find the Alert
+    t =    17.14s     Snapshot accessibility hierarchy for app with pid 5799
+    t =    17.14s     Find: Descendants matching type Alert
+    t =    17.14s Get all elements bound by accessibility element for: Descendants matching type Button
+    t =    17.36s     Snapshot accessibility hierarchy for app with pid 5799
+    t =    17.47s     Find: Descendants matching type Alert
+    t =    17.47s     Find: Descendants matching type Button
+    t =    17.58s Snapshot accessibility hierarchy for app with pid 5799
+    t =    17.64s Find: Descendants matching type Alert
+    t =    17.64s Find: Descendants matching type Button
+    t =    17.64s Find: Identity Binding
+    t =    17.64s Snapshot accessibility hierarchy for app with pid 5799
+    t =    17.64s Find: Descendants matching type Alert
+    t =    17.64s Find: Descendants matching type Button
+    t =    17.64s Find: Identity Binding
+    t =    17.70s Snapshot accessibility hierarchy for app with pid 5799
+    t =    17.77s Find: Descendants matching type Alert
+    t =    17.77s Snapshot accessibility hierarchy for app with pid 5799
+    t =    17.78s Find: Descendants matching type Alert
+    t =    17.78s Find the Alert
+    t =    17.79s     Snapshot accessibility hierarchy for app with pid 5799
+    t =    17.79s     Find: Descendants matching type Alert
+    t =    17.79s Get all elements bound by accessibility element for: Descendants matching type Button
+    t =    17.90s     Snapshot accessibility hierarchy for app with pid 5799
+    t =    18.00s     Find: Descendants matching type Alert
+    t =    18.00s     Find: Descendants matching type Button
+    t =    18.03s Snapshot accessibility hierarchy for app with pid 5799
+    t =    18.10s Find: Descendants matching type Alert
+    t =    18.10s Find: Descendants matching type Button
+    t =    18.10s Find: Identity Binding
+    t =    18.10s Snapshot accessibility hierarchy for app with pid 5799
+    t =    18.10s Find: Descendants matching type Alert
+    t =    18.10s Find: Descendants matching type Button
+    t =    18.10s Find: Identity Binding
+    t =    18.10s Find the "Will do" Button
+    t =    18.10s     Snapshot accessibility hierarchy for app with pid 5799
+    t =    18.12s     Find: Descendants matching type Alert
+    t =    18.14s     Find: Descendants matching type Button
+    t =    18.14s     Find: Identity Binding
+    t =    18.26s Find the "Will do" Button
+    t =    18.26s     Snapshot accessibility hierarchy for app with pid 5799
+    t =    18.40s     Find: Descendants matching type Alert
+    t =    18.40s     Find: Descendants matching type Button
+    t =    18.40s     Find: Identity Binding
+    t =    18.41s Find the "Will do" Button
+    t =    18.41s     Snapshot accessibility hierarchy for app with pid 5799
+    t =    18.52s     Find: Descendants matching type Alert
+    t =    18.53s     Find: Descendants matching type Button
+    t =    18.55s     Find: Identity Binding
+    t =    18.59s Snapshot accessibility hierarchy for app with pid 5799
+    t =    18.61s Find: Descendants matching type Alert
+    t =    18.61s Find: Descendants matching type Button
+    t =    18.61s Find: Identity Binding
+    t =    18.93s Tear Down
+    t =    18.95s     Snapshot accessibility hierarchy for app with pid 5799
+    t =    19.08s     Find: Descendants matching type Alert
+    t =    19.09s     Snapshot accessibility hierarchy for app with pid 5799
+    t =    19.09s     Find: Descendants matching type Sheet
+    t =    19.10s     Snapshot accessibility hierarchy for app with pid 1967
+    t =    19.12s     Find: Descendants matching type Alert
+    t =    19.12s     Snapshot accessibility hierarchy for app with pid 1967
+    t =    19.12s     Find: Descendants matching type Sheet
+Test Case '-[FBAlertTests testClickAlertButton]' passed (19.335 seconds).
+Test Suite 'FBAlertTests' passed at 2019-10-03 01:41:47.733.
+	 Executed 1 test, with 0 failures (0 unexpected) in 19.335 (19.370) seconds
+Test Suite 'IntegrationTests_1.xctest' passed at 2019-10-03 01:41:47.745.
+	 Executed 1 test, with 0 failures (0 unexpected) in 19.335 (19.383) seconds
+Test Suite 'Selected tests' passed at 2019-10-03 01:41:47.751.
+	 Executed 1 test, with 0 failures (0 unexpected) in 19.335 (19.396) seconds

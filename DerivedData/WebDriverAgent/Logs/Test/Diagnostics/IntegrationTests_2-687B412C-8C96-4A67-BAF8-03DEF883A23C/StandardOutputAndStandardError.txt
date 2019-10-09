@@ -1,0 +1,68 @@
+2019-10-03 01:07:58.479285-0700 IntegrationTests_2-Runner[5037:100679] +[CATransaction synchronize] called within transaction
+2019-10-03 01:07:58.680715-0700 IntegrationTests_2-Runner[5037:100679] Running tests...
+objc[5037]: Class GCDAsyncSocketPreBuffer is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12513f738) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x1250b2620). One of the two will be used. Which one is undefined.
+objc[5037]: Class GCDAsyncReadPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12513f788) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x1250b2670). One of the two will be used. Which one is undefined.
+objc[5037]: Class GCDAsyncWritePacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12513f7d8) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x1250b26c0). One of the two will be used. Which one is undefined.
+objc[5037]: Class GCDAsyncSpecialPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12513f828) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x1250b2710). One of the two will be used. Which one is undefined.
+objc[5037]: Class GCDAsyncSocket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12513f878) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x1250b2760). One of the two will be used. Which one is undefined.
+objc[5037]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x12a9a74d0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x129ad3e38). One of the two will be used. Which one is undefined.
+2019-10-03 01:08:02.835875-0700 IntegrationTests_2-Runner[5037:100679] Continuing to run tests in the background with task ID 1
+Test Suite 'Selected tests' started at 2019-10-03 01:08:03.638
+Test Suite 'IntegrationTests_2.xctest' started at 2019-10-03 01:08:03.640
+Test Suite 'XCUIElementFBFindTests' started at 2019-10-03 01:08:03.643
+Test Case '-[XCUIElementFBFindTests testSingleLastDescendantWithXPathQuery]' started.
+    t =     0.00s Start Test at 2019-10-03 01:08:03.646
+    t =     0.20s Set Up
+    t =     0.24s     Open com.facebook.wda.integrationApp
+    t =     0.40s         Launch com.facebook.wda.integrationApp
+    t =     4.10s             Wait for accessibility to load
+    t =     4.21s             Wait for com.facebook.wda.integrationApp to idle
+    t =    11.46s     Find the "Alerts" Button
+    t =    11.47s         Snapshot accessibility hierarchy for app with pid 5046
+    t =    11.68s         Find: Descendants matching type Button
+    t =    11.69s         Find: Elements matching predicate '"Alerts" IN identifiers'
+2019-10-03 01:08:15.336454-0700 IntegrationTests_2-Runner[5037:100679] Using singleton test manager
+    t =    12.96s     Set device orientation to Portrait
+    t =    14.54s     Snapshot accessibility hierarchy for app with pid 5046
+    t =    14.58s     Find: Descendants matching type Other
+    t =    14.58s     Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    14.59s     Find the "MainView" Other
+    t =    14.59s         Snapshot accessibility hierarchy for app with pid 5046
+    t =    14.60s         Find: Descendants matching type Other
+    t =    14.60s         Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    14.64s Find the "MainView" Other
+    t =    14.65s     Snapshot accessibility hierarchy for app with pid 5046
+    t =    14.68s     Find: Descendants matching type Other
+    t =    14.68s     Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    14.72s Snapshot accessibility hierarchy for app with pid 5046
+    t =    14.73s Find: Descendants matching type Other
+    t =    14.73s Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    14.74s Snapshot accessibility hierarchy for app with pid 5046
+    t =    14.74s Find: Descendants matching type Other
+    t =    14.74s Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    14.75s Snapshot accessibility hierarchy for app with pid 5046
+    t =    14.75s Find: Descendants matching type Other
+    t =    14.76s Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    14.76s Find: Descendants matching type Button
+    t =    14.76s Find: Elements matching predicate 'wdUID IN {"15000000-0000-0000-B613-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    14.76s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"15000000-0000-0000-B613-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    14.83s     Snapshot accessibility hierarchy for app with pid 5046
+    t =    14.86s     Find: Descendants matching type Other
+    t =    14.86s     Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    14.86s     Find: Descendants matching type Button
+    t =    14.86s     Find: Elements matching predicate 'wdUID IN {"15000000-0000-0000-B613-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    14.89s Find the "Scrolling" Button
+    t =    14.90s     Snapshot accessibility hierarchy for app with pid 5046
+    t =    14.93s     Find: Descendants matching type Other
+    t =    14.93s     Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    14.94s     Find: Descendants matching type Button
+    t =    14.94s     Find: Elements matching predicate 'wdUID IN {"15000000-0000-0000-B613-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    14.94s     Find: Identity Binding
+    t =    14.95s Tear Down
+Test Case '-[XCUIElementFBFindTests testSingleLastDescendantWithXPathQuery]' passed (15.151 seconds).
+Test Suite 'XCUIElementFBFindTests' passed at 2019-10-03 01:08:18.797.
+	 Executed 1 test, with 0 failures (0 unexpected) in 15.151 (15.154) seconds
+Test Suite 'IntegrationTests_2.xctest' passed at 2019-10-03 01:08:18.801.
+	 Executed 1 test, with 0 failures (0 unexpected) in 15.151 (15.161) seconds
+Test Suite 'Selected tests' passed at 2019-10-03 01:08:18.804.
+	 Executed 1 test, with 0 failures (0 unexpected) in 15.151 (15.165) seconds

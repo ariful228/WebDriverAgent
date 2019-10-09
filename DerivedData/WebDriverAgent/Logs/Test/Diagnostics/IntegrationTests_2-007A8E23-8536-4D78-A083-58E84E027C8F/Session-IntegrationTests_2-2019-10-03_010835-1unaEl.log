@@ -1,0 +1,1369 @@
+01:08:35.173 Xcode[1515:22545] Beginning test session IntegrationTests_2-094D969D-DBA1-4313-A6B6-5A99D6983B5D at 2019-10-03 01:08:35.172 with Xcode 9F2000 on target <DVTiPhoneSimulator: 0x7f829e98d4d0> {
+		SimDevice: iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)
+} (11.4 (15F79))
+01:08:35.173 Xcode[1515:22545] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+01:08:35.173 Xcode[1515:22545] Test standard output and standard error is at /var/folders/36/bcd7dltd5r386ksvpcvp3bq80000gn/T/com.apple.dt.XCTest/IDETestRunSession-4F5DC481-7734-407A-A01A-4403F725D7A3/IntegrationTests_2-007A8E23-8536-4D78-A083-58E84E027C8F/StandardOutputAndStandardError.txt
+01:08:35.174 Xcode[1515:22545] Simulator 209EFB0A-BF46-4A77-9705-479F1C7A985A was claimed by TestSessionClaim_IDETestRunSession-4F5DC481-7734-407A-A01A-4403F725D7A3
+01:08:35.737 Xcode[1515:22545] Launch session started.
+01:08:35.808 Xcode[1515:22545] Setting up test runner session
+01:08:35.808 Xcode[1515:101362] Sim iPhone 8 Plus: Unregistering for sim device notification with token 165
+01:08:35.809 Xcode[1515:101362] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+01:08:35.819 Xcode[1515:101362] Sim iPhone 8 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.fMTQqSz3Fp/com.apple.testmanagerd.unix-domain.socket
+01:08:35.819 Xcode[1515:101362] Validating test connection socket path (/private/tmp/com.apple.launchd.fMTQqSz3Fp/com.apple.testmanagerd.unix-domain.socket)
+01:08:35.819 Xcode[1515:101362] Constructing transport for test connection socket
+01:08:35.819 Xcode[1515:101362] Connected socket 68 to testmanagerd for Sim iPhone 8 Plus
+01:08:35.820 Xcode[1515:101368] Received connection for test runner session
+01:08:35.820 Xcode[1515:101368] Listening for proxy connection request from the test bundle
+01:08:35.821 Xcode[1515:101368] Initiating session with identifier: 094D969D-DBA1-4313-A6B6-5A99D6983B5D
+01:08:35.835 Xcode[1515:101371] Got reply to session initiation request with identifier 094D969D-DBA1-4313-A6B6-5A99D6983B5D (result:error): 25: (null)
+01:08:35.854 Xcode[1515:22545] Received Ready from iOSSimulator
+01:08:35.854 Xcode[1515:22545] Sending notification: NSConcreteNotification 0x7f82a83c5bd0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "209EFB0A-BF46-4A77-9705-479F1C7A985A";
+}}
+01:08:35.855 Xcode[1515:22545] Test runner session acquired connection.
+01:08:35.855 Xcode[1515:22545] Waiting for test process to launch.
+01:08:35.855 Xcode[1515:101365] Simulator 209EFB0A-BF46-4A77-9705-479F1C7A985A was claimed by LaunchSessionClaim_0x7f828ed81090
+01:08:35.865 Xcode[1515:22545] Adding console adaptor <IDEConsoleAdaptor: 0x7f828f8c0f60 'target' stdin: <IDEMasterPtyFileHandle: 0x7f828f807510 MasterFH: <NSConcreteFileHandle: 0x7f828ed8edf0> 79 SlaveFH: <NSConcreteFileHandle: 0x7f828f828da0> 80> 79 stdout: <IDEMasterPtyFileHandle: 0x7f828f807510 MasterFH: <NSConcreteFileHandle: 0x7f828ed8edf0> 79 SlaveFH: <NSConcreteFileHandle: 0x7f828f828da0> 80> 79 stderr: (null) 0> for test session 094D969D-DBA1-4313-A6B6-5A99D6983B5D.
+01:08:35.879 Xcode[1515:22545] Received Ready from iOSSimulator
+01:08:35.879 Xcode[1515:22545] Sending notification: NSConcreteNotification 0x7f82a82f54d0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "209EFB0A-BF46-4A77-9705-479F1C7A985A";
+}}
+01:08:35.881 Xcode[1515:101371] Simulator 209EFB0A-BF46-4A77-9705-479F1C7A985A was claimed by LaunchSessionClaim_0x7f828ed81090
+01:08:35.882 Xcode[1515:101371] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Registered for sim device notification, got token 166
+01:08:35.883 Xcode[1515:101078] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Unregistering for sim device notification with token 166
+01:08:35.883 Xcode[1515:101371] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Installing app at path: /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/IntegrationTests_2-Runner.app and options: (null)
+01:08:37.296 Xcode[1515:101371] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Installed app at path: /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/IntegrationTests_2-Runner.app and options: (null)
+01:08:37.297 Xcode[1515:101371] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Launching app with identifier: com.apple.test.IntegrationTests_2-Runner and options: {
+    "activate_suspended" = 0;
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator:/Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator:/Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/36/bcd7dltd5r386ksvpcvp3bq80000gn/T/com.apple.dt.XCTest/IDETestRunSession-4F5DC481-7734-407A-A01A-4403F725D7A3/IntegrationTests_2-007A8E23-8536-4D78-A083-58E84E027C8F/LaunchSessions/094D969D-DBA1-4313-A6B6-5A99D6983B5D/remote-container/tmp/IntegrationTests_2-094D969D-DBA1-4313-A6B6-5A99D6983B5D.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys001";
+    stdout = "/dev/ttys001";
+    "wait_for_debugger" = 1;
+}
+01:08:37.491 Xcode[1515:101359] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Launched app with identifier: com.apple.test.IntegrationTests_2-Runner (pid = 5060)
+01:08:37.491 Xcode[1515:101359] Tracking pid 5060 for simulator <DVTiPhoneSimulator: 0x7f829e98d4d0> {
+		SimDevice: iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)
+}
+01:08:37.491 Xcode[1515:101359] Checking to see if pid 5060 is valid: kill(pid, 0) = 0 (YES, it's still running)
+01:08:37.491 Xcode[1515:101359] Setting up DVTTaskNotifyOnProcDeath for pid 5060
+01:08:37.492 Xcode[1515:22545] Test process runnable PID is 5060.
+01:08:38.691 Xcode[1515:22545] Waiting for test process to check in..., will wait up to 120s
+01:08:39.867 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 126 bytes written out to StandardOutputAndStandardError
+01:08:39.967 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+01:08:40.026 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 88 bytes written out to StandardOutputAndStandardError
+01:08:40.127 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+01:08:40.320 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 645 bytes written out to StandardOutputAndStandardError
+01:08:40.321 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 640 bytes written out to StandardOutputAndStandardError
+01:08:40.321 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 1284 bytes written out to StandardOutputAndStandardError
+01:08:40.322 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 636 bytes written out to StandardOutputAndStandardError
+01:08:40.368 Xcode[1515:101359] Handling proxy channel request from test runner
+01:08:40.368 Xcode[1515:101359] Test runner is ready, running protocol 25, requires at least version 8. Control framework is running 25 and requires at least 8
+01:08:40.368 Xcode[1515:22545] Test runner session successfully initiated.
+01:08:40.371 Xcode[1515:22545] Creating the daemon control session.
+01:08:40.371 Xcode[1515:22545] Whitelisting test process ID 5060
+01:08:40.371 Xcode[1515:101365] Sim iPhone 8 Plus: Unregistering for sim device notification with token 167
+01:08:40.371 Xcode[1515:22545] Got authorization request for pid 5060
+01:08:40.371 Xcode[1515:101365] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+01:08:40.373 Xcode[1515:101365] Sim iPhone 8 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.fMTQqSz3Fp/com.apple.testmanagerd.unix-domain.socket
+01:08:40.373 Xcode[1515:101365] Validating test connection socket path (/private/tmp/com.apple.launchd.fMTQqSz3Fp/com.apple.testmanagerd.unix-domain.socket)
+01:08:40.373 Xcode[1515:101365] Constructing transport for test connection socket
+01:08:40.373 Xcode[1515:101365] Connected socket 88 to testmanagerd for Sim iPhone 8 Plus
+01:08:40.374 Xcode[1515:101359] Requesting authorization for pid 5060
+01:08:40.389 Xcode[1515:101359] Got reply to authorization request for pid 5060 (result:error): 25: (null)
+01:08:40.389 Xcode[1515:22545] Got whitelisting response from test daemon. Success: 1
+01:08:40.390 Xcode[1515:22545] Registering/updating daemon-based crash report observer for process names (
+    "IntegrationTests_2-Runner",
+    xctest,
+    IntegrationApp,
+    XCTRunner
+), report directories: (
+    "/Users/ariful/Library/Logs/DiagnosticReports",
+    "/Library/Logs/DiagnosticReports"
+).
+01:08:19.580 testmanagerd[2762:100767] XCIDESession is responsible for cleaning up its socket
+01:08:19.582 testmanagerd[2762:100764] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7fd7c071d220> (socket 5) created Thursday, October 3, 2019 at 1:07:58 AM Pacific Daylight Time
+01:08:19.583 testmanagerd[2762:100764] Tearing down <XCIDESession: 0x7fd7c071d220> (socket 5) created Thursday, October 3, 2019 at 1:07:58 AM Pacific Daylight Time.
+01:08:19.583 testmanagerd[2762:100764] Control session closed, will disconnect from matching testing client.
+01:08:19.584 testmanagerd[2762:100764] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control sessions
+01:08:35.822 testmanagerd[2762:100763] IDE connected over socket 4 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+01:08:35.823 testmanagerd[2762:100763] Created session with socket 4
+01:08:35.825 testmanagerd[2762:101373] Adding <XCIDESession: 0x7fd7c0411ae0> (socket 4) created Thursday, October 3, 2019 at 1:08:35 AM Pacific Daylight Time to the set of unidentified IDE sessions
+01:08:35.828 testmanagerd[2762:101373] Handled a proxy request from the IDE with session <XCIDESession: 0x7fd7c0411ae0> (socket 4) created Thursday, October 3, 2019 at 1:08:35 AM Pacific Daylight Time proxy <_DTXProxy: 0x7fd7c0528d20>
+01:08:35.833 testmanagerd[2762:39945] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 094D969D-DBA1-4313-A6B6-5A99D6983B5D 1 4 from client 762E251A-453F-4644-8F7B-21CFE294B8BA-1515-0000072BD89A4071 (/Applications/Xcode.app)
+01:08:35.833 testmanagerd[2762:39945] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 094D969D-DBA1-4313-A6B6-5A99D6983B5D Replied with protocol version 25
+01:08:35.834 testmanagerd[2762:101373] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7fd7c0411ae0> (socket 4) created Thursday, October 3, 2019 at 1:08:35 AM Pacific Daylight Time for client 762E251A-453F-4644-8F7B-21CFE294B8BA-1515-0000072BD89A4071 waiting to pair with test session 094D969D-DBA1-4313-A6B6-5A99D6983B5D -> 094D969D-DBA1-4313-A6B6-5A99D6983B5D
+01:08:40.348 testmanagerd[2762:100763] Received new test session connection from process with PID 5060
+01:08:40.350 testmanagerd[2762:100763] Looking up app info for pid 5060
+01:08:40.354 testmanagerd[2762:101373] Test session 094D969D-DBA1-4313-A6B6-5A99D6983B5D requested transport for IDE (-[XCTestSession _XCT_requestSerializedTransportWrapperForIDESessionWithIdentifier:reply:])
+01:08:40.354 testmanagerd[2762:101649] Test session 094D969D-DBA1-4313-A6B6-5A99D6983B5D requested serialized transport (-[XCTDaemon requestSerializedTransportForSessionIdentifier:reply:]_block_invoke)
+01:08:40.354 testmanagerd[2762:101649] Initiating serialized transport handoff from IDE connection to test host.
+01:08:40.354 testmanagerd[2762:101649] -[XCIDESession closeConnectionAndHandOffTransportWithCompletionHandler:] sending barrier
+01:08:40.354 testmanagerd[2762:101649] Barrier flushed. Cancelling connection. Socket will not be closed
+01:08:40.354 testmanagerd[2762:101649] DTXSocketTransport for socket 4 disconnected, owner is <XCIDESession: 0x7fd7c0411ae0> (socket 4) created Thursday, October 3, 2019 at 1:08:35 AM Pacific Daylight Time for client 762E251A-453F-4644-8F7B-21CFE294B8BA-1515-0000072BD89A4071 waiting to pair with test session 094D969D-DBA1-4313-A6B6-5A99D6983B5D
+01:08:40.357 testmanagerd[2762:101649] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7fd7c0411ae0> (socket 4) created Thursday, October 3, 2019 at 1:08:35 AM Pacific Daylight Time for client 762E251A-453F-4644-8F7B-21CFE294B8BA-1515-0000072BD89A4071 waiting to pair with test session 094D969D-DBA1-4313-A6B6-5A99D6983B5D
+01:08:40.358 testmanagerd[2762:101649] Tearing down <XCIDESession: 0x7fd7c0411ae0> (socket 4) created Thursday, October 3, 2019 at 1:08:35 AM Pacific Daylight Time for client 762E251A-453F-4644-8F7B-21CFE294B8BA-1515-0000072BD89A4071 waiting to pair with test session 094D969D-DBA1-4313-A6B6-5A99D6983B5D.
+01:08:40.359 testmanagerd[2762:101649] Session summary: 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control sessions
+01:08:40.374 testmanagerd[2762:101649] IDE connected over socket 5 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+01:08:40.375 testmanagerd[2762:101649] Created session with socket 5
+01:08:40.376 testmanagerd[2762:100763] Adding <XCIDESession: 0x7fd7c2c04f20> (socket 5) created Thursday, October 3, 2019 at 1:08:40 AM Pacific Daylight Time to the set of unidentified IDE sessions
+01:08:40.379 testmanagerd[2762:100763] Handled a proxy request from the IDE with session <XCIDESession: 0x7fd7c2c04f20> (socket 5) created Thursday, October 3, 2019 at 1:08:40 AM Pacific Daylight Time proxy <_DTXProxy: 0x7fd7c04193a0>
+01:08:40.380 testmanagerd[2762:100763] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 5060 25
+01:08:40.381 testmanagerd[2762:39945] Adding control session <XCIDESession: 0x7fd7c2c04f20> (socket 5) created Thursday, October 3, 2019 at 1:08:40 AM Pacific Daylight Time with protocol version 25
+01:08:40.383 testmanagerd[2762:101650] Got app info for pid 5060: {
+    BKSApplicationStateAppIsFrontmost = 1;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "com.apple.test.IntegrationTests_2-Runner";
+    SBApplicationStateKey = 8;
+    SBApplicationStateProcessIDKey = 5060;
+    SBApplicationStateRunningReasonsKey =     (
+                {
+            SBApplicationStateRunningReasonAssertionIdentifierKey = Resume;
+            SBApplicationStateRunningReasonAssertionReasonKey = 10000;
+        }
+    );
+    SBMostElevatedStateForProcessID = 8;
+}
+01:08:40.385 testmanagerd[2762:101650] Got request for process assertion for pid 5060.
+01:08:40.385 testmanagerd[2762:101650] Created process assertion for pid 5060: <BKSProcessAssertion: 0x7fd7c0405a00>, waiting for response from assertiond.
+01:08:40.417 testmanagerd[2762:101650] Starting to monitor com.apple.test.IntegrationTests_2-Runner
+01:08:40.463 testmanagerd[2762:39945] Received request to collect crash reports in directories '/Users/ariful/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'IntegrationTests_2-Runner', 'xctest', 'IntegrationApp', 'XCTRunner'
+01:08:40.464 testmanagerd[2762:39945] Initializing crash report observer for /Users/ariful/Library/Logs/DiagnosticReports
+01:08:40.475 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+01:08:40.465 testmanagerd[2762:39945] Getting files in /Users/ariful/Library/Logs/DiagnosticReports
+01:08:40.466 testmanagerd[2762:39945] Found 15 files in /Users/ariful/Library/Logs/DiagnosticReports
+01:08:40.467 testmanagerd[2762:39945] Started monitoring /Users/ariful/Library/Logs/DiagnosticReports
+01:08:40.483 Xcode[1515:22545] Telling test runner to start executing tests.
+01:08:40.036 IntegrationTests_2-Runner[5060:101536] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 0940(9F1027a), modified on Monday, June 4, 2018 at 8:32:05 PM Pacific Daylight Time
+XCTest.framework bundle version: 14100
+01:08:40.039 IntegrationTests_2-Runner[5060:101536] System uptime: 1:19:15
+01:08:40.040 IntegrationTests_2-Runner[5060:101536] Process arguments: (
+    "/Users/ariful/Library/Developer/CoreSimulator/Devices/209EFB0A-BF46-4A77-9705-479F1C7A985A/data/Containers/Bundle/Application/093BAE0B-B87E-4F67-8DE2-BF3230FAD462/IntegrationTests_2-Runner.app/IntegrationTests_2-Runner",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+01:08:40.040 IntegrationTests_2-Runner[5060:101536] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/ariful/Library/Developer/CoreSimulator/Devices/209EFB0A-BF46-4A77-9705-479F1C7A985A/data/Containers/Data/Application/67241D54-D1DB-4C82-8DFA-3E02C58E423B";
+    CLASSIC = 1;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.aY07KZDGGX/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator:/Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+    "DYLD_LIBRARY_PATH" = "/Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator:/Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    HOME = "/Users/ariful/Library/Developer/CoreSimulator/Devices/209EFB0A-BF46-4A77-9705-479F1C7A985A/data/Containers/Data/Application/67241D54-D1DB-4C82-8DFA-3E02C58E423B";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.209EFB0A-BF46-4A77-9705-479F1C7A985A/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/ariful/Library/Developer/CoreSimulator/Devices/209EFB0A-BF46-4A77-9705-479F1C7A985A/data";
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/ariful/Library/Developer/CoreSimulator/Devices/209EFB0A-BF46-4A77-9705-479F1C7A985A/data/Library/Application Support/Simulator/extended_display.plist";
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/local/bin";
+    "RWI_LISTEN_SOCKET" = "/private/tmp/com.apple.launchd.AvBNhU1poo/com.apple.webinspectord_sim.socket";
+    "SIMULATOR_AUDIO_DEVICES_PLIST_PATH" = "/Users/ariful/Library/Developer/CoreSimulator/Devices/209EFB0A-BF46-4A77-9705-479F1C7A985A/data/var/run/com.apple.coresimulator.audio.plist";
+    "SIMULATOR_AUDIO_SETTINGS_PATH" = "/Users/ariful/Library/Developer/CoreSimulator/Devices/209EFB0A-BF46-4A77-9705-479F1C7A985A/data/var/run/simulatoraudio/audiosettings.plist";
+    "SIMULATOR_BOOT_TIME" = 1570085365;
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 8 Plus.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 8 Plus";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/ariful/Library/Developer/CoreSimulator/Devices/209EFB0A-BF46-4A77-9705-479F1C7A985A/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Platforms/iphoneos/Library/Frameworks/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/ariful";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/ariful/Library/Logs/CoreSimulator/209EFB0A-BF46-4A77-9705-479F1C7A985A";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 2208;
+    "SIMULATOR_MAINSCREEN_PITCH" = "461.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "3.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 1242;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/ariful/Library/Developer/CoreSimulator/Devices/209EFB0A-BF46-4A77-9705-479F1C7A985A/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone10,5";
+    "SIMULATOR_PRODUCT_CLASS" = D21;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 15F79;
+    "SIMULATOR_RUNTIME_VERSION" = "11.4";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/ariful/Library/Developer/CoreSimulator/Devices/209EFB0A-BF46-4A77-9705-479F1C7A985A/data";
+    "SIMULATOR_UDID" = "209EFB0A-BF46-4A77-9705-479F1C7A985A";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 518.22 - Device: iPhone 8 Plus - Runtime: iOS 11.4 (15F79) - DeviceType: iPhone 8 Plus";
+    "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.fMTQqSz3Fp/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/ariful/Library/Developer/CoreSimulator/Devices/209EFB0A-BF46-4A77-9705-479F1C7A985A/data/Containers/Data/Application/67241D54-D1DB-4C82-8DFA-3E02C58E423B/tmp";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/36/bcd7dltd5r386ksvpcvp3bq80000gn/T/com.apple.dt.XCTest/IDETestRunSession-4F5DC481-7734-407A-A01A-4403F725D7A3/IntegrationTests_2-007A8E23-8536-4D78-A083-58E84E027C8F/LaunchSessions/094D969D-DBA1-4313-A6B6-5A99D6983B5D/remote-container/tmp/IntegrationTests_2-094D969D-DBA1-4313-A6B6-5A99D6983B5D.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.apple.test.IntegrationTests_2-Runner[0x5494][1974]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.209EFB0A-BF46-4A77-9705-479F1C7A985A";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator";
+}
+01:08:40.041 IntegrationTests_2-Runner[5060:101536] App Sandbox active: NO
+01:08:40.041 IntegrationTests_2-Runner[5060:101536] Loading test bundle at: file:///Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/IntegrationTests_2-Runner.app/PlugIns/IntegrationTests_2.xctest/
+01:08:40.330 IntegrationTests_2-Runner[5060:101536] Finished loading test bundle
+01:08:40.330 IntegrationTests_2-Runner[5060:101536] Readying IDE session
+01:08:40.333 IntegrationTests_2-Runner[5060:101536] Creating future for 'Exchange protocol versions with daemon' with timeout 15.00
+01:08:40.335 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000001ce0, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: (
+    "Exchange protocol versions with daemon"
+)
+01:08:40.352 IntegrationTests_2-Runner[5060:101637] <XCTWaiter: 0x608000001ce0, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:40.352 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000001ce0, state: XCTWaiterStateSucceeded> done waiting
+01:08:40.352 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000001ce0, state: XCTWaiterStateSucceeded> cleaning up Exchange protocol versions with daemon
+01:08:40.353 IntegrationTests_2-Runner[5060:101536] Got daemon protocol version 22
+01:08:40.353 IntegrationTests_2-Runner[5060:101536] Requesting IDE connection transport
+01:08:40.354 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x6040000017f0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "Transport for IDE session acquired"
+)
+01:08:40.357 IntegrationTests_2-Runner[5060:101636] Creating transport with received transport data
+01:08:40.359 IntegrationTests_2-Runner[5060:101635] <XCTWaiter: 0x6040000017f0, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:40.360 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x6040000017f0, state: XCTWaiterStateSucceeded> done waiting
+01:08:40.360 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x6040000017f0, state: XCTWaiterStateSucceeded> cleaning up Transport for IDE session acquired
+01:08:40.360 IntegrationTests_2-Runner[5060:101536] Creating connection with transport <DTXFileDescriptorTransport: 0x6080000eb900>
+01:08:40.363 IntegrationTests_2-Runner[5060:101536] Creating the proxy channel with connection <DTXConnection 0x60c0001f3a00 : x1>
+01:08:40.365 IntegrationTests_2-Runner[5060:101536] Creating future for 'IDE session ready for test plan' with timeout 60.00
+01:08:40.366 IntegrationTests_2-Runner[5060:101536] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:25 minimumVersion:8
+01:08:40.368 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000001d20, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "IDE session ready for test plan"
+)
+01:08:40.372 IntegrationTests_2-Runner[5060:101637] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+01:08:40.484 IntegrationTests_2-Runner[5060:101637] _IDE_startExecutingTestPlanWithProtocolVersion:25
+01:08:40.485 IntegrationTests_2-Runner[5060:101636] <XCTWaiter: 0x608000001d20, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:40.485 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000001d20, state: XCTWaiterStateSucceeded> done waiting
+01:08:40.485 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000001d20, state: XCTWaiterStateSucceeded> cleaning up IDE session ready for test plan
+01:08:40.495 Xcode[1515:22545] Starting test plan, clearing initialization timeout timer.
+01:08:40.495 IntegrationTests_2-Runner[5060:101536] Initializing for UI testing.
+01:08:40.468 testmanagerd[2762:39945] Initializing crash report observer for /Library/Logs/DiagnosticReports
+01:08:40.501 IntegrationTests_2-Runner[5060:101536] Linked XCTAutomationSupport.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework/XCTAutomationSupport, built with Xcode 0930(9P107g), modified on Monday, June 4, 2018 at 8:24:29 PM Pacific Daylight Time
+XCTAutomationSupport.framework bundle version: 0
+01:08:40.501 IntegrationTests_2-Runner[5060:101536] Creating future for 'Loading Accessibility' with timeout 70.00
+01:08:40.502 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c000007430, state: XCTWaiterStateInProgress> entering wait loop for 70.00s with expectations: (
+    "Loading Accessibility"
+)
+01:08:40.478 testmanagerd[2762:39945] Getting files in /Library/Logs/DiagnosticReports
+01:08:40.479 testmanagerd[2762:39945] Found 91 files in /Library/Logs/DiagnosticReports
+01:08:40.481 testmanagerd[2762:39945] Started monitoring /Library/Logs/DiagnosticReports
+01:08:40.483 testmanagerd[2762:100763] Got reply for process assertion request, success: YES
+01:08:40.486 testmanagerd[2762:100763] Got reply for process assertion request, success: YES
+01:08:40.482 testmanagerd[2762:101649] Got application state update: com.apple.test.IntegrationTests_2-Runner (5060) -> 8
+01:08:40.502 testmanagerd[2762:101651] Performing block with diagnostics...
+01:08:40.503 testmanagerd[2762:101651] Received request to load Accessibility
+01:08:40.504 testmanagerd[2762:101651] Beginning AX loading sequence.
+01:08:40.498 testmanagerd[2762:101649] <XCTestSession: 0x7fd7c0531b70> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.apple.test.IntegrationTests_2-Runner 5060 8
+01:08:40.530 testmanagerd[2762:101651] Waiting 65.0s for AX to finish loading...
+01:08:40.570 testmanagerd[2762:39945] Received kAXAccessibilityLoaded notification
+01:08:40.579 testmanagerd[2762:101651] Calling AXDisableAccessibilityOnTermination() inside a retry block to handle a race between kAXAccessibilityLoaded and backboardd.
+01:08:40.582 testmanagerd[2762:101651] AXDisableAccessibilityOnTermination() returned 0
+01:08:40.583 testmanagerd[2762:101651] Finished loading AX.
+01:08:40.606 testmanagerd[2762:101651] Initial device orientation 1
+01:08:40.607 testmanagerd[2762:101651] Block succeeded, canceling diagnostics.
+01:08:40.825 IntegrationTests_2-Runner[5060:101663] <XCTWaiter: 0x60c000007430, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:41.309 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 652 bytes written out to StandardOutputAndStandardError
+01:08:41.409 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+01:08:41.526 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c000007430, state: XCTWaiterStateSucceeded> done waiting
+01:08:41.527 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c000007430, state: XCTWaiterStateSucceeded> cleaning up Loading Accessibility
+01:08:41.527 IntegrationTests_2-Runner[5060:101536] Creating future for 'Enable gathering of localized strings' with timeout 70.00
+01:08:41.529 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c000007520, state: XCTWaiterStateInProgress> entering wait loop for 70.00s with expectations: (
+    "Enable gathering of localized strings"
+)
+01:08:41.529 IntegrationTests_2-Runner[5060:101638] <XCTWaiter: 0x60c000007520, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:41.601 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c000007520, state: XCTWaiterStateSucceeded> done waiting
+01:08:41.602 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c000007520, state: XCTWaiterStateSucceeded> cleaning up Enable gathering of localized strings
+01:08:41.602 IntegrationTests_2-Runner[5060:101536] Creating future for 'Set AX timeout to 60.00s' with timeout 65.00
+01:08:41.604 testmanagerd[2762:100763] AXUIElementSetMessagingTimeout(<AXUIElementRef 0x7fd7c05455e0> {pid=0} {uid=[ID:1 hash:0x0]}, 60) -> 0 
+01:08:41.604 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000001c30, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Set AX timeout to 60.00s"
+)
+01:08:41.605 IntegrationTests_2-Runner[5060:101635] <XCTWaiter: 0x604000001c30, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:41.609 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000001c30, state: XCTWaiterStateSucceeded> done waiting
+01:08:41.609 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000001c30, state: XCTWaiterStateSucceeded> cleaning up Set AX timeout to 60.00s
+01:08:41.613 testmanagerd[2762:101650] Registered for AX notification 4002 (0x7fd7c2c00600)
+01:08:41.610 IntegrationTests_2-Runner[5060:101536] Creating future for 'Registering for AX notification 4002' with timeout 65.00
+01:08:41.611 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c000007520, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Registering for AX notification 4002"
+)
+01:08:41.614 IntegrationTests_2-Runner[5060:101636] <XCTWaiter: 0x60c000007520, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:43.202 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c000007520, state: XCTWaiterStateSucceeded> done waiting
+01:08:43.203 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c000007520, state: XCTWaiterStateSucceeded> cleaning up Registering for AX notification 4002
+01:08:43.203 IntegrationTests_2-Runner[5060:101536] Creating future for 'Registering for AX notification 1006' with timeout 65.00
+01:08:43.205 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000001c50, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Registering for AX notification 1006"
+)
+01:08:43.204 testmanagerd[2762:100763] Registered for AX notification 1006 (0x7fd7c2c00600)
+01:08:43.205 IntegrationTests_2-Runner[5060:101638] <XCTWaiter: 0x604000001c50, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:43.206 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000001c50, state: XCTWaiterStateSucceeded> done waiting
+01:08:43.206 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000001c50, state: XCTWaiterStateSucceeded> cleaning up Registering for AX notification 1006
+01:08:43.207 IntegrationTests_2-Runner[5060:101536] Creating future for 'Registering for AX notification 1021' with timeout 65.00
+01:08:43.207 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000001c50, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Registering for AX notification 1021"
+)
+01:08:43.208 testmanagerd[2762:101650] Registered for AX notification 1021 (0x7fd7c2c00600)
+01:08:43.209 IntegrationTests_2-Runner[5060:101636] <XCTWaiter: 0x604000001c50, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:43.219 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000001c50, state: XCTWaiterStateSucceeded> done waiting
+01:08:43.221 testmanagerd[2762:101651] Got request for process assertion for pid 5060.
+01:08:43.220 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000001c50, state: XCTWaiterStateSucceeded> cleaning up Registering for AX notification 1021
+01:08:43.220 IntegrationTests_2-Runner[5060:101536] Creating future for 'Request background assertion for test process' with timeout 30.00
+01:08:43.221 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000001c50, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: (
+    "Request background assertion for test process"
+)
+01:08:43.221 testmanagerd[2762:101651] Invalidating previous process assertion for pid 5060.
+01:08:43.223 testmanagerd[2762:101373] Got reply for process assertion request, success: YES
+01:08:43.223 IntegrationTests_2-Runner[5060:101673] Got reply for background assertion for test process, acquired: YES.
+01:08:43.223 testmanagerd[2762:101651] Created process assertion for pid 5060: <BKSProcessAssertion: 0x7fd7c07286f0>, waiting for response from assertiond.
+01:08:43.224 IntegrationTests_2-Runner[5060:101663] <XCTWaiter: 0x604000001c50, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:43.223 testmanagerd[2762:101373] Got reply for process assertion request, success: YES
+01:08:43.224 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000001c50, state: XCTWaiterStateSucceeded> done waiting
+01:08:43.224 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000001c50, state: XCTWaiterStateSucceeded> cleaning up Request background assertion for test process
+01:08:43.225 IntegrationTests_2-Runner[5060:101536] Registering for UIApplicationDidEnterBackgroundNotification
+01:08:43.227 IntegrationTests_2-Runner[5060:101536] Hitting home button to enter background.
+01:08:43.227 IntegrationTests_2-Runner[5060:101536] Creating future for 'Perform device event' with timeout 30.00
+01:08:43.230 testmanagerd[2762:101373] Performing <XCDeviceEvent:0x7fd7c0537660 page 12 usage 64 duration 0.01s
+01:08:43.230 testmanagerd[2762:101373] Sleeping for 0.005000s before sending up event
+01:08:43.230 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000001ec0, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: (
+    "Perform device event"
+)
+01:08:43.237 testmanagerd[2762:101373] Waiting for device event confirmation.
+01:08:43.257 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 128 bytes written out to StandardOutputAndStandardError
+01:08:43.282 testmanagerd[2762:39945] AX Notification 1021 (0x7fd7c2c00600)
+01:08:43.283 testmanagerd[2762:39945] Calling handler for AX notification 1021:{
+    pid = 5060;
+    "tentative-suspended" = 1;
+}
+01:08:43.284 IntegrationTests_2-Runner[5060:101635] Got AX notification 1021
+01:08:43.285 IntegrationTests_2-Runner[5060:101635] Got kAXPidStatusChangedNotification for 5060: active
+01:08:43.299 IntegrationTests_2-Runner[5060:101536] No application process found matching pid 5060, caching
+01:08:43.323 testmanagerd[2762:39945] AX Notification 4002 (0x7fd7c2c00600)
+01:08:43.324 testmanagerd[2762:39945] Calling handler for AX notification 4002:{
+    event = ButtonEventsCompleted;
+}
+01:08:43.324 IntegrationTests_2-Runner[5060:101638] Got AX notification 4002
+01:08:43.324 testmanagerd[2762:39945] Got user testing notification with payload {
+    event = ButtonEventsCompleted;
+}
+01:08:43.325 testmanagerd[2762:39945] Signaling device event confirmed by AX notification.
+01:08:43.326 testmanagerd[2762:101373] Gesture complete, replying to client.
+01:08:43.326 IntegrationTests_2-Runner[5060:101638] <XCTWaiter: 0x608000001ec0, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:43.326 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000001ec0, state: XCTWaiterStateSucceeded> done waiting
+01:08:43.327 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000001ec0, state: XCTWaiterStateSucceeded> cleaning up Perform device event
+01:08:43.327 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x600000006860, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: (
+    "Expect notification 'UIApplicationDidEnterBackgroundNotification' from any object"
+)
+01:08:43.357 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+01:08:43.943 IntegrationTests_2-Runner[5060:101635] <XCTWaiter: 0x600000006860, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:43.959 testmanagerd[2762:101374] Got application state update: com.apple.test.IntegrationTests_2-Runner (5060) -> 4
+01:08:43.959 testmanagerd[2762:101373] <XCTestSession: 0x7fd7c0531b70> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.apple.test.IntegrationTests_2-Runner 5060 4
+01:08:44.074 IntegrationTests_2-Runner[5060:101663] Got AX notification 4002
+01:08:44.077 IntegrationTests_2-Runner[5060:101637] Got AX notification 4002
+01:08:44.073 testmanagerd[2762:39945] AX Notification 4002 (0x7fd7c2c00600)
+01:08:44.073 testmanagerd[2762:39945] Calling handler for AX notification 4002:{
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidDisappear;
+}
+01:08:44.075 testmanagerd[2762:39945] Got user testing notification with payload {
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidDisappear;
+}
+01:08:44.076 testmanagerd[2762:39945] AX Notification 4002 (0x7fd7c2c00600)
+01:08:44.077 testmanagerd[2762:39945] Calling handler for AX notification 4002:{
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidDisappear;
+}
+01:08:44.079 testmanagerd[2762:39945] Got user testing notification with payload {
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidDisappear;
+}
+01:08:44.092 IntegrationTests_2-Runner[5060:101673] Got AX notification 1021
+01:08:44.092 IntegrationTests_2-Runner[5060:101673] Got kAXPidStatusChangedNotification for 5060: suspended
+01:08:44.094 IntegrationTests_2-Runner[5060:101663] Got AX notification 4002
+01:08:44.102 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x600000006860, state: XCTWaiterStateSucceeded> done waiting
+01:08:44.102 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x600000006860, state: XCTWaiterStateSucceeded> cleaning up Expect notification 'UIApplicationDidEnterBackgroundNotification' from any object
+01:08:44.103 IntegrationTests_2-Runner[5060:101536] Done initializing for UI testing.
+01:08:44.103 IntegrationTests_2-Runner[5060:101536] Loading test suite...
+01:08:44.104 IntegrationTests_2-Runner[5060:101536] Finished loading test suite, took 0.001s
+01:08:44.104 IntegrationTests_2-Runner[5060:101536] -[XCTRunnerIDESession testBundleWillStart:]
+01:08:44.104 IntegrationTests_2-Runner[5060:101536] Running suite...
+01:08:44.109 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 63 bytes written out to StandardOutputAndStandardError
+2019-10-03 01:08:39.865500-0700 IntegrationTests_2-Runner[5060:101536] +[CATransaction synchronize] called within transaction
+2019-10-03 01:08:40.025287-0700 IntegrationTests_2-Runner[5060:101536] Running tests...
+objc[5060]: Class GCDAsyncSocketPreBuffer is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x125f8e738) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x125f01620). One of the two will be used. Which one is undefined.
+objc[5060]: Class GCDAsyncReadPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x125f8e788) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x125f01670). One of the two will be used. Which one is undefined.
+objc[5060]: Class GCDAsyncWritePacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x125f8e7d8) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x125f016c0). One of the two will be used. Which one is undefined.
+objc[5060]: Class GCDAsyncSpecialPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x125f8e828) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x125f01710). One of the two will be used. Which one is undefined.
+objc[5060]: Class GCDAsyncSocket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x125f8e878) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x125f01760). One of the two will be used. Which one is undefined.
+objc[5060]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x12b7f64d0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x12a922e38). One of the two will be used. Which one is undefined.
+2019-10-03 01:08:43.255058-0700 IntegrationTests_2-Runner[5060:101536] Continuing to run tests in the background with task ID 1
+Test Suite 'Selected tests' started at 2019-10-03 01:08:44.107
+01:08:44.112 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 74 bytes written out to StandardOutputAndStandardError
+01:08:44.108 IntegrationTests_2-Runner[5060:101536] -[XCTRunnerIDESession testSuiteWillStart:]
+01:08:44.113 Xcode[1515:22545] _XCT_testSuite:Selected tests didStartAt:2019-10-03 08:08:44 +0000
+01:08:47.595 Xcode[1515:101365] (LOG ARBITER) Rotating message buffer with 304 messages.
+01:08:50.232 Xcode[1515:101368] (LOG ARBITER) Rotating message buffer with 115 messages.
+01:08:53.264 Xcode[1515:101365] (LOG ARBITER) Rotating message buffer with 66 messages.
+01:08:56.396 Xcode[1515:101370] (LOG ARBITER) Rotating message buffer with 151 messages.
+01:08:57.548 Xcode[1515:101368] (LOG ARBITER) Dumping buffered message data; 636 messages.
+01:08:56.891 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 77 bytes written out to StandardOutputAndStandardError
+01:08:56.889 IntegrationTests_2-Runner[5060:101536] Checking for possible remote query evaluation: hasAutomationSession: YES, supportsRemoteEvaluation: YES
+01:08:56.889 IntegrationTests_2-Runner[5060:101536] Evaluating query <XCTElementQuery: 0x6040000b3020> with transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>"
+)
+01:08:56.889 IntegrationTests_2-Runner[5060:101536] Getting root element snapshot for query <XCTElementQuery: 0x6040000b3020>
+01:08:56.889 IntegrationTests_2-Runner[5060:101536] Getting snapshot for element <XCAccessibilityElement: 0x60400027c240> Application with pid: 5067 for query <XCTElementQuery: 0x6040000b3020>
+01:08:56.890 IntegrationTests_2-Runner[5060:101536] Attribute-keypath analysis disabled by user default 'XCTDisableAttributeKeyPathAnalysis'.
+01:08:56.890 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60400009e960> 2019-10-03 08:08:56 +0000: Snapshot accessibility hierarchy for app with pid 5067
+01:08:56.947 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity E5594B26-4D72-49E5-A061-8278196B5EB3:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:56.891 IntegrationTests_2-Runner[5060:101536] Checked support for truncated value on iOS: YES, current version 11, requires 11
+01:08:56.891 IntegrationTests_2-Runner[5060:101536] Fetching snapshot for <XCAccessibilityElement: 0x60400027c240> Application with pid: 5067 from testmanagerd with attributes XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeLabel, XC_kAXXCAttributeTraits, XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeUserTestingElements, XC_kAXXCAttributeURL, XC_kAXXCAttributeIsUserInteractionEnabled, XC_kAXXCAttributeViewControllerTitle, XC_kAXXCAttributeViewControllerClassName, XC_kAXXCAttributeFrame, XC_kAXXCAttributeParent, XC_kAXXCAttributeHorizontalSizeClass, XC_kAXXCAttributeVerticalSizeClass, XC_kAXXCAttributePlaceholderValue, kAXXCAttributeTruncatedValue and parameters {
+    maxArrayCount = 2147483647;
+    maxChildren = 2147483647;
+    maxDepth = 2147483647;
+    traverseFromParentsToChildren = 1;
+}.
+01:08:56.891 IntegrationTests_2-Runner[5060:101536] Creating future for 'Fetching snapshot from testmanagerd.' with timeout 65.00
+01:08:56.892 testmanagerd[2762:101649] Checked support for truncated value on iOS: YES, current version 11, requires 11
+01:08:56.892 testmanagerd[2762:101649] Q: XCTPerformOnMainRunLoop about to CFRunLoopPerform
+01:08:56.893 testmanagerd[2762:101649] Q: waiting for busy flag signal
+01:08:56.893 testmanagerd[2762:39945] MT: XCTPerformOnMainRunLoop_block_invoke inside CFRunLoopPerform
+01:08:56.893 testmanagerd[2762:101649] Q: won the race to the busy flag, waiting for work to complete
+01:08:56.893 testmanagerd[2762:39945] MT: won the race to the busy flag
+01:08:56.894 testmanagerd[2762:39945] Got main window <AXUIElementRef 0x7fd7c072c490> {pid=5067} {uid=[ID:4 hash:0x7fcfe8f254d0]}
+01:08:56.892 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000002a30, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Fetching snapshot from testmanagerd."
+)
+01:08:56.894 testmanagerd[2762:39945] Capturing hierarchy with attributes XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeLabel, XC_kAXXCAttributeTraits, XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeUserTestingElements, XC_kAXXCAttributeURL, XC_kAXXCAttributeIsUserInteractionEnabled, XC_kAXXCAttributeViewControllerTitle, XC_kAXXCAttributeViewControllerClassName, XC_kAXXCAttributeFrame, XC_kAXXCAttributeParent, XC_kAXXCAttributeHorizontalSizeClass, XC_kAXXCAttributeVerticalSizeClass, XC_kAXXCAttributePlaceholderValue, kAXXCAttributeTruncatedValue
+01:08:56.896 testmanagerd[2762:39945] Capturing hierarchy with parameters {
+    attributes =     (
+        5017,
+        2001,
+        2004,
+        5003,
+        5004,
+        5009,
+        2020,
+        5032,
+        5040,
+        5041,
+        2003,
+        5002,
+        2086,
+        2087,
+        5042,
+        2158
+    );
+    maxArrayCount = 2147483647;
+    maxChildren = 2147483647;
+    maxDepth = 2147483647;
+    traverseFromParentsToChildren = 1;
+}
+01:08:56.896 testmanagerd[2762:39945] Snapshot attributes 5017, 2001, 2004, 5003, 5004, 5009, 2020, 5032, 5040, 5041, 2003, 5002, 2086, 2087, 5042, 2158
+01:08:56.916 testmanagerd[2762:39945] Got snapshot for <AXUIElementRef 0x7fd7c071fc70> {pid=5067} {uid=[ID:1 hash:0x0]}
+01:08:56.916 testmanagerd[2762:39945] Got app orientation 0
+01:08:56.916 testmanagerd[2762:39945] Captured accessibility snapshot data in 0.02s
+01:08:56.917 testmanagerd[2762:101649] Found main window: Window, 0x7fd7c04244a0, {{0.0, 0.0}, {414.0, 736.0}}
+01:08:56.918 testmanagerd[2762:101649] App orientation is 0 (not portrait) and UITextEffectsWindow window Window, 0x7fd7c04167f0, {{0.0, 0.0}, {414.0, 736.0}} is not main window
+01:08:56.918 testmanagerd[2762:101649] Leaving frame unchanged for Window, 0x7fd7c04167f0, {{0.0, 0.0}, {414.0, 736.0}}: either already correct or we can't detect it.
+01:08:56.918 testmanagerd[2762:101649] App orientation is 0 (not portrait) and UIStatusBarWindow window Window, 0x7fd7c0415a40, {{0.0, 0.0}, {414.0, 736.0}} is not main window
+01:08:56.919 testmanagerd[2762:101649] Leaving frame unchanged for Window, 0x7fd7c0415a40, {{0.0, 0.0}, {414.0, 736.0}}: either already correct or we can't detect it.
+01:08:56.924 IntegrationTests_2-Runner[5060:101637] Got snapshot response from testmanagerd.
+01:08:56.925 IntegrationTests_2-Runner[5060:101636] <XCTWaiter: 0x604000002a30, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:56.925 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000002a30, state: XCTWaiterStateSucceeded> done waiting
+01:08:56.925 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000002a30, state: XCTWaiterStateSucceeded> cleaning up Fetching snapshot from testmanagerd.
+01:08:56.926 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60400009e960> 2019-10-03 08:08:56 +0000: Snapshot accessibility hierarchy for app with pid 5067 (0.0358549s)
+01:08:56.948 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity E5594B26-4D72-49E5-A061-8278196B5EB3:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:56.927 IntegrationTests_2-Runner[5060:101536] Decomposed transformers by first match into subarrays (
+) and trailing match-all transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>"
+)
+01:08:56.927 IntegrationTests_2-Runner[5060:101536] MT: XCTPerformOnMainRunLoop performing block without run loop dispatch because already on MT, timeout will not be enforceable.
+01:08:56.927 IntegrationTests_2-Runner[5060:101536] Finding all matches with input Application, 0x60400019e780, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp' using transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>"
+)
+01:08:56.928 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60000008aeb0> 2019-10-03 08:08:56 +0000: Find: Descendants matching type Other
+01:08:56.948 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 7EA8BC56-72A7-4DCF-AF8C-2A1D59EBD528:'Find: Descendants matching type Other'
+01:08:56.929 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60000008aeb0> 2019-10-03 08:08:56 +0000: Find: Descendants matching type Other (0.00158095s)
+01:08:56.948 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 7EA8BC56-72A7-4DCF-AF8C-2A1D59EBD528:'Find: Descendants matching type Other'
+01:08:56.930 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60000008ae10> 2019-10-03 08:08:56 +0000: Find: Elements matching predicate '"MainView" IN identifiers'
+01:08:56.948 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 28CE7E50-5362-4A0C-83F1-CE3DD6287869:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:56.931 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60000008ae10> 2019-10-03 08:08:56 +0000: Find: Elements matching predicate '"MainView" IN identifiers' (0.00110006s)
+01:08:56.948 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 28CE7E50-5362-4A0C-83F1-CE3DD6287869:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:56.933 IntegrationTests_2-Runner[5060:101536] Found matches {(
+    Other, 0x604000380410, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}}, label: 'MainView'
+)} with root Application, 0x60400019e780, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp'
+01:08:56.933 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60000008aeb0> 2019-10-03 08:08:56 +0000: Find the "MainView" Other
+01:08:56.948 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity B5794AFF-E6E0-477D-BE62-374B66FA594F:'Find the "MainView" Other'
+01:08:56.935 IntegrationTests_2-Runner[5060:101536] Checking for possible remote query evaluation: hasAutomationSession: YES, supportsRemoteEvaluation: YES
+01:08:56.936 IntegrationTests_2-Runner[5060:101536] Evaluating query <XCTElementQuery: 0x6000000b2cc0> with transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>"
+)
+01:08:56.949 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 31A9D597-48D4-4875-9293-0155DEC694F1:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:56.936 IntegrationTests_2-Runner[5060:101536] Getting root element snapshot for query <XCTElementQuery: 0x6000000b2cc0>
+01:08:56.936 IntegrationTests_2-Runner[5060:101536] Getting snapshot for element <XCAccessibilityElement: 0x600000265bc0> Application with pid: 5067 for query <XCTElementQuery: 0x6000000b2cc0>
+01:08:56.949 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 31A9D597-48D4-4875-9293-0155DEC694F1:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:56.936 IntegrationTests_2-Runner[5060:101536] Attribute-keypath analysis disabled by user default 'XCTDisableAttributeKeyPathAnalysis'.
+01:08:56.937 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60000008aff0> 2019-10-03 08:08:56 +0000: Snapshot accessibility hierarchy for app with pid 5067
+01:08:56.937 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60000008aff0> 2019-10-03 08:08:56 +0000: Snapshot accessibility hierarchy for app with pid 5067 (0.000625014s)
+01:08:56.938 IntegrationTests_2-Runner[5060:101536] Decomposed transformers by first match into subarrays (
+) and trailing match-all transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>"
+)
+01:08:56.938 IntegrationTests_2-Runner[5060:101536] MT: XCTPerformOnMainRunLoop performing block without run loop dispatch because already on MT, timeout will not be enforceable.
+01:08:56.938 IntegrationTests_2-Runner[5060:101536] Finding all matches with input Application, 0x60400019e780, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp' using transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>"
+)
+01:08:56.939 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60000008b180> 2019-10-03 08:08:56 +0000: Find: Descendants matching type Other
+01:08:56.949 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 27698485-91D4-43E6-9618-D86C7E4F15B2:'Find: Descendants matching type Other'
+01:08:56.940 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60000008b180> 2019-10-03 08:08:56 +0000: Find: Descendants matching type Other (0.00128603s)
+01:08:56.949 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 27698485-91D4-43E6-9618-D86C7E4F15B2:'Find: Descendants matching type Other'
+01:08:56.941 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60c000088980> 2019-10-03 08:08:56 +0000: Find: Elements matching predicate '"MainView" IN identifiers'
+01:08:56.949 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 0D0CFBB9-1BE1-41AA-9623-6526296065B5:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:56.942 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60c000088980> 2019-10-03 08:08:56 +0000: Find: Elements matching predicate '"MainView" IN identifiers' (0.00111198s)
+01:08:56.949 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 0D0CFBB9-1BE1-41AA-9623-6526296065B5:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:56.943 IntegrationTests_2-Runner[5060:101536] Found matches {(
+    Other, 0x604000380410, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}}, label: 'MainView'
+)} with root Application, 0x60400019e780, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp'
+01:08:56.944 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60000008aeb0> 2019-10-03 08:08:56 +0000: Find the "MainView" Other (0.0106081s)
+01:08:56.949 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity B5794AFF-E6E0-477D-BE62-374B66FA594F:'Find the "MainView" Other'
+01:08:56.945 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60c00008ab90> 2019-10-03 08:08:44 +0000: Set Up (12.6372s)
+01:08:56.950 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity BF2B535F-632F-4B90-8FDA-6035C7241BEF:'Set Up'
+01:08:56.950 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 425 bytes written out to StandardOutputAndStandardError
+01:08:56.964 IntegrationTests_2-Runner[5060:101536] Creating future for 'Fetching attributes 'XC_kAXXCAttributeValue' for element <XCAccessibilityElement: 0x604000461b00> pid: 5067, elementOrHash.elementID: 140530942068464.17' with timeout 65.00
+01:08:56.965 testmanagerd[2762:101649] Fetching attributes: XC_kAXXCAttributeValue (2006)
+01:08:56.965 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000001900, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Fetching attributes 'XC_kAXXCAttributeValue' for element <XCAccessibilityElement: 0x604000461b00> pid: 5067, elementOrHash.elementID: 140530942068464.17"
+)
+01:08:56.965 testmanagerd[2762:101649] Fetching AX attributes (
+    2006
+) for element <XCAccessibilityElement: 0x7fd7c0411a70> pid: 5067, elementOrHash.elementID: 140530942068464.17
+01:08:56.966 testmanagerd[2762:101649] Got AXElement for <XCAccessibilityElement: 0x7fd7c0411a70> pid: 5067, elementOrHash.elementID: 140530942068464.17: <AXUIElementRef 0x7fd7c04072f0> {pid=5067} {uid=[ID:17 hash:0x7fcfe8e1c6f0]}
+01:08:56.966 testmanagerd[2762:101649] For attributes (
+    2006
+), got values (
+    "<AXValue 0x7fd7c0724d60> {value = error:-25205 type = kAXValueAXErrorType}"
+)
+01:08:56.966 testmanagerd[2762:101649] Got attributes, transferring to dictionary for return.
+01:08:56.967 testmanagerd[2762:101649] Error 13: Fetching value for attribute 2006 returned AX error -25205.
+01:08:56.967 IntegrationTests_2-Runner[5060:101636] <XCTWaiter: 0x604000001900, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:56.968 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000001900, state: XCTWaiterStateSucceeded> done waiting
+01:08:56.968 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000001900, state: XCTWaiterStateSucceeded> cleaning up Fetching attributes 'XC_kAXXCAttributeValue' for element <XCAccessibilityElement: 0x604000461b00> pid: 5067, elementOrHash.elementID: 140530942068464.17
+01:08:56.968 IntegrationTests_2-Runner[5060:101536] Other, 0x604000380410, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}}, label: 'MainView' faulted in {
+}: Fetching value for attribute 2006 returned AX error -25205. for value using XC_kAXXCAttributeValue
+01:08:56.969 testmanagerd[2762:101649] Fetching attributes: XC_kAXXCAttributePlaceholderValue (5042)
+01:08:56.968 IntegrationTests_2-Runner[5060:101536] Creating future for 'Fetching attributes 'XC_kAXXCAttributePlaceholderValue' for element <XCAccessibilityElement: 0x604000461b00> pid: 5067, elementOrHash.elementID: 140530942068464.17' with timeout 65.00
+01:08:56.969 testmanagerd[2762:101649] Fetching AX attributes (
+    5042
+) for element <XCAccessibilityElement: 0x7fd7c072d320> pid: 5067, elementOrHash.elementID: 140530942068464.17
+01:08:56.969 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000001630, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Fetching attributes 'XC_kAXXCAttributePlaceholderValue' for element <XCAccessibilityElement: 0x604000461b00> pid: 5067, elementOrHash.elementID: 140530942068464.17"
+)
+01:08:56.969 testmanagerd[2762:101649] Got AXElement for <XCAccessibilityElement: 0x7fd7c072d320> pid: 5067, elementOrHash.elementID: 140530942068464.17: <AXUIElementRef 0x7fd7c071fc70> {pid=5067} {uid=[ID:17 hash:0x7fcfe8e1c6f0]}
+01:08:56.970 testmanagerd[2762:101649] For attributes (
+    5042
+), got values (
+    "<AXValue 0x7fd7c2c07a40> {value = error:-25205 type = kAXValueAXErrorType}"
+)
+01:08:56.970 testmanagerd[2762:101649] Got attributes, transferring to dictionary for return.
+01:08:56.971 testmanagerd[2762:101649] Error 13: Fetching value for attribute 5042 returned AX error -25205.
+01:08:56.972 IntegrationTests_2-Runner[5060:101636] <XCTWaiter: 0x608000001630, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:56.972 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000001630, state: XCTWaiterStateSucceeded> done waiting
+01:08:56.975 testmanagerd[2762:101374] Fetching attributes: XC_kAXXCAttributeIdentifier (5017)
+01:08:56.973 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000001630, state: XCTWaiterStateSucceeded> cleaning up Fetching attributes 'XC_kAXXCAttributePlaceholderValue' for element <XCAccessibilityElement: 0x604000461b00> pid: 5067, elementOrHash.elementID: 140530942068464.17
+01:08:56.973 IntegrationTests_2-Runner[5060:101536] Other, 0x604000380410, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}}, label: 'MainView' faulted in {
+}: Fetching value for attribute 5042 returned AX error -25205. for placeholderValue using XC_kAXXCAttributePlaceholderValue
+01:08:56.973 IntegrationTests_2-Runner[5060:101536] Creating future for 'Fetching attributes 'XC_kAXXCAttributeIdentifier' for element <XCAccessibilityElement: 0x604000461b00> pid: 5067, elementOrHash.elementID: 140530942068464.17' with timeout 65.00
+01:08:56.974 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c0000089d0, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Fetching attributes 'XC_kAXXCAttributeIdentifier' for element <XCAccessibilityElement: 0x604000461b00> pid: 5067, elementOrHash.elementID: 140530942068464.17"
+)
+01:08:56.975 testmanagerd[2762:101374] Fetching AX attributes (
+    5017
+) for element <XCAccessibilityElement: 0x7fd7c0403d80> pid: 5067, elementOrHash.elementID: 140530942068464.17
+01:08:56.975 testmanagerd[2762:101374] Got AXElement for <XCAccessibilityElement: 0x7fd7c0403d80> pid: 5067, elementOrHash.elementID: 140530942068464.17: <AXUIElementRef 0x7fd7c040f560> {pid=5067} {uid=[ID:17 hash:0x7fcfe8e1c6f0]}
+01:08:56.977 testmanagerd[2762:101374] For attributes (
+    5017
+), got values (
+    "<AXValue 0x7fd7c0540720> {value = error:-25205 type = kAXValueAXErrorType}"
+)
+01:08:56.977 testmanagerd[2762:101374] Got attributes, transferring to dictionary for return.
+01:08:56.978 testmanagerd[2762:101374] Error 13: Fetching value for attribute 5017 returned AX error -25205.
+01:08:56.979 IntegrationTests_2-Runner[5060:101689] <XCTWaiter: 0x60c0000089d0, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:56.981 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 44 bytes written out to StandardOutputAndStandardError
+01:08:56.979 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c0000089d0, state: XCTWaiterStateSucceeded> done waiting
+01:08:56.980 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c0000089d0, state: XCTWaiterStateSucceeded> cleaning up Fetching attributes 'XC_kAXXCAttributeIdentifier' for element <XCAccessibilityElement: 0x604000461b00> pid: 5067, elementOrHash.elementID: 140530942068464.17
+01:08:56.980 IntegrationTests_2-Runner[5060:101536] Other, 0x604000380410, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}}, label: 'MainView' faulted in {
+}: Fetching value for attribute 5017 returned AX error -25205. for identifier using XC_kAXXCAttributeIdentifier
+01:08:56.980 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60c00008c300> 2019-10-03 08:08:56 +0000: Find the "MainView" Other
+01:08:56.982 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 0D2A4FB9-A4E2-46A0-8119-77606B40752E:'Find the "MainView" Other'
+01:08:56.983 IntegrationTests_2-Runner[5060:101536] Checking for possible remote query evaluation: hasAutomationSession: YES, supportsRemoteEvaluation: YES
+01:08:56.983 IntegrationTests_2-Runner[5060:101536] Evaluating query <XCTElementQuery: 0x60c0000b0740> with transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>"
+)
+01:08:56.984 IntegrationTests_2-Runner[5060:101536] Getting root element snapshot for query <XCTElementQuery: 0x60c0000b0740>
+01:08:56.984 IntegrationTests_2-Runner[5060:101536] Getting snapshot for element <XCAccessibilityElement: 0x60c00026ae80> Application with pid: 5067 for query <XCTElementQuery: 0x60c0000b0740>
+01:08:56.987 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 77 bytes written out to StandardOutputAndStandardError
+01:08:56.986 IntegrationTests_2-Runner[5060:101536] Attribute-keypath analysis disabled by user default 'XCTDisableAttributeKeyPathAnalysis'.
+01:08:56.986 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60c00008c350> 2019-10-03 08:08:56 +0000: Snapshot accessibility hierarchy for app with pid 5067
+01:08:56.990 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 4F0CED1C-AB2D-42CD-A1A2-AF986CE4FEC3:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:56.988 testmanagerd[2762:101374] Checked support for truncated value on iOS: YES, current version 11, requires 11
+01:08:56.987 IntegrationTests_2-Runner[5060:101536] Checked support for truncated value on iOS: YES, current version 11, requires 11
+01:08:56.987 IntegrationTests_2-Runner[5060:101536] Fetching snapshot for <XCAccessibilityElement: 0x60c00026ae80> Application with pid: 5067 from testmanagerd with attributes XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeLabel, XC_kAXXCAttributeTraits, XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeUserTestingElements, XC_kAXXCAttributeURL, XC_kAXXCAttributeIsUserInteractionEnabled, XC_kAXXCAttributeViewControllerTitle, XC_kAXXCAttributeViewControllerClassName, XC_kAXXCAttributeFrame, XC_kAXXCAttributeParent, XC_kAXXCAttributeHorizontalSizeClass, XC_kAXXCAttributeVerticalSizeClass, XC_kAXXCAttributePlaceholderValue, kAXXCAttributeTruncatedValue and parameters {
+    maxArrayCount = 2147483647;
+    maxChildren = 2147483647;
+    maxDepth = 2147483647;
+    traverseFromParentsToChildren = 1;
+}.
+01:08:56.988 testmanagerd[2762:101374] Q: XCTPerformOnMainRunLoop about to CFRunLoopPerform
+01:08:56.988 IntegrationTests_2-Runner[5060:101536] Creating future for 'Fetching snapshot from testmanagerd.' with timeout 65.00
+01:08:56.989 testmanagerd[2762:101374] Q: waiting for busy flag signal
+01:08:56.988 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x600000007fb0, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Fetching snapshot from testmanagerd."
+)
+01:08:56.989 testmanagerd[2762:39945] MT: XCTPerformOnMainRunLoop_block_invoke inside CFRunLoopPerform
+01:08:56.989 testmanagerd[2762:39945] MT: won the race to the busy flag
+01:08:56.990 testmanagerd[2762:39945] Got main window <AXUIElementRef 0x7fd7c0540330> {pid=5067} {uid=[ID:4 hash:0x7fcfe8f254d0]}
+01:08:56.989 testmanagerd[2762:101374] Q: won the race to the busy flag, waiting for work to complete
+01:08:56.990 testmanagerd[2762:39945] Capturing hierarchy with attributes XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeLabel, XC_kAXXCAttributeTraits, XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeUserTestingElements, XC_kAXXCAttributeURL, XC_kAXXCAttributeIsUserInteractionEnabled, XC_kAXXCAttributeViewControllerTitle, XC_kAXXCAttributeViewControllerClassName, XC_kAXXCAttributeFrame, XC_kAXXCAttributeParent, XC_kAXXCAttributeHorizontalSizeClass, XC_kAXXCAttributeVerticalSizeClass, XC_kAXXCAttributePlaceholderValue, kAXXCAttributeTruncatedValue
+01:08:56.992 testmanagerd[2762:39945] Capturing hierarchy with parameters {
+    attributes =     (
+        5017,
+        2001,
+        2004,
+        5003,
+        5004,
+        5009,
+        2020,
+        5032,
+        5040,
+        5041,
+        2003,
+        5002,
+        2086,
+        2087,
+        5042,
+        2158
+    );
+    maxArrayCount = 2147483647;
+    maxChildren = 2147483647;
+    maxDepth = 2147483647;
+    traverseFromParentsToChildren = 1;
+}
+01:08:56.993 testmanagerd[2762:39945] Snapshot attributes 5017, 2001, 2004, 5003, 5004, 5009, 2020, 5032, 5040, 5041, 2003, 5002, 2086, 2087, 5042, 2158
+01:08:57.012 testmanagerd[2762:39945] Got snapshot for <AXUIElementRef 0x7fd7c072a180> {pid=5067} {uid=[ID:1 hash:0x0]}
+01:08:57.013 testmanagerd[2762:39945] Got app orientation 0
+01:08:57.013 testmanagerd[2762:39945] Captured accessibility snapshot data in 0.02s
+01:08:57.014 testmanagerd[2762:101374] Found main window: Window, 0x7fd7c0725180, {{0.0, 0.0}, {414.0, 736.0}}
+01:08:57.014 testmanagerd[2762:101374] App orientation is 0 (not portrait) and UITextEffectsWindow window Window, 0x7fd7c072cfa0, {{0.0, 0.0}, {414.0, 736.0}} is not main window
+01:08:57.015 testmanagerd[2762:101374] Leaving frame unchanged for Window, 0x7fd7c072cfa0, {{0.0, 0.0}, {414.0, 736.0}}: either already correct or we can't detect it.
+01:08:57.015 testmanagerd[2762:101374] App orientation is 0 (not portrait) and UIStatusBarWindow window Window, 0x7fd7c0725c20, {{0.0, 0.0}, {414.0, 736.0}} is not main window
+01:08:57.015 testmanagerd[2762:101374] Leaving frame unchanged for Window, 0x7fd7c0725c20, {{0.0, 0.0}, {414.0, 736.0}}: either already correct or we can't detect it.
+01:08:57.021 IntegrationTests_2-Runner[5060:101637] Got snapshot response from testmanagerd.
+01:08:57.022 IntegrationTests_2-Runner[5060:101689] <XCTWaiter: 0x600000007fb0, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:57.022 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x600000007fb0, state: XCTWaiterStateSucceeded> done waiting
+01:08:57.022 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x600000007fb0, state: XCTWaiterStateSucceeded> cleaning up Fetching snapshot from testmanagerd.
+01:08:57.022 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60c00008c350> 2019-10-03 08:08:56 +0000: Snapshot accessibility hierarchy for app with pid 5067 (0.0362021s)
+01:08:57.024 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 4F0CED1C-AB2D-42CD-A1A2-AF986CE4FEC3:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:57.026 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 60 bytes written out to StandardOutputAndStandardError
+01:08:57.023 IntegrationTests_2-Runner[5060:101536] Decomposed transformers by first match into subarrays (
+) and trailing match-all transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>"
+)
+01:08:57.024 IntegrationTests_2-Runner[5060:101536] MT: XCTPerformOnMainRunLoop performing block without run loop dispatch because already on MT, timeout will not be enforceable.
+01:08:57.024 IntegrationTests_2-Runner[5060:101536] Finding all matches with input Application, 0x604000381450, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp' using transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>"
+)
+01:08:57.024 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x6080000954f0> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Other
+01:08:57.028 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 84 bytes written out to StandardOutputAndStandardError
+01:08:57.028 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity A32BB76D-4422-4E8E-9778-5E2ECC03CC80:'Find: Descendants matching type Other'
+01:08:57.025 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x6080000954f0> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Other (0.00104892s)
+01:08:57.028 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity A32BB76D-4422-4E8E-9778-5E2ECC03CC80:'Find: Descendants matching type Other'
+01:08:57.026 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x608000090450> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate '"MainView" IN identifiers'
+01:08:57.030 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 26772288-24CC-402F-8764-B5B6A45A63F6:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:57.028 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x608000090450> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate '"MainView" IN identifiers' (0.00141001s)
+01:08:57.031 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 26772288-24CC-402F-8764-B5B6A45A63F6:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:57.028 IntegrationTests_2-Runner[5060:101536] Found matches {(
+    Other, 0x604000381930, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}}, label: 'MainView'
+)} with root Application, 0x604000381450, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp'
+01:08:57.029 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60c00008c300> 2019-10-03 08:08:56 +0000: Find the "MainView" Other (0.0486821s)
+01:08:57.032 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 0D2A4FB9-A4E2-46A0-8119-77606B40752E:'Find the "MainView" Other'
+01:08:57.030 testmanagerd[2762:101374] AXUIElementSetMessagingTimeout(<AXUIElementRef 0x7fd7c05455e0> {pid=0} {uid=[ID:1 hash:0x0]}, 15) -> 0 
+01:08:57.031 testmanagerd[2762:101650] Checked support for truncated value on iOS: YES, current version 11, requires 11
+01:08:57.031 testmanagerd[2762:101650] Checked support for truncated value on iOS: YES, current version 11, requires 11
+01:08:57.031 testmanagerd[2762:101650] Q: XCTPerformOnMainRunLoop about to CFRunLoopPerform
+01:08:57.031 testmanagerd[2762:101650] Q: waiting for busy flag signal
+01:08:57.031 testmanagerd[2762:39945] MT: XCTPerformOnMainRunLoop_block_invoke inside CFRunLoopPerform
+01:08:57.032 testmanagerd[2762:101650] Q: won the race to the busy flag, waiting for work to complete
+01:08:57.032 testmanagerd[2762:39945] MT: won the race to the busy flag
+01:08:57.034 testmanagerd[2762:39945] Got main window <AXUIElementRef 0x7fd7c072b3c0> {pid=5067} {uid=[ID:4 hash:0x7fcfe8f254d0]}
+01:08:57.034 testmanagerd[2762:39945] Capturing hierarchy with attributes XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeLabel, XC_kAXXCAttributeTraits, XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeUserTestingElements, XC_kAXXCAttributeURL, XC_kAXXCAttributeIsUserInteractionEnabled, XC_kAXXCAttributeViewControllerTitle, XC_kAXXCAttributeViewControllerClassName, XC_kAXXCAttributeFrame, XC_kAXXCAttributeParent, XC_kAXXCAttributeHorizontalSizeClass, XC_kAXXCAttributeVerticalSizeClass, XC_kAXXCAttributePlaceholderValue, kAXXCAttributeTruncatedValue
+01:08:57.035 testmanagerd[2762:39945] Capturing hierarchy with parameters {
+    attributes =     (
+        2001,
+        2003,
+        2004,
+        5003,
+        5017,
+        5004,
+        2025,
+        2158
+    );
+    maxArrayCount = 2147483647;
+    maxChildren = 2147483647;
+    maxDepth = 2147483647;
+    traverseFromParentsToChildren = 1;
+}
+01:08:57.035 testmanagerd[2762:39945] Snapshot attributes 2001, 2003, 2004, 5003, 5017, 5004, 2025, 2158
+01:08:57.063 testmanagerd[2762:39945] Got snapshot for <AXUIElementRef 0x7fd7c072a180> {pid=5067} {uid=[ID:17 hash:0x7fcfe8e1c6f0]}
+01:08:57.063 testmanagerd[2762:39945] Got app orientation 0
+01:08:57.063 testmanagerd[2762:39945] Captured accessibility snapshot data in 0.03s
+01:08:57.064 testmanagerd[2762:101650] Button, 0x7fd7c072cd40, traits: 8589934593, {{186.7, 93.0}, {41.0, 30.0}}, label: 'Alerts' is not actually a child of Other, 0x7fd7c072cb40, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}}, label: 'MainView', including at this point anyway (rdar://problem/20738636)
+01:08:57.064 testmanagerd[2762:101650] Button, 0x7fd7c0728a80, traits: 8589934593, {{159.7, 131.0}, {95.0, 30.0}}, label: 'Deadlock app' is not actually a child of Other, 0x7fd7c072cb40, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}}, label: 'MainView', including at this point anyway (rdar://problem/20738636)
+01:08:57.065 testmanagerd[2762:101650] Button, 0x7fd7c04244a0, traits: 8589934593, {{173.0, 169.0}, {68.0, 30.0}}, label: 'Attributes' is not actually a child of Other, 0x7fd7c072cb40, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}}, label: 'MainView', including at this point anyway (rdar://problem/20738636)
+01:08:57.065 testmanagerd[2762:101650] Button, 0x7fd7c041a170, traits: 8589934593, {{177.0, 207.0}, {60.0, 30.0}}, label: 'Scrolling' is not actually a child of Other, 0x7fd7c072cb40, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}}, label: 'MainView', including at this point anyway (rdar://problem/20738636)
+01:08:57.066 testmanagerd[2762:101650] StaticText, 0x7fd7c04215a0, traits: 8589934656, {{178.7, 245.0}, {57.0, 20.3}}, label: 'Portrait' is not actually a child of Other, 0x7fd7c072cb40, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}}, label: 'MainView', including at this point anyway (rdar://problem/20738636)
+01:08:57.072 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 73 bytes written out to StandardOutputAndStandardError
+01:08:57.070 IntegrationTests_2-Runner[5060:101536] Checking for possible remote query evaluation: hasAutomationSession: YES, supportsRemoteEvaluation: YES
+01:08:57.070 IntegrationTests_2-Runner[5060:101536] Evaluating query <XCTElementQuery: 0x60c0000b0bc0> with transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>"
+)
+01:08:57.070 IntegrationTests_2-Runner[5060:101536] Getting root element snapshot for query <XCTElementQuery: 0x60c0000b0bc0>
+01:08:57.075 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 56 bytes written out to StandardOutputAndStandardError
+01:08:57.076 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 80 bytes written out to StandardOutputAndStandardError
+01:08:57.071 IntegrationTests_2-Runner[5060:101536] Getting snapshot for element <XCAccessibilityElement: 0x60c0002626c0> Application with pid: 5067 for query <XCTElementQuery: 0x60c0000b0bc0>
+01:08:57.071 IntegrationTests_2-Runner[5060:101536] Attribute-keypath analysis disabled by user default 'XCTDisableAttributeKeyPathAnalysis'.
+01:08:57.071 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60c00008c670> 2019-10-03 08:08:57 +0000: Snapshot accessibility hierarchy for app with pid 5067
+01:08:57.077 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity CBFB1344-A882-4899-BF8D-C5263DDEBFD8:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:57.072 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60c00008c670> 2019-10-03 08:08:57 +0000: Snapshot accessibility hierarchy for app with pid 5067 (0.000828981s)
+01:08:57.079 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity CBFB1344-A882-4899-BF8D-C5263DDEBFD8:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:57.073 IntegrationTests_2-Runner[5060:101536] Decomposed transformers by first match into subarrays (
+) and trailing match-all transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>"
+)
+01:08:57.073 IntegrationTests_2-Runner[5060:101536] MT: XCTPerformOnMainRunLoop performing block without run loop dispatch because already on MT, timeout will not be enforceable.
+01:08:57.073 IntegrationTests_2-Runner[5060:101536] Finding all matches with input Application, 0x604000381450, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp' using transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>"
+)
+01:08:57.080 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 7F41D68F-4881-4127-A331-881D03CEEC07:'Find: Descendants matching type Other'
+01:08:57.073 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60c00008c670> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Other
+01:08:57.075 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60c00008c670> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Other (0.00124395s)
+01:08:57.081 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 7F41D68F-4881-4127-A331-881D03CEEC07:'Find: Descendants matching type Other'
+01:08:57.076 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60c00008c670> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate '"MainView" IN identifiers'
+01:08:57.082 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 76F39D90-7808-4BB9-9EE2-0BE6371FCBCF:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:57.082 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 73 bytes written out to StandardOutputAndStandardError
+01:08:57.077 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60c00008c670> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate '"MainView" IN identifiers' (0.00140297s)
+01:08:57.083 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 76F39D90-7808-4BB9-9EE2-0BE6371FCBCF:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:57.079 IntegrationTests_2-Runner[5060:101536] Found matches {(
+    Other, 0x604000381930, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}}, label: 'MainView'
+)} with root Application, 0x604000381450, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp'
+01:08:57.079 IntegrationTests_2-Runner[5060:101536] Evaluating query <XCTElementQuery: 0x60c0000b09e0> with transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>"
+)
+01:08:57.079 IntegrationTests_2-Runner[5060:101536] Getting root element snapshot for query <XCTElementQuery: 0x60c0000b09e0>
+01:08:57.080 IntegrationTests_2-Runner[5060:101536] Getting snapshot for element <XCAccessibilityElement: 0x60c0002626c0> Application with pid: 5067 for query <XCTElementQuery: 0x60c0000b09e0>
+01:08:57.081 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60000008aff0> 2019-10-03 08:08:57 +0000: Snapshot accessibility hierarchy for app with pid 5067
+01:08:57.084 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 52B4B266-9F7A-455D-B5BE-99856AD307F3:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:57.083 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60000008aff0> 2019-10-03 08:08:57 +0000: Snapshot accessibility hierarchy for app with pid 5067 (0.00162995s)
+01:08:57.085 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 52B4B266-9F7A-455D-B5BE-99856AD307F3:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:57.084 IntegrationTests_2-Runner[5060:101536] Decomposed transformers by first match into subarrays (
+) and trailing match-all transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>"
+)
+01:08:57.085 IntegrationTests_2-Runner[5060:101536] MT: XCTPerformOnMainRunLoop performing block without run loop dispatch because already on MT, timeout will not be enforceable.
+01:08:57.086 IntegrationTests_2-Runner[5060:101536] Finding all matches with input Application, 0x604000381450, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp' using transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>"
+)
+01:08:57.086 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60000008aff0> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Other
+01:08:57.088 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 56 bytes written out to StandardOutputAndStandardError
+01:08:57.088 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 943CBAB3-A7FE-4FAC-8CB8-378B5DF407BF:'Find: Descendants matching type Other'
+01:08:57.088 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60000008aff0> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Other (0.00116301s)
+01:08:57.089 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 943CBAB3-A7FE-4FAC-8CB8-378B5DF407BF:'Find: Descendants matching type Other'
+01:08:57.090 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 80 bytes written out to StandardOutputAndStandardError
+01:08:57.089 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x6080000954f0> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate '"MainView" IN identifiers'
+01:08:57.091 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity DA9367A7-5CD7-4859-8CF7-59FC1FDBB6A8:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:57.090 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x6080000954f0> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate '"MainView" IN identifiers' (0.00128305s)
+01:08:57.092 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity DA9367A7-5CD7-4859-8CF7-59FC1FDBB6A8:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:57.091 IntegrationTests_2-Runner[5060:101536] Found matches {(
+    Other, 0x604000381930, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}}, label: 'MainView'
+)} with root Application, 0x604000381450, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp'
+01:08:57.095 IntegrationTests_2-Runner[5060:101536] Checking for possible remote query evaluation: hasAutomationSession: YES, supportsRemoteEvaluation: YES
+01:08:57.095 IntegrationTests_2-Runner[5060:101536] Evaluating query <XCTElementQuery: 0x6080000b09e0> with transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>",
+    "<XCTElementFilteringTransformer: 0x6080004492d0 'Find: Descendants matching type Button'>",
+    "<XCTElementFilteringTransformer: 0x608000442a60 'Find: Elements matching predicate 'wdUID IN {\"12000000-0000-0000-CB13-000000000000\"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''>"
+)
+01:08:57.098 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 73 bytes written out to StandardOutputAndStandardError
+01:08:57.095 IntegrationTests_2-Runner[5060:101536] Getting root element snapshot for query <XCTElementQuery: 0x6080000b09e0>
+01:08:57.095 IntegrationTests_2-Runner[5060:101536] Getting snapshot for element <XCAccessibilityElement: 0x60800046f400> Application with pid: 5067 for query <XCTElementQuery: 0x6080000b09e0>
+01:08:57.096 IntegrationTests_2-Runner[5060:101536] Attribute-keypath analysis disabled by user default 'XCTDisableAttributeKeyPathAnalysis'.
+01:08:57.096 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x6080000903b0> 2019-10-03 08:08:57 +0000: Snapshot accessibility hierarchy for app with pid 5067
+01:08:57.099 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 64ED8B85-EE29-4B19-A342-F44CBFB00CD6:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:57.100 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 56 bytes written out to StandardOutputAndStandardError
+01:08:57.097 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x6080000903b0> 2019-10-03 08:08:57 +0000: Snapshot accessibility hierarchy for app with pid 5067 (0.000854969s)
+01:08:57.101 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 64ED8B85-EE29-4B19-A342-F44CBFB00CD6:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:57.098 IntegrationTests_2-Runner[5060:101536] Decomposed transformers by first match into subarrays (
+) and trailing match-all transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>",
+    "<XCTElementFilteringTransformer: 0x6080004492d0 'Find: Descendants matching type Button'>",
+    "<XCTElementFilteringTransformer: 0x608000442a60 'Find: Elements matching predicate 'wdUID IN {\"12000000-0000-0000-CB13-000000000000\"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''>"
+)
+01:08:57.098 IntegrationTests_2-Runner[5060:101536] MT: XCTPerformOnMainRunLoop performing block without run loop dispatch because already on MT, timeout will not be enforceable.
+01:08:57.098 IntegrationTests_2-Runner[5060:101536] Finding all matches with input Application, 0x604000381450, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp' using transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>",
+    "<XCTElementFilteringTransformer: 0x6080004492d0 'Find: Descendants matching type Button'>",
+    "<XCTElementFilteringTransformer: 0x608000442a60 'Find: Elements matching predicate 'wdUID IN {\"12000000-0000-0000-CB13-000000000000\"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''>"
+)
+01:08:57.102 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity EA1F3604-5278-49CC-9773-95C6D4C49CC3:'Find: Descendants matching type Other'
+01:08:57.099 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60c00008c670> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Other
+01:08:57.100 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60c00008c670> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Other (0.00171101s)
+01:08:57.103 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 80 bytes written out to StandardOutputAndStandardError
+01:08:57.103 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity EA1F3604-5278-49CC-9773-95C6D4C49CC3:'Find: Descendants matching type Other'
+01:08:57.102 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60000008aff0> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate '"MainView" IN identifiers'
+01:08:57.104 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity E6528605-0CB1-467E-A2A6-37A2DCB2952F:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:57.104 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60000008aff0> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate '"MainView" IN identifiers' (0.00148404s)
+01:08:57.107 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 57 bytes written out to StandardOutputAndStandardError
+01:08:57.107 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity E6528605-0CB1-467E-A2A6-37A2DCB2952F:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:57.105 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60000008aff0> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Button
+01:08:57.107 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity C3B998D0-0077-4987-AE3A-53E8EF98E984:'Find: Descendants matching type Button'
+01:08:57.106 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60000008aff0> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Button (0.00099206s)
+01:08:57.108 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 253 bytes written out to StandardOutputAndStandardError
+01:08:57.108 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity C3B998D0-0077-4987-AE3A-53E8EF98E984:'Find: Descendants matching type Button'
+01:08:57.107 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60000008aff0> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+01:08:57.109 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 7D399D19-4C31-4AE5-8B58-13AA81401831:'Find: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''
+01:08:57.109 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60000008aff0> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)' (0.0012579s)
+01:08:57.110 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 7D399D19-4C31-4AE5-8B58-13AA81401831:'Find: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''
+01:08:57.110 IntegrationTests_2-Runner[5060:101536] Found matches {(
+    Button, 0x604000381a00, traits: 8589934593, {{186.7, 93.0}, {41.0, 30.0}}, label: 'Alerts'
+)} with root Application, 0x604000381450, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp'
+01:08:57.111 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 300 bytes written out to StandardOutputAndStandardError
+01:08:57.110 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60c00008c8a0> 2019-10-03 08:08:57 +0000: Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+01:08:57.112 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 76B05D6D-76CB-4174-BA7F-A116FF36FFDA:'Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''
+01:08:57.111 IntegrationTests_2-Runner[5060:101536] Using modern screenshot path for rect {{inf, inf}, {0.0, 0.0}}
+01:08:57.111 IntegrationTests_2-Runner[5060:101536] Request screenshot of screen with ID 1 (quality 1)
+01:08:57.112 IntegrationTests_2-Runner[5060:101536] Creating future for 'Request screenshot' with timeout 30.00
+01:08:57.113 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000002c90, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: (
+    "Request screenshot"
+)
+01:08:57.114 testmanagerd[2762:101374] systemUIOrientation <AXUIElementRef 0x7fd7c0405ce0> {pid=1967} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+01:08:57.114 testmanagerd[2762:101374] Test session <XCTestSession: 0x7fd7c0531b70> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+01:08:57.115 testmanagerd[2762:101374] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+01:08:57.153 testmanagerd[2762:101374] Got screenshot, rotating to orientation 0
+01:08:57.187 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 77 bytes written out to StandardOutputAndStandardError
+01:08:57.176 IntegrationTests_2-Runner[5060:101637] <XCTWaiter: 0x604000002c90, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:57.176 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000002c90, state: XCTWaiterStateSucceeded> done waiting
+01:08:57.177 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000002c90, state: XCTWaiterStateSucceeded> cleaning up Request screenshot
+01:08:57.177 IntegrationTests_2-Runner[5060:101536] Activity 76B05D6D-76CB-4174-BA7F-A116FF36FFDA added attachment with name 'kXCTAttachmentLegacyScreenImageData', UTI 'public.jpeg', lifetime 'deleteOnSuccess', hasPayload: YES.
+01:08:57.175 testmanagerd[2762:101374] Replying with data 0x7fd7c2c02fe0 (74873 bytes), error (null)
+01:08:57.180 IntegrationTests_2-Runner[5060:101536] Checking for possible remote query evaluation: hasAutomationSession: YES, supportsRemoteEvaluation: YES
+01:08:57.180 IntegrationTests_2-Runner[5060:101536] Evaluating query <XCTElementQuery: 0x6080000b0080> with transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>",
+    "<XCTElementFilteringTransformer: 0x6080004492d0 'Find: Descendants matching type Button'>",
+    "<XCTElementFilteringTransformer: 0x608000442a60 'Find: Elements matching predicate 'wdUID IN {\"12000000-0000-0000-CB13-000000000000\"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''>"
+)
+01:08:57.180 IntegrationTests_2-Runner[5060:101536] Getting root element snapshot for query <XCTElementQuery: 0x6080000b0080>
+01:08:57.180 IntegrationTests_2-Runner[5060:101536] Getting snapshot for element <XCAccessibilityElement: 0x60800046f600> Application with pid: 5067 for query <XCTElementQuery: 0x6080000b0080>
+01:08:57.180 IntegrationTests_2-Runner[5060:101536] Attribute-keypath analysis disabled by user default 'XCTDisableAttributeKeyPathAnalysis'.
+01:08:57.188 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity C7584116-A137-4926-9A14-BFFC40004094:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:57.181 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x608000096d00> 2019-10-03 08:08:57 +0000: Snapshot accessibility hierarchy for app with pid 5067
+01:08:57.181 IntegrationTests_2-Runner[5060:101536] Checked support for truncated value on iOS: YES, current version 11, requires 11
+01:08:57.182 IntegrationTests_2-Runner[5060:101536] Fetching snapshot for <XCAccessibilityElement: 0x60800046f600> Application with pid: 5067 from testmanagerd with attributes XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeLabel, XC_kAXXCAttributeTraits, XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeUserTestingElements, XC_kAXXCAttributeURL, XC_kAXXCAttributeIsUserInteractionEnabled, XC_kAXXCAttributeViewControllerTitle, XC_kAXXCAttributeViewControllerClassName, XC_kAXXCAttributeFrame, XC_kAXXCAttributeParent, XC_kAXXCAttributeHorizontalSizeClass, XC_kAXXCAttributeVerticalSizeClass, XC_kAXXCAttributePlaceholderValue, kAXXCAttributeTruncatedValue and parameters {
+    maxArrayCount = 2147483647;
+    maxChildren = 2147483647;
+    maxDepth = 2147483647;
+    traverseFromParentsToChildren = 1;
+}.
+01:08:57.183 testmanagerd[2762:101650] Checked support for truncated value on iOS: YES, current version 11, requires 11
+01:08:57.183 testmanagerd[2762:101650] Q: XCTPerformOnMainRunLoop about to CFRunLoopPerform
+01:08:57.183 testmanagerd[2762:101650] Q: waiting for busy flag signal
+01:08:57.184 testmanagerd[2762:39945] MT: XCTPerformOnMainRunLoop_block_invoke inside CFRunLoopPerform
+01:08:57.184 testmanagerd[2762:101650] Q: won the race to the busy flag, waiting for work to complete
+01:08:57.182 IntegrationTests_2-Runner[5060:101536] Creating future for 'Fetching snapshot from testmanagerd.' with timeout 65.00
+01:08:57.184 testmanagerd[2762:39945] MT: won the race to the busy flag
+01:08:57.185 testmanagerd[2762:39945] Got main window <AXUIElementRef 0x7fd7c0723730> {pid=5067} {uid=[ID:4 hash:0x7fcfe8f254d0]}
+01:08:57.183 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000004340, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Fetching snapshot from testmanagerd."
+)
+01:08:57.185 testmanagerd[2762:39945] Capturing hierarchy with attributes XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeLabel, XC_kAXXCAttributeTraits, XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeUserTestingElements, XC_kAXXCAttributeURL, XC_kAXXCAttributeIsUserInteractionEnabled, XC_kAXXCAttributeViewControllerTitle, XC_kAXXCAttributeViewControllerClassName, XC_kAXXCAttributeFrame, XC_kAXXCAttributeParent, XC_kAXXCAttributeHorizontalSizeClass, XC_kAXXCAttributeVerticalSizeClass, XC_kAXXCAttributePlaceholderValue, kAXXCAttributeTruncatedValue
+01:08:57.185 testmanagerd[2762:39945] Capturing hierarchy with parameters {
+    attributes =     (
+        5017,
+        2001,
+        2004,
+        5003,
+        5004,
+        5009,
+        2020,
+        5032,
+        5040,
+        5041,
+        2003,
+        5002,
+        2086,
+        2087,
+        5042,
+        2158
+    );
+    maxArrayCount = 2147483647;
+    maxChildren = 2147483647;
+    maxDepth = 2147483647;
+    traverseFromParentsToChildren = 1;
+}
+01:08:57.188 testmanagerd[2762:39945] Snapshot attributes 5017, 2001, 2004, 5003, 5004, 5009, 2020, 5032, 5040, 5041, 2003, 5002, 2086, 2087, 5042, 2158
+01:08:57.206 testmanagerd[2762:39945] Got snapshot for <AXUIElementRef 0x7fd7c2c098c0> {pid=5067} {uid=[ID:1 hash:0x0]}
+01:08:57.206 testmanagerd[2762:39945] Got app orientation 0
+01:08:57.207 testmanagerd[2762:39945] Captured accessibility snapshot data in 0.02s
+01:08:57.207 testmanagerd[2762:101650] Found main window: Window, 0x7fd7c2c07ae0, {{0.0, 0.0}, {414.0, 736.0}}
+01:08:57.208 testmanagerd[2762:101650] App orientation is 0 (not portrait) and UITextEffectsWindow window Window, 0x7fd7c0415990, {{0.0, 0.0}, {414.0, 736.0}} is not main window
+01:08:57.209 testmanagerd[2762:101650] Leaving frame unchanged for Window, 0x7fd7c0415990, {{0.0, 0.0}, {414.0, 736.0}}: either already correct or we can't detect it.
+01:08:57.210 testmanagerd[2762:101650] App orientation is 0 (not portrait) and UIStatusBarWindow window Window, 0x7fd7c05435f0, {{0.0, 0.0}, {414.0, 736.0}} is not main window
+01:08:57.210 testmanagerd[2762:101650] Leaving frame unchanged for Window, 0x7fd7c05435f0, {{0.0, 0.0}, {414.0, 736.0}}: either already correct or we can't detect it.
+01:08:57.216 IntegrationTests_2-Runner[5060:101749] Got snapshot response from testmanagerd.
+01:08:57.217 IntegrationTests_2-Runner[5060:101689] <XCTWaiter: 0x608000004340, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:57.217 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000004340, state: XCTWaiterStateSucceeded> done waiting
+01:08:57.218 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000004340, state: XCTWaiterStateSucceeded> cleaning up Fetching snapshot from testmanagerd.
+01:08:57.218 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x608000096d00> 2019-10-03 08:08:57 +0000: Snapshot accessibility hierarchy for app with pid 5067 (0.037243s)
+01:08:57.220 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 60 bytes written out to StandardOutputAndStandardError
+01:08:57.221 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity C7584116-A137-4926-9A14-BFFC40004094:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:57.219 IntegrationTests_2-Runner[5060:101536] Decomposed transformers by first match into subarrays (
+) and trailing match-all transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>",
+    "<XCTElementFilteringTransformer: 0x6080004492d0 'Find: Descendants matching type Button'>",
+    "<XCTElementFilteringTransformer: 0x608000442a60 'Find: Elements matching predicate 'wdUID IN {\"12000000-0000-0000-CB13-000000000000\"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''>"
+)
+01:08:57.219 IntegrationTests_2-Runner[5060:101536] MT: XCTPerformOnMainRunLoop performing block without run loop dispatch because already on MT, timeout will not be enforceable.
+01:08:57.222 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 84 bytes written out to StandardOutputAndStandardError
+01:08:57.219 IntegrationTests_2-Runner[5060:101536] Finding all matches with input Application, 0x60800019f480, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp' using transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>",
+    "<XCTElementFilteringTransformer: 0x6080004492d0 'Find: Descendants matching type Button'>",
+    "<XCTElementFilteringTransformer: 0x608000442a60 'Find: Elements matching predicate 'wdUID IN {\"12000000-0000-0000-CB13-000000000000\"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''>"
+)
+01:08:57.220 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x6080000936f0> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Other
+01:08:57.223 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 4ACC2B2A-B6BC-40B0-8F6E-D5E20A12A4A5:'Find: Descendants matching type Other'
+01:08:57.221 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x6080000936f0> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Other (0.001086s)
+01:08:57.223 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 4ACC2B2A-B6BC-40B0-8F6E-D5E20A12A4A5:'Find: Descendants matching type Other'
+01:08:57.222 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x608000096d00> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate '"MainView" IN identifiers'
+01:08:57.224 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity CC485CE6-1D1B-4D9C-90A4-F5D2827110C5:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:57.223 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x608000096d00> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate '"MainView" IN identifiers' (0.00105107s)
+01:08:57.225 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 61 bytes written out to StandardOutputAndStandardError
+01:08:57.226 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity CC485CE6-1D1B-4D9C-90A4-F5D2827110C5:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:57.224 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x6080000936f0> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Button
+01:08:57.226 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 257 bytes written out to StandardOutputAndStandardError
+01:08:57.227 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 10B0DC21-9FAF-4830-AC8D-9966FFD07071:'Find: Descendants matching type Button'
+01:08:57.225 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x6080000936f0> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Button (0.000729918s)
+01:08:57.227 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 10B0DC21-9FAF-4830-AC8D-9966FFD07071:'Find: Descendants matching type Button'
+01:08:57.225 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x608000096d00> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+01:08:57.228 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity B1236D66-1E37-4B66-9B0A-9DFB8150A446:'Find: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''
+01:08:57.227 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x608000096d00> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)' (0.00143099s)
+01:08:57.230 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity B1236D66-1E37-4B66-9B0A-9DFB8150A446:'Find: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''
+01:08:57.229 IntegrationTests_2-Runner[5060:101536] Found matches {(
+    Button, 0x60800019fbd0, traits: 8589934593, {{186.7, 93.0}, {41.0, 30.0}}, label: 'Alerts'
+)} with root Application, 0x60800019f480, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp'
+01:08:57.230 IntegrationTests_2-Runner[5060:101536] Creating identity binding for Button, 0x60800019fbd0, traits: 8589934593, {{186.7, 93.0}, {41.0, 30.0}}, label: 'Alerts' <XCAccessibilityElement: 0x608000470c00> pid: 5067, elementOrHash.elementID: 140530942062992.18
+01:08:57.230 IntegrationTests_2-Runner[5060:101536] Creating future for 'Fetching attributes 'XC_kAXXCAttributeValue' for element <XCAccessibilityElement: 0x608000470c00> pid: 5067, elementOrHash.elementID: 140530942062992.18' with timeout 65.00
+01:08:57.231 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x600000007be0, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Fetching attributes 'XC_kAXXCAttributeValue' for element <XCAccessibilityElement: 0x608000470c00> pid: 5067, elementOrHash.elementID: 140530942062992.18"
+)
+01:08:57.233 IntegrationTests_2-Runner[5060:101637] <XCTWaiter: 0x600000007be0, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:57.233 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x600000007be0, state: XCTWaiterStateSucceeded> done waiting
+01:08:57.231 testmanagerd[2762:101650] Fetching attributes: XC_kAXXCAttributeValue (2006)
+01:08:57.233 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x600000007be0, state: XCTWaiterStateSucceeded> cleaning up Fetching attributes 'XC_kAXXCAttributeValue' for element <XCAccessibilityElement: 0x608000470c00> pid: 5067, elementOrHash.elementID: 140530942062992.18
+01:08:57.231 testmanagerd[2762:101650] Fetching AX attributes (
+    2006
+) for element <XCAccessibilityElement: 0x7fd7c0729900> pid: 5067, elementOrHash.elementID: 140530942062992.18
+01:08:57.234 IntegrationTests_2-Runner[5060:101536] Button, 0x60800019fbd0, traits: 8589934593, {{186.7, 93.0}, {41.0, 30.0}}, label: 'Alerts' faulted in {
+}: Fetching value for attribute 2006 returned AX error -25205. for value using XC_kAXXCAttributeValue
+01:08:57.232 testmanagerd[2762:101650] Got AXElement for <XCAccessibilityElement: 0x7fd7c0729900> pid: 5067, elementOrHash.elementID: 140530942062992.18: <AXUIElementRef 0x7fd7c071fc70> {pid=5067} {uid=[ID:18 hash:0x7fcfe8e1b190]}
+01:08:57.232 testmanagerd[2762:101650] For attributes (
+    2006
+), got values (
+    "<AXValue 0x7fd7c0415bf0> {value = error:-25205 type = kAXValueAXErrorType}"
+)
+01:08:57.232 testmanagerd[2762:101650] Got attributes, transferring to dictionary for return.
+01:08:57.232 testmanagerd[2762:101650] Error 13: Fetching value for attribute 2006 returned AX error -25205.
+01:08:57.235 IntegrationTests_2-Runner[5060:101536] Creating future for 'Fetching attributes 'XC_kAXXCAttributePlaceholderValue' for element <XCAccessibilityElement: 0x608000470c00> pid: 5067, elementOrHash.elementID: 140530942062992.18' with timeout 65.00
+01:08:57.237 testmanagerd[2762:101651] Fetching attributes: XC_kAXXCAttributePlaceholderValue (5042)
+01:08:57.237 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000004360, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Fetching attributes 'XC_kAXXCAttributePlaceholderValue' for element <XCAccessibilityElement: 0x608000470c00> pid: 5067, elementOrHash.elementID: 140530942062992.18"
+)
+01:08:57.237 testmanagerd[2762:101651] Fetching AX attributes (
+    5042
+) for element <XCAccessibilityElement: 0x7fd7c0423820> pid: 5067, elementOrHash.elementID: 140530942062992.18
+01:08:57.237 testmanagerd[2762:101651] Got AXElement for <XCAccessibilityElement: 0x7fd7c0423820> pid: 5067, elementOrHash.elementID: 140530942062992.18: <AXUIElementRef 0x7fd7c04183a0> {pid=5067} {uid=[ID:18 hash:0x7fcfe8e1b190]}
+01:08:57.238 testmanagerd[2762:101651] For attributes (
+    5042
+), got values (
+    "<AXValue 0x7fd7c2c01dd0> {value = error:-25205 type = kAXValueAXErrorType}"
+)
+01:08:57.238 testmanagerd[2762:101651] Got attributes, transferring to dictionary for return.
+01:08:57.238 testmanagerd[2762:101651] Error 13: Fetching value for attribute 5042 returned AX error -25205.
+01:08:57.239 IntegrationTests_2-Runner[5060:101635] <XCTWaiter: 0x608000004360, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:57.240 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000004360, state: XCTWaiterStateSucceeded> done waiting
+01:08:57.240 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x608000004360, state: XCTWaiterStateSucceeded> cleaning up Fetching attributes 'XC_kAXXCAttributePlaceholderValue' for element <XCAccessibilityElement: 0x608000470c00> pid: 5067, elementOrHash.elementID: 140530942062992.18
+01:08:57.241 IntegrationTests_2-Runner[5060:101536] Button, 0x60800019fbd0, traits: 8589934593, {{186.7, 93.0}, {41.0, 30.0}}, label: 'Alerts' faulted in {
+}: Fetching value for attribute 5042 returned AX error -25205. for placeholderValue using XC_kAXXCAttributePlaceholderValue
+01:08:57.243 IntegrationTests_2-Runner[5060:101536] Creating future for 'Fetching attributes 'XC_kAXXCAttributeIdentifier' for element <XCAccessibilityElement: 0x608000470c00> pid: 5067, elementOrHash.elementID: 140530942062992.18' with timeout 65.00
+01:08:57.245 testmanagerd[2762:101923] Fetching attributes: XC_kAXXCAttributeIdentifier (5017)
+01:08:57.245 testmanagerd[2762:101923] Fetching AX attributes (
+    5017
+) for element <XCAccessibilityElement: 0x7fd7c05310b0> pid: 5067, elementOrHash.elementID: 140530942062992.18
+01:08:57.245 testmanagerd[2762:101923] Got AXElement for <XCAccessibilityElement: 0x7fd7c05310b0> pid: 5067, elementOrHash.elementID: 140530942062992.18: <AXUIElementRef 0x7fd7c0537db0> {pid=5067} {uid=[ID:18 hash:0x7fcfe8e1b190]}
+01:08:57.246 testmanagerd[2762:101923] For attributes (
+    5017
+), got values (
+    "<AXValue 0x7fd7c05459e0> {value = error:-25205 type = kAXValueAXErrorType}"
+)
+01:08:57.245 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x600000007be0, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Fetching attributes 'XC_kAXXCAttributeIdentifier' for element <XCAccessibilityElement: 0x608000470c00> pid: 5067, elementOrHash.elementID: 140530942062992.18"
+)
+01:08:57.247 testmanagerd[2762:101923] Got attributes, transferring to dictionary for return.
+01:08:57.247 testmanagerd[2762:101923] Error 13: Fetching value for attribute 5017 returned AX error -25205.
+01:08:57.249 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x600000007be0, state: XCTWaiterStateSucceeded> done waiting
+01:08:57.253 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x600000007be0, state: XCTWaiterStateSucceeded> cleaning up Fetching attributes 'XC_kAXXCAttributeIdentifier' for element <XCAccessibilityElement: 0x608000470c00> pid: 5067, elementOrHash.elementID: 140530942062992.18
+01:08:57.254 IntegrationTests_2-Runner[5060:101536] Button, 0x60800019fbd0, traits: 8589934593, {{186.7, 93.0}, {41.0, 30.0}}, label: 'Alerts' faulted in {
+}: Fetching value for attribute 5017 returned AX error -25205. for identifier using XC_kAXXCAttributeIdentifier
+01:08:57.254 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60c00008c8a0> 2019-10-03 08:08:57 +0000: Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)' (0.144229s)
+01:08:57.258 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 73 bytes written out to StandardOutputAndStandardError
+01:08:57.260 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 76B05D6D-76CB-4174-BA7F-A116FF36FFDA:'Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''
+01:08:57.256 IntegrationTests_2-Runner[5060:101536] Evaluating query <XCTElementQuery: 0x6000000b0e00> with transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>",
+    "<XCTElementFilteringTransformer: 0x6080004492d0 'Find: Descendants matching type Button'>",
+    "<XCTElementFilteringTransformer: 0x608000442a60 'Find: Elements matching predicate 'wdUID IN {\"12000000-0000-0000-CB13-000000000000\"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''>",
+    "<XCTElementFilteringTransformer: 0x600000243a50 'Find: Identity Binding'>"
+)
+01:08:57.256 IntegrationTests_2-Runner[5060:101536] Getting root element snapshot for query <XCTElementQuery: 0x6000000b0e00>
+01:08:57.257 IntegrationTests_2-Runner[5060:101536] Getting snapshot for element <XCAccessibilityElement: 0x60000026bac0> Application with pid: 5067 for query <XCTElementQuery: 0x6000000b0e00>
+01:08:57.258 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60400009d560> 2019-10-03 08:08:57 +0000: Snapshot accessibility hierarchy for app with pid 5067
+01:08:57.261 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 2D32C87A-A449-47D8-90C7-4E5D27C95509:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:57.259 IntegrationTests_2-Runner[5060:101536] Checked support for truncated value on iOS: YES, current version 11, requires 11
+01:08:57.260 IntegrationTests_2-Runner[5060:101536] Fetching snapshot for <XCAccessibilityElement: 0x60000026bac0> Application with pid: 5067 from testmanagerd with attributes XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeLabel, XC_kAXXCAttributeTraits, XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeUserTestingElements, XC_kAXXCAttributeURL, XC_kAXXCAttributeIsUserInteractionEnabled, XC_kAXXCAttributeViewControllerTitle, XC_kAXXCAttributeViewControllerClassName, XC_kAXXCAttributeFrame, XC_kAXXCAttributeParent, XC_kAXXCAttributeHorizontalSizeClass, XC_kAXXCAttributeVerticalSizeClass, XC_kAXXCAttributePlaceholderValue, kAXXCAttributeTruncatedValue and parameters {
+    maxArrayCount = 2147483647;
+    maxChildren = 2147483647;
+    maxDepth = 2147483647;
+    traverseFromParentsToChildren = 1;
+}.
+01:08:57.261 IntegrationTests_2-Runner[5060:101536] Creating future for 'Fetching snapshot from testmanagerd.' with timeout 65.00
+01:08:57.262 testmanagerd[2762:101923] Checked support for truncated value on iOS: YES, current version 11, requires 11
+01:08:57.262 testmanagerd[2762:101923] Q: XCTPerformOnMainRunLoop about to CFRunLoopPerform
+01:08:57.262 testmanagerd[2762:101923] Q: waiting for busy flag signal
+01:08:57.262 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c000008cc0, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Fetching snapshot from testmanagerd."
+)
+01:08:57.262 testmanagerd[2762:39945] MT: XCTPerformOnMainRunLoop_block_invoke inside CFRunLoopPerform
+01:08:57.262 testmanagerd[2762:101923] Q: won the race to the busy flag, waiting for work to complete
+01:08:57.262 testmanagerd[2762:39945] MT: won the race to the busy flag
+01:08:57.264 testmanagerd[2762:39945] Got main window <AXUIElementRef 0x7fd7c2c034e0> {pid=5067} {uid=[ID:4 hash:0x7fcfe8f254d0]}
+01:08:57.264 testmanagerd[2762:39945] Capturing hierarchy with attributes XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeLabel, XC_kAXXCAttributeTraits, XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeUserTestingElements, XC_kAXXCAttributeURL, XC_kAXXCAttributeIsUserInteractionEnabled, XC_kAXXCAttributeViewControllerTitle, XC_kAXXCAttributeViewControllerClassName, XC_kAXXCAttributeFrame, XC_kAXXCAttributeParent, XC_kAXXCAttributeHorizontalSizeClass, XC_kAXXCAttributeVerticalSizeClass, XC_kAXXCAttributePlaceholderValue, kAXXCAttributeTruncatedValue
+01:08:57.266 testmanagerd[2762:39945] Capturing hierarchy with parameters {
+    attributes =     (
+        5017,
+        2001,
+        2004,
+        5003,
+        5004,
+        5009,
+        2020,
+        5032,
+        5040,
+        5041,
+        2003,
+        5002,
+        2086,
+        2087,
+        5042,
+        2158
+    );
+    maxArrayCount = 2147483647;
+    maxChildren = 2147483647;
+    maxDepth = 2147483647;
+    traverseFromParentsToChildren = 1;
+}
+01:08:57.267 testmanagerd[2762:39945] Snapshot attributes 5017, 2001, 2004, 5003, 5004, 5009, 2020, 5032, 5040, 5041, 2003, 5002, 2086, 2087, 5042, 2158
+01:08:57.286 testmanagerd[2762:39945] Got snapshot for <AXUIElementRef 0x7fd7c2c08a40> {pid=5067} {uid=[ID:1 hash:0x0]}
+01:08:57.302 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 56 bytes written out to StandardOutputAndStandardError
+01:08:57.287 testmanagerd[2762:39945] Got app orientation 0
+01:08:57.287 testmanagerd[2762:39945] Captured accessibility snapshot data in 0.02s
+01:08:57.287 testmanagerd[2762:101923] Found main window: Window, 0x7fd7c2c03a50, {{0.0, 0.0}, {414.0, 736.0}}
+01:08:57.288 testmanagerd[2762:101923] App orientation is 0 (not portrait) and UITextEffectsWindow window Window, 0x7fd7c2c004a0, {{0.0, 0.0}, {414.0, 736.0}} is not main window
+01:08:57.288 testmanagerd[2762:101923] Leaving frame unchanged for Window, 0x7fd7c2c004a0, {{0.0, 0.0}, {414.0, 736.0}}: either already correct or we can't detect it.
+01:08:57.288 testmanagerd[2762:101923] App orientation is 0 (not portrait) and UIStatusBarWindow window Window, 0x7fd7c2c0b350, {{0.0, 0.0}, {414.0, 736.0}} is not main window
+01:08:57.288 testmanagerd[2762:101923] Leaving frame unchanged for Window, 0x7fd7c2c0b350, {{0.0, 0.0}, {414.0, 736.0}}: either already correct or we can't detect it.
+01:08:57.303 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 80 bytes written out to StandardOutputAndStandardError
+01:08:57.295 IntegrationTests_2-Runner[5060:101749] Got snapshot response from testmanagerd.
+01:08:57.295 IntegrationTests_2-Runner[5060:101637] <XCTWaiter: 0x60c000008cc0, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:57.295 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c000008cc0, state: XCTWaiterStateSucceeded> done waiting
+01:08:57.295 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c000008cc0, state: XCTWaiterStateSucceeded> cleaning up Fetching snapshot from testmanagerd.
+01:08:57.295 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60400009d560> 2019-10-03 08:08:57 +0000: Snapshot accessibility hierarchy for app with pid 5067 (0.0376519s)
+01:08:57.310 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 57 bytes written out to StandardOutputAndStandardError
+01:08:57.311 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 2D32C87A-A449-47D8-90C7-4E5D27C95509:'Snapshot accessibility hierarchy for app with pid 5067'
+01:08:57.298 IntegrationTests_2-Runner[5060:101536] Decomposed transformers by first match into subarrays (
+) and trailing match-all transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>",
+    "<XCTElementFilteringTransformer: 0x6080004492d0 'Find: Descendants matching type Button'>",
+    "<XCTElementFilteringTransformer: 0x608000442a60 'Find: Elements matching predicate 'wdUID IN {\"12000000-0000-0000-CB13-000000000000\"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''>",
+    "<XCTElementFilteringTransformer: 0x600000243a50 'Find: Identity Binding'>"
+)
+01:08:57.298 IntegrationTests_2-Runner[5060:101536] MT: XCTPerformOnMainRunLoop performing block without run loop dispatch because already on MT, timeout will not be enforceable.
+01:08:57.298 IntegrationTests_2-Runner[5060:101536] Finding all matches with input Application, 0x608000380dd0, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp' using transformers (
+    "<XCTElementFilteringTransformer: 0x60400044acb0 'Find: Descendants matching type Other'>",
+    "<XCTElementFilteringTransformer: 0x60400044dbf0 'Find: Elements matching predicate '\"MainView\" IN identifiers''>",
+    "<XCTElementFilteringTransformer: 0x6080004492d0 'Find: Descendants matching type Button'>",
+    "<XCTElementFilteringTransformer: 0x608000442a60 'Find: Elements matching predicate 'wdUID IN {\"12000000-0000-0000-CB13-000000000000\"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''>",
+    "<XCTElementFilteringTransformer: 0x600000243a50 'Find: Identity Binding'>"
+)
+01:08:57.299 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60c00008c8a0> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Other
+01:08:57.311 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 853CDEEB-564E-4AB3-A786-ABF6A2620B9E:'Find: Descendants matching type Other'
+01:08:57.300 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60c00008c8a0> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Other (0.00158405s)
+01:08:57.311 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 853CDEEB-564E-4AB3-A786-ABF6A2620B9E:'Find: Descendants matching type Other'
+01:08:57.311 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 253 bytes written out to StandardOutputAndStandardError
+01:08:57.301 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60000008b220> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate '"MainView" IN identifiers'
+01:08:57.317 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity F8F021CC-9152-466F-879A-E0BBFE43AD24:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:57.302 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60000008b220> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate '"MainView" IN identifiers' (0.00100493s)
+01:08:57.317 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity F8F021CC-9152-466F-879A-E0BBFE43AD24:'Find: Elements matching predicate '"MainView" IN identifiers''
+01:08:57.318 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 41 bytes written out to StandardOutputAndStandardError
+01:08:57.303 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60000008b220> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Button
+01:08:57.318 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity EF889A2B-5FDA-4E7A-BB48-31E21DB6A0D5:'Find: Descendants matching type Button'
+01:08:57.305 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60000008b220> 2019-10-03 08:08:57 +0000: Find: Descendants matching type Button (0.00158703s)
+01:08:57.318 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity EF889A2B-5FDA-4E7A-BB48-31E21DB6A0D5:'Find: Descendants matching type Button'
+01:08:57.319 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 6B5AB83F-E5A0-4006-9176-7BC1154FC56E:'Find: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''
+01:08:57.307 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60000008b220> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+01:08:57.309 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60000008b220> 2019-10-03 08:08:57 +0000: Find: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)' (0.00251997s)
+01:08:57.321 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 6B5AB83F-E5A0-4006-9176-7BC1154FC56E:'Find: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)''
+01:08:57.313 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x6080000936f0> 2019-10-03 08:08:57 +0000: Find: Identity Binding
+01:08:57.317 testmanagerd[2762:101374] Fetching attributes: XC_kAXXCAttributeValue (2006)
+01:08:57.319 testmanagerd[2762:101374] Fetching AX attributes (
+    2006
+) for element <XCAccessibilityElement: 0x7fd7c04235c0> pid: 5067, elementOrHash.elementID: 140530942062992.18
+01:08:57.320 testmanagerd[2762:101374] Got AXElement for <XCAccessibilityElement: 0x7fd7c04235c0> pid: 5067, elementOrHash.elementID: 140530942062992.18: <AXUIElementRef 0x7fd7c0423770> {pid=5067} {uid=[ID:18 hash:0x7fcfe8e1b190]}
+01:08:57.320 testmanagerd[2762:101374] For attributes (
+    2006
+), got values (
+    "<AXValue 0x7fd7c07213c0> {value = error:-25205 type = kAXValueAXErrorType}"
+)
+01:08:57.321 testmanagerd[2762:101374] Got attributes, transferring to dictionary for return.
+01:08:57.321 testmanagerd[2762:101374] Error 13: Fetching value for attribute 2006 returned AX error -25205.
+01:08:57.323 testmanagerd[2762:101374] Fetching attributes: XC_kAXXCAttributeIdentifier (5017)
+01:08:57.324 testmanagerd[2762:101374] Fetching AX attributes (
+    5017
+) for element <XCAccessibilityElement: 0x7fd7c0729900> pid: 5067, elementOrHash.elementID: 140530942062992.18
+01:08:57.324 testmanagerd[2762:101374] Got AXElement for <XCAccessibilityElement: 0x7fd7c0729900> pid: 5067, elementOrHash.elementID: 140530942062992.18: <AXUIElementRef 0x7fd7c0723680> {pid=5067} {uid=[ID:18 hash:0x7fcfe8e1b190]}
+01:08:57.325 testmanagerd[2762:101374] For attributes (
+    5017
+), got values (
+    "<AXValue 0x7fd7c0419e90> {value = error:-25205 type = kAXValueAXErrorType}"
+)
+01:08:57.325 testmanagerd[2762:101374] Got attributes, transferring to dictionary for return.
+01:08:57.325 testmanagerd[2762:101374] Error 13: Fetching value for attribute 5017 returned AX error -25205.
+01:08:57.328 testmanagerd[2762:101374] AXUIElementSetMessagingTimeout(<AXUIElementRef 0x7fd7c05455e0> {pid=0} {uid=[ID:1 hash:0x0]}, 1) -> 0 
+01:08:57.332 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 97A1E745-A012-4CE8-B106-019491C05BCD:'Find: Identity Binding'
+01:08:57.314 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x6080000936f0> 2019-10-03 08:08:57 +0000: Find: Identity Binding (0.00110006s)
+01:08:57.333 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 97A1E745-A012-4CE8-B106-019491C05BCD:'Find: Identity Binding'
+01:08:57.315 IntegrationTests_2-Runner[5060:101536] Found matches {(
+    Button, 0x6080003811e0, traits: 8589934593, {{186.7, 93.0}, {41.0, 30.0}}, label: 'Alerts'
+)} with root Application, 0x608000380dd0, pid: 5067, {{0.0, 0.0}, {414.0, 736.0}}, label: 'IntegrationApp'
+01:08:57.315 IntegrationTests_2-Runner[5060:101536] Creating future for 'Fetching attributes 'XC_kAXXCAttributeValue' for element <XCAccessibilityElement: 0x6080004727c0> pid: 5067, elementOrHash.elementID: 140530942062992.18' with timeout 65.00
+01:08:57.316 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000002950, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Fetching attributes 'XC_kAXXCAttributeValue' for element <XCAccessibilityElement: 0x6080004727c0> pid: 5067, elementOrHash.elementID: 140530942062992.18"
+)
+01:08:57.332 testmanagerd[2762:101653] Looking up element at point {207, 108}, found <XCAccessibilityElement: 0x7fd7c0729900> pid: 5067, elementOrHash.elementID: 140530942062992.18
+01:08:57.321 IntegrationTests_2-Runner[5060:101749] <XCTWaiter: 0x604000002950, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:57.322 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000002950, state: XCTWaiterStateSucceeded> done waiting
+01:08:57.322 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x604000002950, state: XCTWaiterStateSucceeded> cleaning up Fetching attributes 'XC_kAXXCAttributeValue' for element <XCAccessibilityElement: 0x6080004727c0> pid: 5067, elementOrHash.elementID: 140530942062992.18
+01:08:57.322 IntegrationTests_2-Runner[5060:101536] Button, 0x6080003811e0, traits: 8589934593, {{186.7, 93.0}, {41.0, 30.0}}, label: 'Alerts' faulted in {
+}: Fetching value for attribute 2006 returned AX error -25205. for value using XC_kAXXCAttributeValue
+01:08:57.323 IntegrationTests_2-Runner[5060:101536] Creating future for 'Fetching attributes 'XC_kAXXCAttributeIdentifier' for element <XCAccessibilityElement: 0x6080004727c0> pid: 5067, elementOrHash.elementID: 140530942062992.18' with timeout 65.00
+01:08:57.323 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c000008d00, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Fetching attributes 'XC_kAXXCAttributeIdentifier' for element <XCAccessibilityElement: 0x6080004727c0> pid: 5067, elementOrHash.elementID: 140530942062992.18"
+)
+01:08:57.326 IntegrationTests_2-Runner[5060:101673] <XCTWaiter: 0x60c000008d00, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:57.326 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c000008d00, state: XCTWaiterStateSucceeded> done waiting
+01:08:57.338 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 28 bytes written out to StandardOutputAndStandardError
+01:08:57.326 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x60c000008d00, state: XCTWaiterStateSucceeded> cleaning up Fetching attributes 'XC_kAXXCAttributeIdentifier' for element <XCAccessibilityElement: 0x6080004727c0> pid: 5067, elementOrHash.elementID: 140530942062992.18
+01:08:57.327 IntegrationTests_2-Runner[5060:101536] Button, 0x6080003811e0, traits: 8589934593, {{186.7, 93.0}, {41.0, 30.0}}, label: 'Alerts' faulted in {
+}: Fetching value for attribute 5017 returned AX error -25205. for identifier using XC_kAXXCAttributeIdentifier
+01:08:57.334 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] started activity <XCActivityRecord: 0x60c00008a7d0> 2019-10-03 08:08:57 +0000: Tear Down
+01:08:57.338 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] will start activity 4BDFD7DA-2158-4214-902A-4D185A1CB8F8:'Tear Down'
+01:08:57.335 IntegrationTests_2-Runner[5060:101536] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] finished activity <XCActivityRecord: 0x60c00008a7d0> 2019-10-03 08:08:57 +0000: Tear Down (0.000927091s)
+01:08:57.340 Xcode[1515:22545] -[FBXPathIntegrationTests testSingleDescendantXMLRepresentation] did finish activity 4BDFD7DA-2158-4214-902A-4D185A1CB8F8:'Tear Down'
+01:08:57.336 IntegrationTests_2-Runner[5060:101689] Monitor: termination is being tracked for <XCUIApplicationProcess: 0x6000000d47b0 com.facebook.wda.integrationApp (5067)>
+01:08:57.337 IntegrationTests_2-Runner[5060:101536] Monitor: waiting for state changes to launched application(s): <XCUIApplicationProcess: 0x6000000d47b0 com.facebook.wda.integrationApp (5067)>
+01:08:57.337 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x6080000016d0, state: XCTWaiterStateInProgress> entering wait loop for 0.20s with expectations: (
+    "Expect change to state of <XCUIApplicationProcess: 0x6000000d47b0 com.facebook.wda.integrationApp (5067)>"
+)
+01:08:57.438 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+01:08:57.539 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x6080000016d0, state: XCTWaiterStateInProgress> done waiting
+01:08:57.540 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x6080000016d0, state: XCTWaiterStateSucceeded> cleaning up Expect change to state of <XCUIApplicationProcess: 0x6000000d47b0 com.facebook.wda.integrationApp (5067)>
+01:08:57.540 IntegrationTests_2-Runner[5060:101536] Monitor: done waiting for state changes to launched application(s)
+01:08:57.540 IntegrationTests_2-Runner[5060:101536] -[XCTRunnerIDESession testCaseDidFinish:]
+    t =     0.00s Start Test at 2019-10-03 01:08:44.120
+    t =     0.19s Set Up
+    t =     0.22s     Open com.facebook.wda.integrationApp
+    t =     0.38s         Launch com.facebook.wda.integrationApp
+    t =     4.19s             Wait for com.facebook.wda.integrationApp to idle
+    t =     9.75s     Find the "Alerts" Button
+    t =     9.75s         Snapshot accessibility hierarchy for app with pid 5067
+    t =     9.91s         Find: Descendants matching type Button
+    t =     9.92s         Find: Elements matching predicate '"Alerts" IN identifiers'
+2019-10-03 01:08:54.037013-0700 IntegrationTests_2-Runner[5060:101536] Using singleton test manager
+    t =    11.18s     Set device orientation to Portrait
+    t =    12.77s     Snapshot accessibility hierarchy for app with pid 5067
+    t =    12.81s     Find: Descendants matching type Other
+    t =    12.81s     Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    12.82s     Find the "MainView" Other
+    t =    12.82s         Snapshot accessibility hierarchy for app with pid 5067
+    t =    12.82s         Find: Descendants matching type Other
+    t =    12.82s         Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    12.86s Find the "MainView" Other
+    t =    12.87s     Snapshot accessibility hierarchy for app with pid 5067
+    t =    12.91s     Find: Descendants matching type Other
+    t =    12.91s     Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    12.95s Snapshot accessibility hierarchy for app with pid 5067
+    t =    12.96s Find: Descendants matching type Other
+    t =    12.96s Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    12.96s Snapshot accessibility hierarchy for app with pid 5067
+    t =    12.97s Find: Descendants matching type Other
+    t =    12.97s Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    12.98s Snapshot accessibility hierarchy for app with pid 5067
+    t =    12.98s Find: Descendants matching type Other
+    t =    12.99s Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    12.99s Find: Descendants matching type Button
+    t =    12.99s Find: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    12.99s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    13.06s     Snapshot accessibility hierarchy for app with pid 5067
+    t =    13.10s     Find: Descendants matching type Other
+    t =    13.11s     Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    13.11s     Find: Descendants matching type Button
+    t =    13.11s     Find: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    13.14s Snapshot accessibility hierarchy for app with pid 5067
+    t =    13.18s Find: Descendants matching type Other
+    t =    13.18s Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    13.19s Find: Descendants matching type Button
+    t =    13.19s Find: Elements matching predicate 'wdUID IN {"12000000-0000-0000-CB13-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    13.20s Find: Identity Binding
+    t =    13.22s Tear Down
+Test Case '-[FBXPathIntegrationTests testSingleDescendantXMLRepresentation]' passed (13.424 seconds).
+Test Suite 'FBXPathIntegrationTests' passed at 2019-10-03 01:08:57.541.
+	 Executed 1 test, with 0 failures (0 unexpected) in 13.424 (13.427) seconds
+01:08:57.547 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 402 bytes written out to StandardOutputAndStandardError
+01:08:57.548 Xcode[1515:22545] _XCT_testCaseDidFinishForTestClass:FBXPathIntegrationTests method:testSingleDescendantXMLRepresentation withStatus:passed duration:13.42376697063446
+01:08:57.542 IntegrationTests_2-Runner[5060:101536] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'IntegrationTests_2.xctest' passed at 2019-10-03 01:08:57.544.
+	 Executed 1 test, with 0 failures (0 unexpected) in 13.424 (13.433) seconds
+01:08:57.623 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 140 bytes written out to StandardOutputAndStandardError
+01:08:57.627 Xcode[1515:22545] _XCT_testSuite:FBXPathIntegrationTests didFinishAt:2019-10-03 08:08:57 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:13.42376697063446 totalDuration:13.42697596549988
+01:08:57.543 IntegrationTests_2-Runner[5060:101536] Activity statistics for FBXPathIntegrationTests:
+01:08:57.543 IntegrationTests_2-Runner[5060:101536] 4.46s : Wait for com.facebook.wda.integrationApp to idle
+01:08:57.543 IntegrationTests_2-Runner[5060:101536] 0.03s : Resolve element query
+01:08:57.543 IntegrationTests_2-Runner[5060:101536] 3.69s : Other
+01:08:57.543 IntegrationTests_2-Runner[5060:101536] 4.90s : Launch com.facebook.wda.integrationApp
+01:08:57.544 IntegrationTests_2-Runner[5060:101536] Total time in activities: 13.07s
+01:08:57.544 IntegrationTests_2-Runner[5060:101536] -[XCTRunnerIDESession testSuiteDidFinish:]
+01:08:57.628 Xcode[1515:22545] _XCT_testSuite:IntegrationTests_2.xctest didFinishAt:2019-10-03 08:08:57 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:13.42376697063446 totalDuration:13.43265199661255
+01:08:57.545 IntegrationTests_2-Runner[5060:101536] Activity statistics for IntegrationTests_2.xctest:
+01:08:57.545 IntegrationTests_2-Runner[5060:101536] 4.46s : Wait for com.facebook.wda.integrationApp to idle
+01:08:57.545 IntegrationTests_2-Runner[5060:101536] 0.03s : Resolve element query
+01:08:57.546 IntegrationTests_2-Runner[5060:101536] 3.69s : Other
+01:08:57.546 IntegrationTests_2-Runner[5060:101536] 4.90s : Launch com.facebook.wda.integrationApp
+01:08:57.547 IntegrationTests_2-Runner[5060:101536] Total time in activities: 13.07s
+01:08:57.549 IntegrationTests_2-Runner[5060:101536] -[XCTRunnerIDESession testSuiteDidFinish:]
+01:08:57.628 Xcode[1515:22545] _XCT_testSuite:Selected tests didFinishAt:2019-10-03 08:08:57 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:13.42376697063446 totalDuration:13.44159209728241
+01:08:57.551 IntegrationTests_2-Runner[5060:101536] Activity statistics for Selected tests:
+01:08:57.551 IntegrationTests_2-Runner[5060:101536] 4.46s : Wait for com.facebook.wda.integrationApp to idle
+01:08:57.552 IntegrationTests_2-Runner[5060:101536] 0.03s : Resolve element query
+01:08:57.553 IntegrationTests_2-Runner[5060:101536] 3.69s : Other
+01:08:57.553 IntegrationTests_2-Runner[5060:101536] 4.90s : Launch com.facebook.wda.integrationApp
+01:08:57.554 IntegrationTests_2-Runner[5060:101536] Total time in activities: 13.07s
+01:08:57.554 IntegrationTests_2-Runner[5060:101536] Finished running suite.
+01:08:57.555 IntegrationTests_2-Runner[5060:101536] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+01:08:57.556 IntegrationTests_2-Runner[5060:101536] Calling completion.
+01:08:57.628 Xcode[1515:22545] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+01:08:57.557 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x600000008120, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: (
+    "IDE confirmed the end of session"
+)
+01:08:57.630 Xcode[1515:22545] <IDEExecutionOperationTracker: 0x7f828fa32270: Launch application com.facebook.wda.integrationApp for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7f828ec39240: subtrackers=none>"
+)> is not finished
+01:08:57.681 Xcode[1515:101925] Closing socket 68 to testmanagerd for Sim iPhone 8 Plus
+01:08:57.690 Xcode[1515:22545] Test process exited with exit code 0
+01:08:57.767 Xcode[1515:22545] Claim LaunchSessionClaim_0x7f828ed81090 on simulator 209EFB0A-BF46-4A77-9705-479F1C7A985A was relinquished
+01:08:57.767 Xcode[1515:22545] Claim LaunchSessionClaim_0x7f828ed81090 on simulator 209EFB0A-BF46-4A77-9705-479F1C7A985A was relinquished
+01:08:57.843 Xcode[1515:22545] <IDEExecutionOperationTracker: 0x7f828fa32270: Launch application com.facebook.wda.integrationApp for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7f828ec39240: subtrackers=none>"
+)> is not finished
+01:08:58.085 Xcode[1515:22545] Claim LaunchSessionClaim_0x7f828fa0b4d0 on simulator 209EFB0A-BF46-4A77-9705-479F1C7A985A was relinquished
+01:08:58.086 Xcode[1515:22545] Claim LaunchSessionClaim_0x7f828fa0b4d0 on simulator 209EFB0A-BF46-4A77-9705-479F1C7A985A was relinquished
+01:08:58.092 Xcode[1515:22545] Observed termination of tracker for token 131 for launch of com.facebook.wda.integrationApp at /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/IntegrationApp.app
+01:08:57.629 IntegrationTests_2-Runner[5060:101749] <XCTWaiter: 0x600000008120, state: XCTWaiterStateSucceeded>: cancelWaiting
+01:08:57.630 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x600000008120, state: XCTWaiterStateSucceeded> done waiting
+01:08:57.630 IntegrationTests_2-Runner[5060:101536] <XCTWaiter: 0x600000008120, state: XCTWaiterStateSucceeded> cleaning up IDE confirmed the end of session
+01:08:57.644 testmanagerd[2762:101649] Test process connection invalidated or interrupted, closing test session <XCTestSession: 0x7fd7c0531b70>.
+01:08:58.193 Xcode[1515:22545] Got death notice for pid 5060, removing from SimulatorSessionMap
+01:08:58.193 Xcode[1515:22545] Checking to see if pid 5067 is valid: kill(pid, 0) = -1 (NO, it's dead)
+01:08:58.194 Xcode[1515:22545] Removing 5067 (dead) from SimulatorSessionMap
+01:08:58.194 Xcode[1515:22545] Got death notice for pid 5067, removing from SimulatorSessionMap
+01:08:57.645 testmanagerd[2762:101649] Closed <XCTestSession: 0x7fd7c0531b70>, removing from (
+    "<XCTestSession: 0x7fd7c0531b70>"
+)
+01:08:57.645 testmanagerd[2762:101649] Tearing down <XCTestSession: 0x7fd7c0531b70>.
+01:08:57.645 testmanagerd[2762:101649] XCTestSession is responsible for cleaning up its socket from an XCIDESession
+01:08:57.645 testmanagerd[2762:101649] Tearing down <XCTDApplicationMonitor: 0x7fd7c0536180>.
+01:08:57.648 testmanagerd[2762:101649] Tearing down <XCTDProcessAssertionManager: 0x7fd7c052b370>.
+01:08:57.648 testmanagerd[2762:101649] Tearing down <XCTDApplicationLauncher: 0x7fd7c2c0ba80>.
+01:08:57.649 testmanagerd[2762:101649] Unregistering for AX notification 1011
+01:08:57.654 testmanagerd[2762:101649] Tearing down <XCTDSiriInterface: 0x7fd7c0721440>.
+01:08:57.654 testmanagerd[2762:101649] Invalidating <XCAXManager_iOS: 0x7fd7c2c00600>
+01:08:57.654 testmanagerd[2762:101649] Invalidated <XCTDAccessibilitySessionToken: 0x7fd7c052c0e0>. Remaining XCTDAccessibilitySessionToken instances: {(
+)}
+01:08:57.655 testmanagerd[2762:101649] Unloading accessibility
+01:08:57.656 testmanagerd[2762:101649] Accelerometer enabled.
+01:08:57.658 testmanagerd[2762:101649] Turning off automation
+01:08:57.767 testmanagerd[2762:101649] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, has control sessions
+01:08:57.768 testmanagerd[2762:101649] Control sessions: (
+    "<XCIDESession: 0x7fd7c2c04f20> (socket 5) created Thursday, October 3, 2019 at 1:08:40 AM Pacific Daylight Time"
+)
+01:08:57.801 testmanagerd[2762:101923] Connection to target invalidated.
+01:08:57.812 testmanagerd[2762:101649] Closed <XCTTargetBootstrapSession: 0x7fd7c0724de0>(pid 5067), removing from {
+    5067 = "<XCTTargetBootstrapSession: 0x7fd7c0724de0>(pid 5067)";
+}
+Test Suite 'Selected tests' passed at 2019-10-03 01:08:57.549.
+	 Executed 1 test, with 0 failures (0 unexpected) in 13.424 (13.442) seconds
+01:08:58.306 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+01:08:58.364 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000> finished receiving data from <IDEConsoleAdaptor: 0x7f828f8c0f60 'target' stdin: (null) 0 stdout: (null) 0 stderr: (null) 0>
+01:08:58.364 Xcode[1515:22545] <IDETestOperationCoordinator: 0x7f828f8cf000>: _considerFlushingDelegateBlockQueue - nothing to flush
+01:08:58.364 Xcode[1515:22545] _finishWithError:(null)

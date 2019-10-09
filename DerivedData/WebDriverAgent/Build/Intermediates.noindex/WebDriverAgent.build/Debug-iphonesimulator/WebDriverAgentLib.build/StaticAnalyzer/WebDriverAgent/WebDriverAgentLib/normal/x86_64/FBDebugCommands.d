@@ -1,0 +1,19 @@
+dependencies: \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Commands/FBDebugCommands.m \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Commands/FBDebugCommands.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/libxml2/module.modulemap \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Routing/FBCommandHandler.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Routing/FBCommandStatus.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Routing/FBResponsePayload.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Routing/FBRoute.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/FBApplication.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/PrivateHeaders/XCTest/XCUIApplication.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Routing/FBRouteRequest.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Routing/FBSession.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Categories/XCUIApplication+FBHelpers.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Categories/XCUIElement+FBUtilities.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/PrivateHeaders/XCTest/XCElementSnapshot.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/PrivateHeaders/XCTest/CDStructures.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Routing/FBElement.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Utilities/FBXPath.h

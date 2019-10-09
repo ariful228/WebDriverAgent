@@ -1,0 +1,296 @@
+objc[9255]: Class GCDAsyncSocketPreBuffer is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12857f738) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x1284f2620). One of the two will be used. Which one is undefined.
+objc[9255]: Class GCDAsyncReadPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12857f788) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x1284f2670). One of the two will be used. Which one is undefined.
+objc[9255]: Class GCDAsyncWritePacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12857f7d8) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x1284f26c0). One of the two will be used. Which one is undefined.
+objc[9255]: Class GCDAsyncSpecialPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12857f828) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x1284f2710). One of the two will be used. Which one is undefined.
+objc[9255]: Class GCDAsyncSocket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12857f878) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x1284f2760). One of the two will be used. Which one is undefined.
+Test Suite 'All tests' started at 2019-10-03 03:40:37.604
+Test Suite 'UnitTests.xctest' started at 2019-10-03 03:40:37.606
+Test Suite 'FBApplicationProcessProxyTest' started at 2019-10-03 03:40:37.609
+Test Case '-[FBApplicationProcessProxyTest testAssertProxyObjectParameter]' started.
+2019-10-03 03:40:37.633043-0700 xctest[9255:198566] *** Assertion failure in +[FBApplicationProcessProxy proxyWithApplicationProcess:], /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/FBApplicationProcessProxy.m:23
+Test Case '-[FBApplicationProcessProxyTest testAssertProxyObjectParameter]' passed (0.024 seconds).
+Test Case '-[FBApplicationProcessProxyTest testMethodCallIsNotProxied]' started.
+Test Case '-[FBApplicationProcessProxyTest testMethodCallIsNotProxied]' passed (0.001 seconds).
+Test Case '-[FBApplicationProcessProxyTest testMethodCallIsProxied]' started.
+Test Case '-[FBApplicationProcessProxyTest testMethodCallIsProxied]' passed (0.001 seconds).
+Test Case '-[FBApplicationProcessProxyTest testProxyIsProxy]' started.
+Test Case '-[FBApplicationProcessProxyTest testProxyIsProxy]' passed (0.001 seconds).
+Test Suite 'FBApplicationProcessProxyTest' passed at 2019-10-03 03:40:37.644.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.027 (0.035) seconds
+Test Suite 'FBClassChainTests' started at 2019-10-03 03:40:37.645
+Test Case '-[FBClassChainTests testInvalidChains]' started.
+Test Case '-[FBClassChainTests testInvalidChains]' passed (0.014 seconds).
+Test Case '-[FBClassChainTests testValidChain]' started.
+Test Case '-[FBClassChainTests testValidChain]' passed (0.002 seconds).
+Test Case '-[FBClassChainTests testValidChainWithDescendantPredicate]' started.
+Test Case '-[FBClassChainTests testValidChainWithDescendantPredicate]' passed (0.005 seconds).
+Test Case '-[FBClassChainTests testValidChainWithIndirectSearchAndPredicates]' started.
+Test Case '-[FBClassChainTests testValidChainWithIndirectSearchAndPredicates]' passed (0.004 seconds).
+Test Case '-[FBClassChainTests testValidChainWithMultipleDescendantPredicates]' started.
+Test Case '-[FBClassChainTests testValidChainWithMultipleDescendantPredicates]' passed (0.006 seconds).
+Test Case '-[FBClassChainTests testValidChainWithMultiplePredicates]' started.
+Test Case '-[FBClassChainTests testValidChainWithMultiplePredicates]' passed (0.003 seconds).
+Test Case '-[FBClassChainTests testValidChainWithMultiplePredicatesAndPositions]' started.
+Test Case '-[FBClassChainTests testValidChainWithMultiplePredicatesAndPositions]' passed (0.006 seconds).
+Test Case '-[FBClassChainTests testValidChainWithNegativeIndex]' started.
+Test Case '-[FBClassChainTests testValidChainWithNegativeIndex]' passed (0.003 seconds).
+Test Case '-[FBClassChainTests testValidChainWithSinglePredicate]' started.
+Test Case '-[FBClassChainTests testValidChainWithSinglePredicate]' passed (0.002 seconds).
+Test Case '-[FBClassChainTests testValidChainWithStar]' started.
+Test Case '-[FBClassChainTests testValidChainWithStar]' passed (0.002 seconds).
+Test Case '-[FBClassChainTests testValidDoubleIndirectChainAndClassName]' started.
+Test Case '-[FBClassChainTests testValidDoubleIndirectChainAndClassName]' passed (0.001 seconds).
+Test Case '-[FBClassChainTests testValidDoubleIndirectChainAndStar]' started.
+Test Case '-[FBClassChainTests testValidDoubleIndirectChainAndStar]' passed (0.120 seconds).
+Test Case '-[FBClassChainTests testValidSingleStarChain]' started.
+Test Case '-[FBClassChainTests testValidSingleStarChain]' passed (0.002 seconds).
+Test Case '-[FBClassChainTests testValidSingleStarIndirectChain]' started.
+Test Case '-[FBClassChainTests testValidSingleStarIndirectChain]' passed (0.001 seconds).
+Test Suite 'FBClassChainTests' passed at 2019-10-03 03:40:37.965.
+	 Executed 14 tests, with 0 failures (0 unexpected) in 0.171 (0.320) seconds
+Test Suite 'FBConfigurationTests' started at 2019-10-03 03:40:37.966
+Test Case '-[FBConfigurationTests testBindingPortDefault]' started.
+Test Case '-[FBConfigurationTests testBindingPortDefault]' passed (0.002 seconds).
+Test Case '-[FBConfigurationTests testBindingPortEnvironmentOverwrite]' started.
+Test Case '-[FBConfigurationTests testBindingPortEnvironmentOverwrite]' passed (0.039 seconds).
+Test Case '-[FBConfigurationTests testVerboseLoggingDefault]' started.
+Test Case '-[FBConfigurationTests testVerboseLoggingDefault]' passed (0.001 seconds).
+Test Case '-[FBConfigurationTests testVerboseLoggingEnvironmentOverwrite]' started.
+Test Case '-[FBConfigurationTests testVerboseLoggingEnvironmentOverwrite]' passed (0.002 seconds).
+Test Suite 'FBConfigurationTests' passed at 2019-10-03 03:40:38.016.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.045 (0.050) seconds
+Test Suite 'FBElementCacheTests' started at 2019-10-03 03:40:38.023
+Test Case '-[FBElementCacheTests testFetchingBadIndex]' started.
+Test Case '-[FBElementCacheTests testFetchingBadIndex]' passed (0.002 seconds).
+Test Case '-[FBElementCacheTests testFetchingElement]' started.
+Test Case '-[FBElementCacheTests testFetchingElement]' passed (0.066 seconds).
+Test Case '-[FBElementCacheTests testLinearCacheExpulsion]' started.
+Test Case '-[FBElementCacheTests testLinearCacheExpulsion]' passed (0.021 seconds).
+Test Case '-[FBElementCacheTests testMRUCacheExpulsion]' started.
+Test Case '-[FBElementCacheTests testMRUCacheExpulsion]' passed (0.021 seconds).
+Test Case '-[FBElementCacheTests testResolvingFetchedElement]' started.
+Test Case '-[FBElementCacheTests testResolvingFetchedElement]' passed (0.001 seconds).
+Test Case '-[FBElementCacheTests testStoringElement]' started.
+Test Case '-[FBElementCacheTests testStoringElement]' passed (0.001 seconds).
+Test Suite 'FBElementCacheTests' passed at 2019-10-03 03:40:38.141.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.112 (0.118) seconds
+Test Suite 'FBElementTypeTransformerTests' started at 2019-10-03 03:40:38.142
+Test Case '-[FBElementTypeTransformerTests testElementTypeWithElementTypeName]' started.
+Test Case '-[FBElementTypeTransformerTests testElementTypeWithElementTypeName]' passed (0.155 seconds).
+Test Case '-[FBElementTypeTransformerTests testShortStringWithElementType]' started.
+Test Case '-[FBElementTypeTransformerTests testShortStringWithElementType]' passed (0.001 seconds).
+Test Case '-[FBElementTypeTransformerTests testStringWithElementType]' started.
+Test Case '-[FBElementTypeTransformerTests testStringWithElementType]' passed (0.001 seconds).
+Test Suite 'FBElementTypeTransformerTests' passed at 2019-10-03 03:40:38.304.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.157 (0.161) seconds
+Test Suite 'FBElementUtilitiesTests' started at 2019-10-03 03:40:38.305
+Test Case '-[FBElementUtilitiesTests testTypesFiltering]' started.
+Test Case '-[FBElementUtilitiesTests testTypesFiltering]' passed (0.001 seconds).
+Test Suite 'FBElementUtilitiesTests' passed at 2019-10-03 03:40:38.356.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.051) seconds
+Test Suite 'FBErrorBuilderTests' started at 2019-10-03 03:40:38.357
+Test Case '-[FBErrorBuilderTests testBuildWithError]' started.
+Test Case '-[FBErrorBuilderTests testBuildWithError]' passed (0.001 seconds).
+Test Case '-[FBErrorBuilderTests testErrorWithDescription]' started.
+Test Case '-[FBErrorBuilderTests testErrorWithDescription]' passed (0.001 seconds).
+Test Case '-[FBErrorBuilderTests testErrorWithDescriptionFormat]' started.
+Test Case '-[FBErrorBuilderTests testErrorWithDescriptionFormat]' passed (0.001 seconds).
+Test Case '-[FBErrorBuilderTests testInnerError]' started.
+Test Case '-[FBErrorBuilderTests testInnerError]' passed (0.001 seconds).
+Test Suite 'FBErrorBuilderTests' passed at 2019-10-03 03:40:38.367.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.005 (0.010) seconds
+Test Suite 'FBMathUtilsTests' started at 2019-10-03 03:40:38.393
+Test Case '-[FBMathUtilsTests testFuzzyEqualFloats]' started.
+Test Case '-[FBMathUtilsTests testFuzzyEqualFloats]' passed (0.001 seconds).
+Test Case '-[FBMathUtilsTests testFuzzyEqualPoints]' started.
+Test Case '-[FBMathUtilsTests testFuzzyEqualPoints]' passed (0.001 seconds).
+Test Case '-[FBMathUtilsTests testFuzzyEqualRects]' started.
+Test Case '-[FBMathUtilsTests testFuzzyEqualRects]' passed (0.001 seconds).
+Test Case '-[FBMathUtilsTests testFuzzyEqualRectsSymmetry]' started.
+Test Case '-[FBMathUtilsTests testFuzzyEqualRectsSymmetry]' passed (0.001 seconds).
+Test Case '-[FBMathUtilsTests testFuzzyEqualSizes]' started.
+Test Case '-[FBMathUtilsTests testFuzzyEqualSizes]' passed (0.001 seconds).
+Test Case '-[FBMathUtilsTests testFuzzyNotEqualFloats]' started.
+Test Case '-[FBMathUtilsTests testFuzzyNotEqualFloats]' passed (0.001 seconds).
+Test Case '-[FBMathUtilsTests testFuzzyNotEqualPoints]' started.
+Test Case '-[FBMathUtilsTests testFuzzyNotEqualPoints]' passed (0.001 seconds).
+Test Case '-[FBMathUtilsTests testFuzzyNotEqualRects]' started.
+Test Case '-[FBMathUtilsTests testFuzzyNotEqualRects]' passed (0.001 seconds).
+Test Case '-[FBMathUtilsTests testFuzzyNotEqualSizes]' started.
+Test Case '-[FBMathUtilsTests testFuzzyNotEqualSizes]' passed (0.002 seconds).
+Test Case '-[FBMathUtilsTests testGetCenter]' started.
+Test Case '-[FBMathUtilsTests testGetCenter]' passed (0.001 seconds).
+Test Case '-[FBMathUtilsTests testPointInvertion]' started.
+Test Case '-[FBMathUtilsTests testPointInvertion]' passed (0.001 seconds).
+Test Case '-[FBMathUtilsTests testSizeInversion]' started.
+Test Case '-[FBMathUtilsTests testSizeInversion]' passed (0.001 seconds).
+Test Suite 'FBMathUtilsTests' passed at 2019-10-03 03:40:38.438.
+	 Executed 12 tests, with 0 failures (0 unexpected) in 0.015 (0.045) seconds
+Test Suite 'FBRouteTests' started at 2019-10-03 03:40:38.439
+Test Case '-[FBRouteTests testDeleteRoute]' started.
+Test Case '-[FBRouteTests testDeleteRoute]' passed (0.001 seconds).
+Test Case '-[FBRouteTests testEmptyRouteWithoutSession]' started.
+Test Case '-[FBRouteTests testEmptyRouteWithoutSession]' passed (0.002 seconds).
+Test Case '-[FBRouteTests testEmptyRouteWithoutSessionWithSlash]' started.
+Test Case '-[FBRouteTests testEmptyRouteWithoutSessionWithSlash]' passed (0.010 seconds).
+Test Case '-[FBRouteTests testEmptyRouteWithSession]' started.
+Test Case '-[FBRouteTests testEmptyRouteWithSession]' passed (0.001 seconds).
+Test Case '-[FBRouteTests testEmptyRouteWithSessionWithSlash]' started.
+Test Case '-[FBRouteTests testEmptyRouteWithSessionWithSlash]' passed (0.001 seconds).
+Test Case '-[FBRouteTests testGetRoute]' started.
+Test Case '-[FBRouteTests testGetRoute]' passed (0.001 seconds).
+Test Case '-[FBRouteTests testPostRoute]' started.
+Test Case '-[FBRouteTests testPostRoute]' passed (0.002 seconds).
+Test Case '-[FBRouteTests testPutRoute]' started.
+Test Case '-[FBRouteTests testPutRoute]' passed (0.001 seconds).
+Test Case '-[FBRouteTests testRespond]' started.
+Test Case '-[FBRouteTests testRespond]' passed (0.211 seconds).
+Test Case '-[FBRouteTests testRouteWithoutSession]' started.
+Test Case '-[FBRouteTests testRouteWithoutSession]' passed (0.001 seconds).
+Test Case '-[FBRouteTests testRouteWithoutSessionWithSlash]' started.
+Test Case '-[FBRouteTests testRouteWithoutSessionWithSlash]' passed (0.001 seconds).
+Test Case '-[FBRouteTests testRouteWithSession]' started.
+Test Case '-[FBRouteTests testRouteWithSession]' passed (0.001 seconds).
+Test Case '-[FBRouteTests testRouteWithSessionWithSlash]' started.
+Test Case '-[FBRouteTests testRouteWithSessionWithSlash]' passed (0.001 seconds).
+Test Case '-[FBRouteTests testTargetAction]' started.
+Test Case '-[FBRouteTests testTargetAction]' passed (0.001 seconds).
+Test Suite 'FBRouteTests' passed at 2019-10-03 03:40:38.690.
+	 Executed 14 tests, with 0 failures (0 unexpected) in 0.237 (0.251) seconds
+Test Suite 'FBRunLoopSpinnerTests' started at 2019-10-03 03:40:38.717
+Test Case '-[FBRunLoopSpinnerTests testSpinUntilCompletion]' started.
+Test Case '-[FBRunLoopSpinnerTests testSpinUntilCompletion]' passed (0.001 seconds).
+Test Case '-[FBRunLoopSpinnerTests testSpinUntilNotNil]' started.
+Test Case '-[FBRunLoopSpinnerTests testSpinUntilNotNil]' passed (0.003 seconds).
+Test Case '-[FBRunLoopSpinnerTests testSpinUntilNotNilTimeout]' started.
+Test Case '-[FBRunLoopSpinnerTests testSpinUntilNotNilTimeout]' passed (0.107 seconds).
+Test Case '-[FBRunLoopSpinnerTests testSpinUntilTrue]' started.
+Test Case '-[FBRunLoopSpinnerTests testSpinUntilTrue]' passed (0.001 seconds).
+Test Case '-[FBRunLoopSpinnerTests testSpinUntilTrueTimeout]' started.
+Test Case '-[FBRunLoopSpinnerTests testSpinUntilTrueTimeout]' passed (0.102 seconds).
+Test Case '-[FBRunLoopSpinnerTests testSpinUntilTrueTimeoutMessage]' started.
+Test Case '-[FBRunLoopSpinnerTests testSpinUntilTrueTimeoutMessage]' passed (0.111 seconds).
+Test Suite 'FBRunLoopSpinnerTests' passed at 2019-10-03 03:40:39.049.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.324 (0.332) seconds
+Test Suite 'FBRuntimeUtilsTests' started at 2019-10-03 03:40:39.050
+Test Case '-[FBRuntimeUtilsTests testClassesThatConformsToProtocol]' started.
+Test Case '-[FBRuntimeUtilsTests testClassesThatConformsToProtocol]' passed (0.018 seconds).
+Test Case '-[FBRuntimeUtilsTests testRetrievingFrameworkSymbols]' started.
+Test Case '-[FBRuntimeUtilsTests testRetrievingFrameworkSymbols]' passed (0.003 seconds).
+Test Case '-[FBRuntimeUtilsTests testXCTestSymbols]' started.
+Test Case '-[FBRuntimeUtilsTests testXCTestSymbols]' passed (0.001 seconds).
+Test Suite 'FBRuntimeUtilsTests' passed at 2019-10-03 03:40:39.075.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.021 (0.025) seconds
+Test Suite 'FBSDKVersionTests' started at 2019-10-03 03:40:39.077
+Test Case '-[FBSDKVersionTests testIsSDKVersionEqualTo]' started.
+Test Case '-[FBSDKVersionTests testIsSDKVersionEqualTo]' passed (0.014 seconds).
+Test Case '-[FBSDKVersionTests testIsSDKVersionGreaterThan]' started.
+Test Case '-[FBSDKVersionTests testIsSDKVersionGreaterThan]' passed (0.001 seconds).
+Test Case '-[FBSDKVersionTests testIsSDKVersionGreaterThanOrEqualTo]' started.
+Test Case '-[FBSDKVersionTests testIsSDKVersionGreaterThanOrEqualTo]' passed (0.001 seconds).
+Test Case '-[FBSDKVersionTests testIsSDKVersionLessThan]' started.
+Test Case '-[FBSDKVersionTests testIsSDKVersionLessThan]' passed (0.002 seconds).
+Test Case '-[FBSDKVersionTests testIsSDKVersionLessThanOrEqualTo]' started.
+Test Case '-[FBSDKVersionTests testIsSDKVersionLessThanOrEqualTo]' passed (0.001 seconds).
+Test Suite 'FBSDKVersionTests' passed at 2019-10-03 03:40:39.111.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.020 (0.034) seconds
+Test Suite 'FBSessionTests' started at 2019-10-03 03:40:39.112
+Test Case '-[FBSessionTests testActiveSession]' started.
+Test Case '-[FBSessionTests testActiveSession]' passed (0.002 seconds).
+Test Case '-[FBSessionTests testAfterKillingSessionShouldCreateNewOne]' started.
+Test Case '-[FBSessionTests testAfterKillingSessionShouldCreateNewOne]' passed (0.002 seconds).
+Test Case '-[FBSessionTests testSessionCreation]' started.
+Test Case '-[FBSessionTests testSessionCreation]' passed (0.002 seconds).
+Test Case '-[FBSessionTests testSessionFetching]' started.
+Test Case '-[FBSessionTests testSessionFetching]' passed (0.001 seconds).
+Test Case '-[FBSessionTests testSessionFetchingBadIdentifier]' started.
+Test Case '-[FBSessionTests testSessionFetchingBadIdentifier]' passed (0.002 seconds).
+Test Suite 'FBSessionTests' passed at 2019-10-03 03:40:39.241.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.008 (0.130) seconds
+Test Suite 'FBXMLSafeStringTests' started at 2019-10-03 03:40:39.243
+Test Case '-[FBXMLSafeStringTests testSafeXmlStringTransformationWithEmptyReplacement]' started.
+Test Case '-[FBXMLSafeStringTests testSafeXmlStringTransformationWithEmptyReplacement]' passed (0.001 seconds).
+Test Case '-[FBXMLSafeStringTests testSafeXmlStringTransformationWithNonEmptyReplacement]' started.
+Test Case '-[FBXMLSafeStringTests testSafeXmlStringTransformationWithNonEmptyReplacement]' passed (0.001 seconds).
+Test Case '-[FBXMLSafeStringTests testSafeXmlStringTransformationWithSmileys]' started.
+Test Case '-[FBXMLSafeStringTests testSafeXmlStringTransformationWithSmileys]' passed (0.001 seconds).
+Test Suite 'FBXMLSafeStringTests' passed at 2019-10-03 03:40:39.251.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.003 (0.008) seconds
+Test Suite 'FBXPathTests' started at 2019-10-03 03:40:39.252
+Test Case '-[FBXPathTests testDefaultXPathPresentation]' started.
+Test Case '-[FBXPathTests testDefaultXPathPresentation]' passed (0.003 seconds).
+Test Case '-[FBXPathTests testSnapshotXPathResultsMatching]' started.
+Test Case '-[FBXPathTests testSnapshotXPathResultsMatching]' passed (0.003 seconds).
+Test Case '-[FBXPathTests testXPathPresentationBasedOnQueryMatchingAllAttributes]' started.
+Test Case '-[FBXPathTests testXPathPresentationBasedOnQueryMatchingAllAttributes]' passed (0.002 seconds).
+Test Case '-[FBXPathTests testXPathPresentationBasedOnQueryMatchingSomeAttributes]' started.
+Test Case '-[FBXPathTests testXPathPresentationBasedOnQueryMatchingSomeAttributes]' passed (0.003 seconds).
+Test Suite 'FBXPathTests' passed at 2019-10-03 03:40:39.389.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.012 (0.137) seconds
+Test Suite 'NSExpressionFBFormatTests' started at 2019-10-03 03:40:39.390
+Test Case '-[NSExpressionFBFormatTests testFormattingForExistingComplexProperty]' started.
+Test Case '-[NSExpressionFBFormatTests testFormattingForExistingComplexProperty]' passed (0.072 seconds).
+Test Case '-[NSExpressionFBFormatTests testFormattingForExistingComplexPropertyWOPrefix]' started.
+Test Case '-[NSExpressionFBFormatTests testFormattingForExistingComplexPropertyWOPrefix]' passed (0.001 seconds).
+Test Case '-[NSExpressionFBFormatTests testFormattingForExistingProperty]' started.
+Test Case '-[NSExpressionFBFormatTests testFormattingForExistingProperty]' passed (0.001 seconds).
+Test Case '-[NSExpressionFBFormatTests testFormattingForExistingPropertyShortcut]' started.
+Test Case '-[NSExpressionFBFormatTests testFormattingForExistingPropertyShortcut]' passed (0.002 seconds).
+Test Case '-[NSExpressionFBFormatTests testFormattingForPredicateWithUnknownKey]' started.
+Test Case '-[NSExpressionFBFormatTests testFormattingForPredicateWithUnknownKey]' passed (0.002 seconds).
+Test Case '-[NSExpressionFBFormatTests testFormattingForValidExpressionWOKeys]' started.
+Test Case '-[NSExpressionFBFormatTests testFormattingForValidExpressionWOKeys]' passed (0.002 seconds).
+Test Suite 'NSExpressionFBFormatTests' passed at 2019-10-03 03:40:39.505.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.081 (0.115) seconds
+Test Suite 'NSPredicateFBFormatTests' started at 2019-10-03 03:40:39.507
+Test Case '-[NSPredicateFBFormatTests testFormattingFBPredicate]' started.
+Test Case '-[NSPredicateFBFormatTests testFormattingFBPredicate]' passed (0.002 seconds).
+Test Case '-[NSPredicateFBFormatTests testFormattingForComplexExpression]' started.
+Test Case '-[NSPredicateFBFormatTests testFormattingForComplexExpression]' passed (0.001 seconds).
+Test Case '-[NSPredicateFBFormatTests testFormattingForExistingComplexProperty]' started.
+Test Case '-[NSPredicateFBFormatTests testFormattingForExistingComplexProperty]' passed (0.077 seconds).
+Test Case '-[NSPredicateFBFormatTests testFormattingForExistingComplexPropertyWOPrefix]' started.
+Test Case '-[NSPredicateFBFormatTests testFormattingForExistingComplexPropertyWOPrefix]' passed (0.001 seconds).
+Test Case '-[NSPredicateFBFormatTests testFormattingForExistingProperty]' started.
+Test Case '-[NSPredicateFBFormatTests testFormattingForExistingProperty]' passed (0.001 seconds).
+Test Case '-[NSPredicateFBFormatTests testFormattingForExistingPropertyOnTheRightSide]' started.
+Test Case '-[NSPredicateFBFormatTests testFormattingForExistingPropertyOnTheRightSide]' passed (0.001 seconds).
+Test Case '-[NSPredicateFBFormatTests testFormattingForExistingPropertyShortcut]' started.
+Test Case '-[NSPredicateFBFormatTests testFormattingForExistingPropertyShortcut]' passed (0.001 seconds).
+Test Case '-[NSPredicateFBFormatTests testFormattingForPredicateWithUnknownKey]' started.
+Test Case '-[NSPredicateFBFormatTests testFormattingForPredicateWithUnknownKey]' passed (0.001 seconds).
+Test Case '-[NSPredicateFBFormatTests testFormattingForValidExpressionWOKeys]' started.
+Test Case '-[NSPredicateFBFormatTests testFormattingForValidExpressionWOKeys]' passed (0.001 seconds).
+Test Suite 'NSPredicateFBFormatTests' passed at 2019-10-03 03:40:39.606.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.087 (0.099) seconds
+Test Suite 'XCUICoordinateFix' started at 2019-10-03 03:40:39.760
+Test Case '-[XCUICoordinateFix testCoordinateWithCoordinate]' started.
+Test Case '-[XCUICoordinateFix testCoordinateWithCoordinate]' passed (0.001 seconds).
+Test Case '-[XCUICoordinateFix testCoordinateWithCoordinateWithOffset]' started.
+Test Case '-[XCUICoordinateFix testCoordinateWithCoordinateWithOffset]' passed (0.001 seconds).
+Test Case '-[XCUICoordinateFix testCoordinateWithCoordinateWithOffsetOffBounds]' started.
+Test Case '-[XCUICoordinateFix testCoordinateWithCoordinateWithOffsetOffBounds]' passed (0.001 seconds).
+Test Case '-[XCUICoordinateFix testCoordinateWithElement]' started.
+Test Case '-[XCUICoordinateFix testCoordinateWithElement]' passed (0.001 seconds).
+Test Case '-[XCUICoordinateFix testCoordinateWithElementWithOffset]' started.
+Test Case '-[XCUICoordinateFix testCoordinateWithElementWithOffset]' passed (0.001 seconds).
+Test Suite 'XCUICoordinateFix' passed at 2019-10-03 03:40:39.773.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.006 (0.012) seconds
+Test Suite 'XCUIElementHelpersTests' started at 2019-10-03 03:40:39.774
+Test Case '-[XCUIElementHelpersTests testEachPropertyHasAlias]' started.
+Test Case '-[XCUIElementHelpersTests testEachPropertyHasAlias]' passed (0.004 seconds).
+Test Case '-[XCUIElementHelpersTests testMappingContainsCorrectValueForAttrbutesWithGetters]' started.
+Test Case '-[XCUIElementHelpersTests testMappingContainsCorrectValueForAttrbutesWithGetters]' passed (0.001 seconds).
+Test Case '-[XCUIElementHelpersTests testMappingContainsCorrectValueForAttrbutesWithoutGetters]' started.
+Test Case '-[XCUIElementHelpersTests testMappingContainsCorrectValueForAttrbutesWithoutGetters]' passed (0.002 seconds).
+Test Case '-[XCUIElementHelpersTests testMappingContainsNamesAndAliases]' started.
+Test Case '-[XCUIElementHelpersTests testMappingContainsNamesAndAliases]' passed (0.162 seconds).
+Test Suite 'XCUIElementHelpersTests' passed at 2019-10-03 03:40:39.948.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.169 (0.174) seconds
+Test Suite 'UnitTests.xctest' passed at 2019-10-03 03:40:39.949.
+	 Executed 112 tests, with 0 failures (0 unexpected) in 1.502 (2.343) seconds
+Test Suite 'WebDriverAgentLib.framework' started at 2019-10-03 03:40:39.952
+Test Suite 'WebDriverAgentLib.framework' passed at 2019-10-03 03:40:39.953.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'All tests' passed at 2019-10-03 03:40:39.954.
+	 Executed 112 tests, with 0 failures (0 unexpected) in 1.502 (2.350) seconds

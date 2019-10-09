@@ -1,0 +1,464 @@
+objc[2462]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x12cebd4d0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x12bfe9e38). One of the two will be used. Which one is undefined.
+2019-10-01 22:43:16.623559-0700 IntegrationTests_2-Runner[2462:35934] +[CATransaction synchronize] called within transaction
+2019-10-01 22:43:17.217856-0700 IntegrationTests_2-Runner[2462:35934] Running tests...
+objc[2462]: Class GCDAsyncSocketPreBuffer is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12f5bf738) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x12f532620). One of the two will be used. Which one is undefined.
+objc[2462]: Class GCDAsyncReadPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12f5bf788) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x12f532670). One of the two will be used. Which one is undefined.
+objc[2462]: Class GCDAsyncWritePacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12f5bf7d8) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x12f5326c0). One of the two will be used. Which one is undefined.
+objc[2462]: Class GCDAsyncSpecialPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12f5bf828) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x12f532710). One of the two will be used. Which one is undefined.
+objc[2462]: Class GCDAsyncSocket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12f5bf878) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x12f532760). One of the two will be used. Which one is undefined.
+2019-10-01 22:43:20.133335-0700 IntegrationTests_2-Runner[2462:35934] Continuing to run tests in the background with task ID 1
+Test Suite 'All tests' started at 2019-10-01 22:43:21.954
+Test Suite 'IntegrationTests_2.xctest' started at 2019-10-01 22:43:21.955
+Test Suite 'FBTypingTest' started at 2019-10-01 22:43:21.956
+Test Case '-[FBTypingTest testTextClearing]' started.
+    t =     0.00s Start Test at 2019-10-01 22:43:21.958
+    t =     0.53s Set Up
+    t =     0.59s     Open com.facebook.wda.integrationApp
+    t =     0.67s         Launch com.facebook.wda.integrationApp
+    t =     5.74s             Wait for accessibility to load
+    t =     8.00s             Wait for com.facebook.wda.integrationApp to idle
+    t =    14.58s                 Unable to monitor animations
+    t =    14.59s                 Unable to monitor event loop
+    t =    15.87s     Find the "Alerts" Button
+    t =    15.87s         Snapshot accessibility hierarchy for app with pid 2486
+    t =    16.89s         Find the "Alerts" Button (retry 1)
+    t =    16.89s             Snapshot accessibility hierarchy for app with pid 2486
+    t =    19.70s             Find: Descendants matching type Button
+    t =    19.70s             Find: Elements matching predicate '"Alerts" IN identifiers'
+2019-10-01 22:43:41.663016-0700 IntegrationTests_2-Runner[2462:35934] Using singleton test manager
+    t =    21.45s     Set device orientation to Portrait
+    t =    23.05s     Tap "Attributes" Button
+    t =    23.05s         Wait for com.facebook.wda.integrationApp to idle
+    t =    23.12s         Find the "Attributes" Button
+    t =    23.13s             Snapshot accessibility hierarchy for app with pid 2486
+    t =    23.17s             Find: Descendants matching type Button
+    t =    23.17s             Find: Elements matching predicate '"Attributes" IN identifiers'
+    t =    23.29s         Synthesize event
+    t =    23.76s         Wait for com.facebook.wda.integrationApp to idle
+    t =    24.88s     Find the "Button" Button
+    t =    24.88s         Snapshot accessibility hierarchy for app with pid 2486
+    t =    25.09s         Find: Descendants matching type Button
+    t =    25.09s         Find: Elements matching predicate '"Button" IN identifiers'
+    t =    25.20s Tap "aIdentifier" TextField
+    t =    25.20s     Wait for com.facebook.wda.integrationApp to idle
+    t =    25.29s     Find the "aIdentifier" TextField
+    t =    25.30s         Snapshot accessibility hierarchy for app with pid 2486
+    t =    25.34s         Find: Descendants matching type TextField
+    t =    25.35s         Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    25.46s     Synthesize event
+    t =    25.61s     Wait for com.facebook.wda.integrationApp to idle
+    t =    29.55s Type 'Happy typing' into "aIdentifier" TextField
+    t =    29.55s     Wait for com.facebook.wda.integrationApp to idle
+    t =    29.63s     Find the "aIdentifier" TextField
+    t =    29.63s         Snapshot accessibility hierarchy for app with pid 2486
+    t =    31.40s         Find: Descendants matching type TextField
+    t =    31.41s         Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    31.52s     Synthesize event
+    t =    32.42s     Wait for com.facebook.wda.integrationApp to idle
+    t =    32.58s Find the "aIdentifier" TextField
+    t =    32.58s     Snapshot accessibility hierarchy for app with pid 2486
+    t =    32.66s     Find: Descendants matching type TextField
+    t =    32.67s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    32.67s Find the "aIdentifier" TextField
+    t =    32.67s     Snapshot accessibility hierarchy for app with pid 2486
+    t =    32.68s     Find: Descendants matching type TextField
+    t =    32.68s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    32.71s Snapshot accessibility hierarchy for app with pid 2486
+    t =    32.71s Find: Descendants matching type Keyboard
+    t =    32.72s Get all elements bound by accessibility element for: Descendants matching type Keyboard
+    t =    32.83s     Snapshot accessibility hierarchy for app with pid 2486
+    t =    32.91s     Find: Descendants matching type Keyboard
+    t =    32.94s Find the Keyboard
+    t =    32.95s     Snapshot accessibility hierarchy for app with pid 2486
+    t =    33.04s     Find: Descendants matching type Keyboard
+    t =    33.04s     Find: Identity Binding
+    t =    33.19s Find the "aIdentifier" TextField
+    t =    33.20s     Snapshot accessibility hierarchy for app with pid 2486
+    t =    33.20s     Find: Descendants matching type TextField
+    t =    33.20s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    33.20s Find the "aIdentifier" TextField
+    t =    33.21s     Snapshot accessibility hierarchy for app with pid 2486
+    t =    33.21s     Find: Descendants matching type TextField
+    t =    33.21s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    33.21s Find the "aIdentifier" TextField
+    t =    33.22s     Snapshot accessibility hierarchy for app with pid 2486
+    t =    33.22s     Find: Descendants matching type TextField
+    t =    33.22s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    34.25s Assertion Failure: FBTypingTest.m:56: (([textField fb_clearTextWithError:&error]) is true) failed
+    t =    34.63s Tear Down
+Test Case '-[FBTypingTest testTextClearing]' failed (34.833 seconds).
+Test Case '-[FBTypingTest testTextTyping]' started.
+    t =     0.00s Start Test at 2019-10-01 22:43:56.792
+    t =     0.13s Set Up
+    t =     0.24s     Open com.facebook.wda.integrationApp
+    t =     0.38s         Launch com.facebook.wda.integrationApp
+    t =     0.38s             Terminate com.facebook.wda.integrationApp:2486
+    t =     7.22s             Wait for com.facebook.wda.integrationApp to idle
+    t =    13.86s                 Unable to monitor animations
+    t =    13.87s                 Unable to monitor event loop
+    t =    15.27s     Find the "Alerts" Button
+    t =    15.28s         Snapshot accessibility hierarchy for app with pid 2502
+    t =    16.29s         Find the "Alerts" Button (retry 1)
+    t =    16.29s             Snapshot accessibility hierarchy for app with pid 2502
+    t =    17.30s         Find the "Alerts" Button (retry 2)
+    t =    17.31s             Snapshot accessibility hierarchy for app with pid 2502
+    t =    24.51s         Assertion Failure: FBIntegrationTestCase.m:46: Error getting main window -25215
+    t =    24.65s Tear Down
+Test Case '-[FBTypingTest testTextTyping]' failed (24.857 seconds).
+Test Case '-[FBTypingTest testTextTypingOnFocusedElement]' started.
+    t =     0.00s Start Test at 2019-10-01 22:44:21.650
+    t =     0.06s Set Up
+    t =     0.17s     Open com.facebook.wda.integrationApp
+    t =     0.22s         Launch com.facebook.wda.integrationApp
+    t =     0.22s             Terminate com.facebook.wda.integrationApp:2502
+    t =     5.74s             Wait for com.facebook.wda.integrationApp to idle
+    t =    12.31s                 Unable to monitor animations
+    t =    12.31s                 Unable to monitor event loop
+    t =    13.88s     Find the "Alerts" Button
+    t =    13.88s         Snapshot accessibility hierarchy for app with pid 2512
+    t =    18.61s         Find: Descendants matching type Button
+    t =    18.61s         Find: Elements matching predicate '"Alerts" IN identifiers'
+    t =    19.96s     Set device orientation to Portrait
+    t =    21.54s     Tap "Attributes" Button
+    t =    21.54s         Wait for com.facebook.wda.integrationApp to idle
+    t =    21.61s         Find the "Attributes" Button
+    t =    21.62s             Snapshot accessibility hierarchy for app with pid 2512
+    t =    21.66s             Find: Descendants matching type Button
+    t =    21.66s             Find: Elements matching predicate '"Attributes" IN identifiers'
+    t =    21.78s         Synthesize event
+    t =    21.91s         Wait for com.facebook.wda.integrationApp to idle
+    t =    22.82s     Find the "Button" Button
+    t =    22.82s         Snapshot accessibility hierarchy for app with pid 2512
+    t =    23.14s         Find: Descendants matching type Button
+    t =    23.14s         Find: Elements matching predicate '"Button" IN identifiers'
+    t =    23.16s Tap "aIdentifier" TextField
+    t =    23.16s     Wait for com.facebook.wda.integrationApp to idle
+    t =    23.25s     Find the "aIdentifier" TextField
+    t =    23.25s         Snapshot accessibility hierarchy for app with pid 2512
+    t =    23.31s         Find: Descendants matching type TextField
+    t =    23.31s         Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    23.42s     Synthesize event
+    t =    23.58s     Wait for com.facebook.wda.integrationApp to idle
+    t =    24.87s Find the "aIdentifier" TextField
+    t =    24.87s     Snapshot accessibility hierarchy for app with pid 2512
+    t =    25.39s     Find: Descendants matching type TextField
+    t =    25.39s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    25.39s Snapshot accessibility hierarchy for app with pid 2512
+    t =    25.40s Find: Descendants matching type Keyboard
+    t =    25.40s Get all elements bound by accessibility element for: Descendants matching type Keyboard
+    t =    25.49s     Snapshot accessibility hierarchy for app with pid 2512
+    t =    25.59s     Find: Descendants matching type Keyboard
+    t =    25.61s Find the Keyboard
+    t =    25.61s     Snapshot accessibility hierarchy for app with pid 2512
+    t =    25.72s     Find: Descendants matching type Keyboard
+    t =    25.73s     Find: Identity Binding
+    t =    26.59s Find the "aIdentifier" TextField
+    t =    26.60s     Snapshot accessibility hierarchy for app with pid 2512
+    t =    26.60s     Find: Descendants matching type TextField
+    t =    26.60s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    26.71s Find the "aIdentifier" TextField
+    t =    26.71s     Snapshot accessibility hierarchy for app with pid 2512
+    t =    26.79s     Find: Descendants matching type TextField
+    t =    26.79s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    26.80s Find the "aIdentifier" TextField
+    t =    26.80s     Snapshot accessibility hierarchy for app with pid 2512
+    t =    26.80s     Find: Descendants matching type TextField
+    t =    26.80s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    26.81s Snapshot accessibility hierarchy for app with pid 2512
+    t =    26.81s Find: Descendants matching type TextField
+    t =    26.82s Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    27.15s Snapshot accessibility hierarchy for app with pid 2512
+    t =    27.23s Find: Descendants matching type Keyboard
+    t =    27.23s Get all elements bound by accessibility element for: Descendants matching type Keyboard
+    t =    27.32s     Snapshot accessibility hierarchy for app with pid 2512
+    t =    27.73s     Find: Descendants matching type Keyboard
+    t =    27.76s Find the Keyboard
+    t =    27.76s     Snapshot accessibility hierarchy for app with pid 2512
+    t =    27.86s     Find: Descendants matching type Keyboard
+    t =    27.86s     Find: Identity Binding
+    t =    28.78s Find the "aIdentifier" TextField
+    t =    28.79s     Snapshot accessibility hierarchy for app with pid 2512
+    t =    28.88s     Find: Descendants matching type TextField
+    t =    28.88s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    28.99s Find the "aIdentifier" TextField
+    t =    28.99s     Snapshot accessibility hierarchy for app with pid 2512
+    t =    29.09s     Find: Descendants matching type TextField
+    t =    29.09s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    29.10s Find the "aIdentifier" TextField
+    t =    29.10s     Snapshot accessibility hierarchy for app with pid 2512
+    t =    29.10s     Find: Descendants matching type TextField
+    t =    29.10s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    29.11s Snapshot accessibility hierarchy for app with pid 2512
+    t =    29.11s Find: Descendants matching type TextField
+    t =    29.11s Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    29.40s Snapshot accessibility hierarchy for app with pid 2512
+    t =    29.48s Find: Descendants matching type Keyboard
+    t =    29.48s Get all elements bound by accessibility element for: Descendants matching type Keyboard
+    t =    29.55s     Snapshot accessibility hierarchy for app with pid 2512
+    t =    29.73s     Find: Descendants matching type Keyboard
+    t =    29.76s Find the Keyboard
+    t =    29.76s     Snapshot accessibility hierarchy for app with pid 2512
+    t =    29.86s     Find: Descendants matching type Keyboard
+    t =    29.86s     Find: Identity Binding
+    t =    30.82s Assertion Failure: FBTypingTest.m:44: (([textField fb_typeText:text error:&error]) is true) failed
+    t =    30.91s Tear Down
+Test Case '-[FBTypingTest testTextTypingOnFocusedElement]' failed (31.109 seconds).
+Test Suite 'FBTypingTest' failed at 2019-10-01 22:44:52.764.
+	 Executed 3 tests, with 3 failures (0 unexpected) in 90.799 (90.808) seconds
+Test Suite 'FBXPathIntegrationTests' started at 2019-10-01 22:44:52.767
+Test Case '-[FBXPathIntegrationTests testFindMatchesInElement]' started.
+    t =     0.00s Start Test at 2019-10-01 22:44:52.768
+    t =     0.09s Set Up
+    t =     0.19s     Open com.facebook.wda.integrationApp
+    t =     0.26s         Launch com.facebook.wda.integrationApp
+    t =     0.27s             Terminate com.facebook.wda.integrationApp:2512
+    t =     5.39s             Wait for com.facebook.wda.integrationApp to idle
+    t =    11.99s                 Unable to monitor animations
+    t =    12.00s                 Unable to monitor event loop
+    t =    13.79s     Find the "Alerts" Button
+    t =    13.79s         Snapshot accessibility hierarchy for app with pid 2523
+    t =    16.00s         Find: Descendants matching type Button
+    t =    16.00s         Find: Elements matching predicate '"Alerts" IN identifiers'
+    t =    17.21s     Set device orientation to Portrait
+    t =    19.00s     Snapshot accessibility hierarchy for app with pid 2523
+    t =    19.05s     Find: Descendants matching type Other
+    t =    19.05s     Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    19.05s     Find the "MainView" Other
+    t =    19.05s         Snapshot accessibility hierarchy for app with pid 2523
+    t =    19.05s         Find: Descendants matching type Other
+    t =    19.06s         Find: Elements matching predicate '"MainView" IN identifiers'
+    t =    19.13s Find the Target Application 0x60c0000c3e90
+    t =    19.13s     Snapshot accessibility hierarchy for app with pid 2523
+    t =    19.33s Snapshot accessibility hierarchy for app with pid 2523
+    t =    19.33s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    19.39s     Snapshot accessibility hierarchy for app with pid 2523
+    t =    19.42s     Find: Descendants matching type Window
+    t =    19.42s     Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    19.50s Snapshot accessibility hierarchy for app with pid 2523
+    t =    19.54s Find: Descendants matching type Window
+    t =    19.54s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    19.54s Find: Identity Binding
+    t =    19.54s Snapshot accessibility hierarchy for app with pid 2523
+    t =    19.55s Find: Descendants matching type Window
+    t =    19.55s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    19.55s Find: Identity Binding
+    t =    19.56s Snapshot accessibility hierarchy for app with pid 2523
+    t =    19.56s Find: Descendants matching type Window
+    t =    19.56s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    19.56s Find: Identity Binding
+    t =    19.56s Snapshot accessibility hierarchy for app with pid 2523
+    t =    19.57s Find: Descendants matching type Window
+    t =    19.57s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    19.57s Find: Identity Binding
+    t =    19.58s Snapshot accessibility hierarchy for app with pid 2523
+    t =    19.58s Find: Descendants matching type Window
+    t =    19.58s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    19.58s Find: Identity Binding
+    t =    19.58s Snapshot accessibility hierarchy for app with pid 2523
+    t =    19.59s Find: Descendants matching type Window
+    t =    19.59s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    19.59s Find: Identity Binding
+    t =    19.59s Find the Window
+    t =    19.60s     Snapshot accessibility hierarchy for app with pid 2523
+    t =    19.60s     Find: Descendants matching type Window
+    t =    19.60s     Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    19.60s     Find: Identity Binding
+    t =    19.66s Find the Window
+    t =    19.66s     Snapshot accessibility hierarchy for app with pid 2523
+    t =    19.67s     Find: Descendants matching type Window
+    t =    19.67s     Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    19.67s     Find: Identity Binding
+    t =    19.77s Find the Window
+    t =    19.77s     Snapshot accessibility hierarchy for app with pid 2523
+    t =    19.77s     Find: Descendants matching type Window
+    t =    19.78s     Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =    19.78s     Find: Identity Binding
+    t =    19.91s Tear Down
+Test Case '-[FBXPathIntegrationTests testFindMatchesInElement]' passed (20.119 seconds).
+Test Case '-[FBXPathIntegrationTests testFindMatchesInElementWithDotNotation]' started.
+    t =     0.00s Start Test at 2019-10-01 22:45:12.889
+    t =     0.06s Set Up
+    t =     0.17s     Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.20s     Find: Descendants matching type Other
+    t =     0.21s     Find: Elements matching predicate '"MainView" IN identifiers'
+    t =     0.21s     Find the "MainView" Other
+    t =     0.21s         Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.22s         Find: Descendants matching type Other
+    t =     0.22s         Find: Elements matching predicate '"MainView" IN identifiers'
+    t =     0.22s Find the Target Application 0x60c0000c4a60
+    t =     0.23s     Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.42s Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.43s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =     0.48s     Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.51s     Find: Descendants matching type Window
+    t =     0.51s     Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =     0.58s Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.61s Find: Descendants matching type Window
+    t =     0.61s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =     0.62s Find: Identity Binding
+    t =     0.62s Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.62s Find: Descendants matching type Window
+    t =     0.62s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =     0.63s Find: Identity Binding
+    t =     0.63s Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.63s Find: Descendants matching type Window
+    t =     0.63s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =     0.79s Find: Identity Binding
+    t =     0.79s Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.79s Find: Descendants matching type Window
+    t =     0.79s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =     0.80s Find: Identity Binding
+    t =     0.80s Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.81s Find: Descendants matching type Window
+    t =     0.81s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =     0.81s Find: Identity Binding
+    t =     0.82s Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.82s Find: Descendants matching type Window
+    t =     0.82s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =     0.82s Find: Identity Binding
+    t =     0.83s Find the Window
+    t =     0.83s     Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.83s     Find: Descendants matching type Window
+    t =     0.83s     Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =     0.83s     Find: Identity Binding
+    t =     0.89s Find the Window
+    t =     0.89s     Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.90s     Find: Descendants matching type Window
+    t =     0.90s     Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =     0.90s     Find: Identity Binding
+    t =     0.99s Find the Window
+    t =     1.00s     Snapshot accessibility hierarchy for app with pid 2523
+    t =     1.00s     Find: Descendants matching type Window
+    t =     1.00s     Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-DB09-000000000000", "17000000-0000-0000-DB09-000000000000", "05000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =     1.00s     Find: Identity Binding
+    t =     1.06s Tear Down
+Test Case '-[FBXPathIntegrationTests testFindMatchesInElementWithDotNotation]' passed (1.067 seconds).
+Test Case '-[FBXPathIntegrationTests testSingleDescendantXMLRepresentation]' started.
+    t =     0.00s Start Test at 2019-10-01 22:45:13.957
+    t =     0.06s Set Up
+    t =     0.16s     Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.21s     Find: Descendants matching type Other
+    t =     0.21s     Find: Elements matching predicate '"MainView" IN identifiers'
+    t =     0.21s     Find the "MainView" Other
+    t =     0.21s         Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.22s         Find: Descendants matching type Other
+    t =     0.22s         Find: Elements matching predicate '"MainView" IN identifiers'
+    t =     0.24s Find the "MainView" Other
+    t =     0.25s     Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.27s     Find: Descendants matching type Other
+    t =     0.27s     Find: Elements matching predicate '"MainView" IN identifiers'
+    t =     0.31s Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.31s Find: Descendants matching type Other
+    t =     0.31s Find: Elements matching predicate '"MainView" IN identifiers'
+    t =     0.32s Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.32s Find: Descendants matching type Other
+    t =     0.32s Find: Elements matching predicate '"MainView" IN identifiers'
+    t =     0.33s Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.33s Find: Descendants matching type Other
+    t =     0.33s Find: Elements matching predicate '"MainView" IN identifiers'
+    t =     0.33s Find: Descendants matching type Button
+    t =     0.34s Find: Elements matching predicate 'wdUID IN {"13000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =     0.34s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"13000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =     0.39s     Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.42s     Find: Descendants matching type Other
+    t =     0.43s     Find: Elements matching predicate '"MainView" IN identifiers'
+    t =     0.43s     Find: Descendants matching type Button
+    t =     0.43s     Find: Elements matching predicate 'wdUID IN {"13000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =     0.45s Snapshot accessibility hierarchy for app with pid 2523
+    t =     0.48s Find: Descendants matching type Other
+    t =     0.48s Find: Elements matching predicate '"MainView" IN identifiers'
+    t =     0.48s Find: Descendants matching type Button
+    t =     0.48s Find: Elements matching predicate 'wdUID IN {"13000000-0000-0000-DB09-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =     0.49s Find: Identity Binding
+    t =     0.50s Tear Down
+Test Case '-[FBXPathIntegrationTests testSingleDescendantXMLRepresentation]' passed (0.503 seconds).
+Test Suite 'FBXPathIntegrationTests' passed at 2019-10-01 22:45:14.460.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 21.690 (21.693) seconds
+Test Suite 'XCElementSnapshotHelperTests' started at 2019-10-01 22:45:14.462
+Test Case '-[XCElementSnapshotHelperTests testDescendantsMatchingType]' started.
+    t =     0.00s Start Test at 2019-10-01 22:45:14.463
+    t =     0.05s Set Up
+    t =     0.23s     Open com.facebook.wda.integrationApp
+    t =     0.29s         Launch com.facebook.wda.integrationApp
+    t =     0.29s             Terminate com.facebook.wda.integrationApp:2523
+    t =     4.36s             Wait for com.facebook.wda.integrationApp to idle
+    t =    10.89s                 Unable to monitor animations
+    t =    10.91s                 Unable to monitor event loop
+    t =    12.79s     Find the "Alerts" Button
+    t =    12.80s         Snapshot accessibility hierarchy for app with pid 2549
+    t =    13.80s         Find the "Alerts" Button (retry 1)
+    t =    13.81s             Snapshot accessibility hierarchy for app with pid 2549
+    t =    14.82s         Find the "Alerts" Button (retry 2)
+    t =    14.82s             Snapshot accessibility hierarchy for app with pid 2549
+    t =    14.90s         Assertion Failure: FBIntegrationTestCase.m:46: Error getting main window -25215
+2019-10-01 22:45:29.590251-0700 IntegrationTests_2-Runner[2462:35934] *** Terminating app due to uncaught exception '_XCTestCaseInterruptionException', reason: 'Interrupting test'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x000000010e6111e6 __exceptionPreprocess + 294
+	1   libobjc.A.dylib                     0x000000010dca6031 objc_exception_throw + 48
+	2   CoreFoundation                      0x000000010e686975 +[NSException raise:format:] + 197
+	3   XCTest                              0x000000010d5871d7 -[XCTestCase(Failures) _recordFailureWithDescription:inFile:atLine:expected:] + 586
+	4   XCTest                              0x000000010d52c7c4 -[XCTestCase recordFailureWithDescription:inFile:atLine:expected:] + 67
+	5   XCTest                              0x000000010d58679d -[XCTestCase(Failures) _dequeueFailures] + 1133
+	6   XCTest                              0x000000010d586c33 -[XCTestCase(Failures) _enqueueFailureWithDescription:inFile:atLine:expected:breakWhenDequeued:] + 989
+	7   XCTest                              0x000000010d5394be _XCTFailureHandler + 510
+	8   XCTest                              0x000000010d52bbca _XCTFailInCurrentTest + 412
+	9   XCTest                              0x000000010d56bfb3 __43-[XCUIElement resolveHandleUIInterruption:]_block_invoke + 1981
+	10  XCTest                              0x000000010d59398d -[XCTContext _runActivityNamed:type:block:] + 245
+	11  XCTest                              0x000000010d535518 -[XCTestCase startActivityWithTitle:type:block:] + 218
+	12  XCTest                              0x000000010d5356f5 -[XCTestCase startActivityWithTitle:block:] + 60
+	13  XCTest                              0x000000010d56b7d4 -[XCUIElement resolveHandleUIInterruption:] + 155
+	14  WebDriverAgentLib                   0x000000012f448caf -[XCUIElement(FBUtilities) fb_snapshotWithAttributes] + 95
+	15  WebDriverAgentLib                   0x000000012f42cc7b -[XCUIElement(FBIsVisible) fb_isVisible] + 43
+	16  IntegrationTests_2                  0x000000012f3bcaf7 __42-[FBIntegrationTestCase launchApplication]_block_invoke + 151
+	17  WebDriverAgentLib                   0x000000012f433c50 -[FBRunLoopSpinner spinUntilTrue:error:] + 128
+	18  WebDriverAgentLib                   0x000000012f433ba0 -[FBRunLoopSpinner spinUntilTrue:] + 64
+	19  IntegrationTests_2                  0x000000012f3bbddb -[FBIntegrationTestCase launchApplication] + 331
+	20  IntegrationTests_2                  0x000000012f370796 __37-[XCElementSnapshotHelperTests setUp]_block_invoke + 38
+	21  libdispatch.dylib                   0x0000000112da1709 _dispatch_client_callout + 8
+	22  libdispatch.dylib                   0x0000000112da2b9a dispatch_once_f + 55
+	23  IntegrationTests_2                  0x000000012f36fff4 -[XCElementSnapshotHelperTests setUp] + 212
+	24  XCTest                              0x000000010d587ae3 +[XCTestCase(Failures) performFailableBlock:shouldInterruptTest:] + 36
+	25  XCTest                              0x000000010d587a2e -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 54
+	26  XCTest                              0x000000010d52cf67 __24-[XCTestCase invokeTest]_block_invoke_3 + 89
+	27  XCTest                              0x000000010d59398d -[XCTContext _runActivityNamed:type:block:] + 245
+	28  XCTest                              0x000000010d535518 -[XCTestCase startActivityWithTitle:type:block:] + 218
+	29  XCTest                              0x000000010d5356f5 -[XCTestCase startActivityWithTitle:block:] + 60
+	30  XCTest                              0x000000010d52caea __24-[XCTestCase invokeTest]_block_invoke + 342
+	31  XCTest                              0x000000010d58ca7d -[XCUITestContext performInScope:] + 248
+	32  XCTest                              0x000000010d52c97f -[XCTestCase invokeTest] + 175
+	33  XCTest                              0x000000010d52e555 __26-[XCTestCase performTest:]_block_invoke_2 + 42
+	34  XCTest                              0x000000010d587ae3 +[XCTestCase(Failures) performFailableBlock:shouldInterruptTest:] + 36
+	35  XCTest                              0x000000010d587a2e -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 54
+	36  XCTest                              0x000000010d52e402 __26-[XCTestCase performTest:]_block_invoke.318 + 90
+	37  XCTest                              0x000000010d594061 +[XCTContext runInContextForTestCase:block:] + 225
+	38  XCTest                              0x000000010d52daff -[XCTestCase performTest:] + 673
+	39  XCTest                              0x000000010d570727 -[XCTest runTest] + 57
+	40  XCTest                              0x000000010d529341 __27-[XCTestSuite performTest:]_block_invoke + 365
+	41  XCTest                              0x000000010d528b1d -[XCTestSuite _performProtectedSectionForTest:testSection:] + 55
+	42  XCTest                              0x000000010d528dde -[XCTestSuite performTest:] + 296
+	43  XCTest                              0x000000010d570727 -[XCTest runTest] + 57
+	44  XCTest                              0x000000010d529341 __27-[XCTestSuite performTest:]_block_invoke + 365
+	45  XCTest                              0x000000010d528b1d -[XCTestSuite _performProtectedSectionForTest:testSection:] + 55
+	46  XCTest                              0x000000010d528dde -[XCTestSuite performTest:] + 296
+	47  XCTest                              0x000000010d570727 -[XCTest runTest] + 57
+	48  XCTest                              0x000000010d529341 __27-[XCTestSuite performTest:]_block_invoke + 365
+	49  XCTest                              0x000000010d528b1d -[XCTestSuite _performProtectedSectionForTest:testSection:] + 55
+	50  XCTest                              0x000000010d528dde -[XCTestSuite performTest:] + 296
+	51  XCTest                              0x000000010d570727 -[XCTest runTest] + 57
+	52  XCTest                              0x000000010d59dfa6 __44-[XCTTestRunSession runTestsAndReturnError:]_block_invoke + 40
+	53  XCTest                              0x000000010d541389 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 594
+	54  XCTest                              0x000000010d59ddb1 -[XCTTestRunSession runTestsAndReturnError:] + 369
+	55  XCTest                              0x000000010d50fc71 -[XCTestDriver runTestsAndReturnError:] + 447
+	56  XCTest                              0x000000010d592bb1 _XCTestMain + 960
+	57  IntegrationTests_2-Runner           0x000000010d23949f _XCTRunnerRunTests + 57
+	58  CoreFoundation                      0x000000010e5b3b0c __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 12
+	59  CoreFoundation                      0x000000010e5982db __CFRunLoopDoBlocks + 331
+	60  CoreFoundation                      0x000000010e597a84 __CFRunLoopRun + 1284
+	61  CoreFoundation                      0x000000010e59730b CFRunLoopRunSpecific + 635
+	62  GraphicsServices                    0x0000000111938a73 GSEventRunModal + 62
+	63  UIKit                               0x000000010ea8e057 UIApplicationMain + 159
+	64  IntegrationTests_2-Runner           0x000000010d2396dc main + 42
+	65  libdyld.dylib                       0x0000000112e16955 start + 1
+)
+libc++abi.dylib: terminating with uncaught exception of type _XCTestCaseInterruptionException

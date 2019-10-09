@@ -1,0 +1,883 @@
+objc[1838]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x1282804d0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x126e7ee38). One of the two will be used. Which one is undefined.
+2019-09-26 21:48:10.820132-0700 WebDriverAgentRunner-Runner[1838:30688] +[CATransaction synchronize] called within transaction
+2019-09-26 21:48:11.145330-0700 WebDriverAgentRunner-Runner[1838:30688] Running tests...
+objc[1838]: Class GCDAsyncSocketPreBuffer is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12a571738) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x12a4e4620). One of the two will be used. Which one is undefined.
+objc[1838]: Class GCDAsyncReadPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12a571788) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x12a4e4670). One of the two will be used. Which one is undefined.
+objc[1838]: Class GCDAsyncWritePacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12a5717d8) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x12a4e46c0). One of the two will be used. Which one is undefined.
+objc[1838]: Class GCDAsyncSpecialPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12a571828) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x12a4e4710). One of the two will be used. Which one is undefined.
+objc[1838]: Class GCDAsyncSocket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x12a571878) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x12a4e4760). One of the two will be used. Which one is undefined.
+2019-09-26 21:48:14.008559-0700 WebDriverAgentRunner-Runner[1838:30688] Continuing to run tests in the background with task ID 1
+Test Suite 'All tests' started at 2019-09-26 21:48:15.351
+Test Suite 'WebDriverAgentRunner.xctest' started at 2019-09-26 21:48:15.352
+Test Suite 'UITestingUITests' started at 2019-09-26 21:48:15.353
+Test Case '-[UITestingUITests testRunner]' started.
+    t =     0.00s Start Test at 2019-09-26 21:48:15.507
+    t =     0.00s Set Up
+2019-09-26 21:48:15.744641-0700 WebDriverAgentRunner-Runner[1838:30688] Built at Sep 25 2019 03:21:00
+2019-09-26 21:48:16.390143-0700 WebDriverAgentRunner-Runner[1838:30688] ServerURLHere->http://192.168.78.148:8100<-ServerURLHere
+2019-09-26 21:48:16.390881-0700 WebDriverAgentRunner-Runner[1838:30688] Using singleton test manager
+    t =     1.08s Open com.apple.mobilesafari
+    t =     1.08s     Launch com.apple.mobilesafari
+    t =     2.28s         Wait for accessibility to load
+    t =     3.37s         Wait for com.apple.mobilesafari to idle
+    t =    63.38s             App event loop idle notification not received, will attempt to continue.
+    t =    63.38s             App animations complete notification not received, will attempt to continue.
+2019-09-26 21:50:27.138558-0700 WebDriverAgentRunner-Runner[1838:30688] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x60c00026b200> Device system-wide element: Error Domain=com.apple.XCTestErrorDomain Code=-999 "Timeout waiting for fulfillment of promise for 'Fetching attributes for element <XCAccessibilityElement: 0x60c00026b200> Device system-wide element'." UserInfo={NSLocalizedDescription=Timeout waiting for fulfillment of promise for 'Fetching attributes for element <XCAccessibilityElement: 0x60c00026b200> Device system-wide element'.} /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 37 1
+2019-09-26 21:50:27.139789-0700 WebDriverAgentRunner-Runner[1838:30688] Enqueue Failure: Failure to determine system application: (null) /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 37 1
+2019-09-26 21:51:32.143171-0700 WebDriverAgentRunner-Runner[1838:30688] Enqueue Failure: Failure fetching attributes for element (null): Error Domain=com.apple.XCTestErrorDomain Code=-999 "Timeout waiting for fulfillment of promise for 'Fetching attributes for element (null)'." UserInfo={NSLocalizedDescription=Timeout waiting for fulfillment of promise for 'Fetching attributes for element (null)'.} /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 37 1
+2019-09-26 21:51:32.144192-0700 WebDriverAgentRunner-Runner[1838:30688] Enqueue Failure: Failure getting list of active applications: (null) /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 37 1
+2019-09-26 21:52:37.250494-0700 WebDriverAgentRunner-Runner[1838:30688] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x60c000279740> Device system-wide element: Error Domain=com.apple.XCTestErrorDomain Code=-999 "Timeout waiting for fulfillment of promise for 'Fetching attributes for element <XCAccessibilityElement: 0x60c000279740> Device system-wide element'." UserInfo={NSLocalizedDescription=Timeout waiting for fulfillment of promise for 'Fetching attributes for element <XCAccessibilityElement: 0x60c000279740> Device system-wide element'.} /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 37 1
+2019-09-26 21:52:37.251402-0700 WebDriverAgentRunner-Runner[1838:30688] Enqueue Failure: Failure to determine system application: (null) /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 37 1
+2019-09-26 21:53:42.254441-0700 WebDriverAgentRunner-Runner[1838:30688] Enqueue Failure: Failure fetching attributes for element (null): Error Domain=com.apple.XCTestErrorDomain Code=-999 "Timeout waiting for fulfillment of promise for 'Fetching attributes for element (null)'." UserInfo={NSLocalizedDescription=Timeout waiting for fulfillment of promise for 'Fetching attributes for element (null)'.} /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 37 1
+2019-09-26 21:53:42.255568-0700 WebDriverAgentRunner-Runner[1838:30688] Enqueue Failure: Failure getting list of active applications: (null) /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 37 1
+    t =   326.75s Unable to monitor animations
+    t =   326.76s Unable to monitor event loop
+    t =   331.14s Find the Application "com.apple.mobilesafari" 0x6000000d47b0
+    t =   331.15s     Snapshot accessibility hierarchy for app with pid 1860
+    t =   332.44s Snapshot accessibility hierarchy for app with pid 1860
+    t =   332.44s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"04000000-0000-0000-4407-000000000000", "05000000-0000-0000-4407-000000000000", "06000000-0000-0000-4407-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =   332.44s     Snapshot accessibility hierarchy for app with pid 1860
+    t =   332.52s     Find: Descendants matching type Window
+    t =   332.52s     Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-4407-000000000000", "05000000-0000-0000-4407-000000000000", "06000000-0000-0000-4407-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =   332.53s Snapshot accessibility hierarchy for app with pid 1860
+    t =   332.58s Find: Descendants matching type Window
+    t =   332.59s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-4407-000000000000", "05000000-0000-0000-4407-000000000000", "06000000-0000-0000-4407-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =   332.59s Find: Identity Binding
+    t =   332.59s Snapshot accessibility hierarchy for app with pid 1860
+    t =   332.59s Find: Descendants matching type Window
+    t =   332.59s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-4407-000000000000", "05000000-0000-0000-4407-000000000000", "06000000-0000-0000-4407-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =   332.60s Find: Identity Binding
+    t =   332.60s Snapshot accessibility hierarchy for app with pid 1860
+    t =   332.66s Find: Descendants matching type Window
+    t =   332.66s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-4407-000000000000", "05000000-0000-0000-4407-000000000000", "06000000-0000-0000-4407-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =   332.66s Find: Identity Binding
+    t =   332.66s Snapshot accessibility hierarchy for app with pid 1860
+    t =   332.66s Find: Descendants matching type Window
+    t =   332.67s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-4407-000000000000", "05000000-0000-0000-4407-000000000000", "06000000-0000-0000-4407-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =   332.67s Find: Identity Binding
+    t =   332.67s Snapshot accessibility hierarchy for app with pid 1860
+    t =   332.72s Find: Descendants matching type Window
+    t =   332.72s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-4407-000000000000", "05000000-0000-0000-4407-000000000000", "06000000-0000-0000-4407-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =   332.73s Find: Identity Binding
+    t =   332.73s Snapshot accessibility hierarchy for app with pid 1860
+    t =   332.73s Find: Descendants matching type Window
+    t =   332.73s Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-4407-000000000000", "05000000-0000-0000-4407-000000000000", "06000000-0000-0000-4407-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =   332.74s Find: Identity Binding
+    t =   332.74s Find the Window
+    t =   332.74s     Snapshot accessibility hierarchy for app with pid 1860
+    t =   332.79s     Find: Descendants matching type Window
+    t =   332.79s     Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-4407-000000000000", "05000000-0000-0000-4407-000000000000", "06000000-0000-0000-4407-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =   332.80s     Find: Identity Binding
+    t =   333.38s Find the Window
+    t =   333.38s     Snapshot accessibility hierarchy for app with pid 1860
+    t =   333.44s     Find: Descendants matching type Window
+    t =   333.44s     Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-4407-000000000000", "05000000-0000-0000-4407-000000000000", "06000000-0000-0000-4407-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =   333.45s     Find: Identity Binding
+    t =   333.56s Find the Window
+    t =   333.56s     Snapshot accessibility hierarchy for app with pid 1860
+    t =   333.62s     Find: Descendants matching type Window
+    t =   333.62s     Find: Elements matching predicate 'wdUID IN {"04000000-0000-0000-4407-000000000000", "05000000-0000-0000-4407-000000000000", "06000000-0000-0000-4407-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t =   333.62s     Find: Identity Binding
+    t =   334.36s Snapshot accessibility hierarchy for app with pid 1860
+    t = 16554.33s Find the Application "com.apple.springboard" 0x6040000d44a0
+    t = 16554.34s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 16561.85s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16561.85s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16561.86s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 16562.06s     Find: Descendants matching type Any
+    t = 16562.07s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16562.08s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16562.23s Find: Descendants matching type Any
+    t = 16562.24s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16562.24s Find: Identity Binding
+    t = 16562.24s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16562.25s Find: Descendants matching type Any
+    t = 16562.25s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16562.29s Find: Identity Binding
+    t = 16562.29s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16562.48s Find: Descendants matching type Any
+    t = 16562.49s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16562.49s Find: Identity Binding
+    t = 16562.49s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16562.49s Find: Descendants matching type Any
+    t = 16562.50s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16562.50s Find: Identity Binding
+    t = 16562.51s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16562.73s Find: Descendants matching type Any
+    t = 16562.73s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16562.74s Find: Identity Binding
+    t = 16562.74s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16562.74s Find: Descendants matching type Any
+    t = 16562.75s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16562.75s Find: Identity Binding
+    t = 16562.76s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16562.95s Find: Descendants matching type Any
+    t = 16562.95s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16562.96s Find: Identity Binding
+    t = 16562.96s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16562.96s Find: Descendants matching type Any
+    t = 16562.96s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16562.97s Find: Identity Binding
+    t = 16562.97s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16563.19s Find: Descendants matching type Any
+    t = 16563.20s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16563.20s Find: Identity Binding
+    t = 16563.20s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16563.21s Find: Descendants matching type Any
+    t = 16563.21s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16563.21s Find: Identity Binding
+    t = 16563.22s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16563.38s Find: Descendants matching type Any
+    t = 16563.38s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16563.39s Find: Identity Binding
+    t = 16563.39s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16563.39s Find: Descendants matching type Any
+    t = 16563.40s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16563.40s Find: Identity Binding
+    t = 16563.40s Find the Window
+    t = 16563.40s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 16563.57s     Find: Descendants matching type Any
+    t = 16563.57s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16563.58s     Find: Identity Binding
+    t = 16563.82s Find the Window
+    t = 16563.82s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 16564.02s     Find: Descendants matching type Any
+    t = 16564.02s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16564.02s     Find: Identity Binding
+    t = 16567.67s Find the Window
+    t = 16567.67s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 16567.85s     Find: Descendants matching type Any
+    t = 16567.85s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16567.86s     Find: Identity Binding
+    t = 16569.05s Find the Other
+    t = 16569.05s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 16569.15s     Find: Descendants matching type Any
+    t = 16569.15s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16569.16s     Find: Identity Binding
+    t = 16570.35s Find the "SBSwitcherWindow" Window
+    t = 16570.35s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 16570.45s     Find: Descendants matching type Any
+    t = 16570.45s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16570.45s     Find: Identity Binding
+    t = 16571.46s     Find the "SBSwitcherWindow" Window (retry 1)
+    t = 16571.46s         Snapshot accessibility hierarchy for app with pid 1214
+    t = 16571.55s         Find: Descendants matching type Any
+    t = 16571.56s         Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16571.56s         Find: Identity Binding
+    t = 16572.57s     Find the "SBSwitcherWindow" Window (retry 2)
+    t = 16572.57s         Snapshot accessibility hierarchy for app with pid 1214
+    t = 16572.69s         Find: Descendants matching type Any
+    t = 16572.69s         Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16572.69s         Find: Identity Binding
+2019-09-27 02:24:28.662110-0700 WebDriverAgentRunner-Runner[1838:30688] Enqueue Failure: No matches found for Find: Identity Binding from input {(
+    Window, 0x600000394020, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}},
+    Window, 0x600000392fe0, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}},
+    Other, 0x600000390cf0, traits: 8589934592, {{0.0, 0.0}, {1242.0, 2208.0}},
+    Window, 0x60000038ce60, traits: 8589934592, {{0.0, 0.0}, {414.0, 736.0}}
+)} /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 37 1
+2019-09-27 02:24:28.670840-0700 WebDriverAgentRunner-Runner[1838:30688] Getting the snapshot timed out after 15 seconds
+2019-09-27 02:24:28.671314-0700 WebDriverAgentRunner-Runner[1838:30688] Internal error: Error Domain=com.apple.dt.xctest.automation-support.error Code=8 "Error getting main window -25201" UserInfo={NSLocalizedDescription=Error getting main window -25201}
+    t = 16573.17s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16573.17s Find: Descendants matching type Any
+    t = 16573.17s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16573.18s Find: Identity Binding
+2019-09-27 02:24:28.686423-0700 WebDriverAgentRunner-Runner[1838:30688] Skipping source dumping for "SBSwitcherWindow" Window because its snapshot cannot be resolved
+    t = 16573.18s Find the Window
+    t = 16573.19s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 16573.28s     Find: Descendants matching type Any
+    t = 16573.28s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "A0000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "A1000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16573.28s     Find: Identity Binding
+    t = 16573.54s Find the Application "com.apple.springboard" 0x6040000d44a0
+    t = 16573.54s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 16576.61s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16576.61s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16576.62s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 16576.75s     Find: Descendants matching type Any
+    t = 16576.75s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16576.76s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16576.89s Find: Descendants matching type Any
+    t = 16576.89s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16576.89s Find: Identity Binding
+    t = 16576.90s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16576.90s Find: Descendants matching type Any
+    t = 16576.90s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16576.91s Find: Identity Binding
+    t = 16576.91s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16577.01s Find: Descendants matching type Any
+    t = 16577.01s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16577.02s Find: Identity Binding
+    t = 16577.02s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16577.02s Find: Descendants matching type Any
+    t = 16577.03s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16577.03s Find: Identity Binding
+    t = 16577.03s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16577.15s Find: Descendants matching type Any
+    t = 16577.16s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16577.16s Find: Identity Binding
+    t = 16577.16s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16577.17s Find: Descendants matching type Any
+    t = 16577.17s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16577.17s Find: Identity Binding
+    t = 16577.18s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16577.31s Find: Descendants matching type Any
+    t = 16577.31s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16577.31s Find: Identity Binding
+    t = 16577.32s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16577.32s Find: Descendants matching type Any
+    t = 16577.32s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16577.32s Find: Identity Binding
+    t = 16577.37s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16577.51s Find: Descendants matching type Any
+    t = 16577.51s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16577.51s Find: Identity Binding
+    t = 16577.52s Snapshot accessibility hierarchy for app with pid 1214
+    t = 16577.52s Find: Descendants matching type Any
+    t = 16577.52s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16577.53s Find: Identity Binding
+    t = 16577.53s Find the Window
+    t = 16577.53s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 16577.65s     Find: Descendants matching type Any
+    t = 16577.65s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16577.66s     Find: Identity Binding
+    t = 16577.81s Find the Window
+    t = 16577.82s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 16577.95s     Find: Descendants matching type Any
+    t = 16577.95s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16577.95s     Find: Identity Binding
+    t = 16579.30s Find the Other
+    t = 16579.31s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 16579.43s     Find: Descendants matching type Any
+    t = 16579.43s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16579.44s     Find: Identity Binding
+    t = 16580.51s Find the Window
+    t = 16580.51s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 16580.61s     Find: Descendants matching type Any
+    t = 16580.61s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16580.62s     Find: Identity Binding
+    t = 16580.74s Find the Window
+    t = 16580.74s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 16580.84s     Find: Descendants matching type Any
+    t = 16580.84s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 16580.85s     Find: Identity Binding
+    t = 17184.69s Find the Application "com.apple.springboard" 0x6040000d44a0
+    t = 17184.69s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17184.77s Get all elements bound by accessibility element for: Elements matching predicate '" " IN identifiers'
+    t = 17184.77s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17184.85s     Find: Descendants matching type Any
+    t = 17184.86s     Find: Elements matching predicate '" " IN identifiers'
+    t = 17184.97s Find the Application "com.apple.springboard" 0x6040000d44a0
+    t = 17184.97s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17187.80s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17187.81s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17187.81s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17187.95s     Find: Descendants matching type Any
+    t = 17187.95s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17187.97s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17188.09s Find: Descendants matching type Any
+    t = 17188.09s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17188.09s Find: Identity Binding
+    t = 17188.10s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17188.10s Find: Descendants matching type Any
+    t = 17188.11s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17188.11s Find: Identity Binding
+    t = 17188.12s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17188.25s Find: Descendants matching type Any
+    t = 17188.26s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17188.26s Find: Identity Binding
+    t = 17188.27s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17188.27s Find: Descendants matching type Any
+    t = 17188.28s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17188.28s Find: Identity Binding
+    t = 17188.29s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17188.41s Find: Descendants matching type Any
+    t = 17188.41s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17188.42s Find: Identity Binding
+    t = 17188.42s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17188.42s Find: Descendants matching type Any
+    t = 17188.42s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17188.43s Find: Identity Binding
+    t = 17188.43s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17188.56s Find: Descendants matching type Any
+    t = 17188.56s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17188.56s Find: Identity Binding
+    t = 17188.57s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17188.57s Find: Descendants matching type Any
+    t = 17188.57s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17188.57s Find: Identity Binding
+    t = 17188.58s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17188.70s Find: Descendants matching type Any
+    t = 17188.70s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17188.70s Find: Identity Binding
+    t = 17188.71s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17188.71s Find: Descendants matching type Any
+    t = 17188.71s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17188.71s Find: Identity Binding
+    t = 17188.72s Find the Window
+    t = 17188.72s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17188.84s     Find: Descendants matching type Any
+    t = 17188.84s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17188.85s     Find: Identity Binding
+    t = 17188.99s Find the Window
+    t = 17188.99s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17189.15s     Find: Descendants matching type Any
+    t = 17189.15s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17189.15s     Find: Identity Binding
+    t = 17190.51s Find the Other
+    t = 17190.52s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17190.64s     Find: Descendants matching type Any
+    t = 17190.65s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17190.65s     Find: Identity Binding
+    t = 17191.90s Find the Window
+    t = 17191.91s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17192.03s     Find: Descendants matching type Any
+    t = 17192.04s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17192.04s     Find: Identity Binding
+    t = 17192.18s Find the Window
+    t = 17192.19s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17192.33s     Find: Descendants matching type Any
+    t = 17192.33s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17192.33s     Find: Identity Binding
+    t = 17192.46s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17192.56s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17229.00s Find the Application "com.apple.springboard" 0x6040000d44a0
+    t = 17229.00s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17232.36s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17232.36s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17232.36s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17232.47s     Find: Descendants matching type Any
+    t = 17232.47s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17232.48s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17232.59s Find: Descendants matching type Any
+    t = 17232.59s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17232.60s Find: Identity Binding
+    t = 17232.60s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17232.60s Find: Descendants matching type Any
+    t = 17232.60s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17232.61s Find: Identity Binding
+    t = 17232.61s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17232.74s Find: Descendants matching type Any
+    t = 17232.74s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17232.74s Find: Identity Binding
+    t = 17232.74s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17232.75s Find: Descendants matching type Any
+    t = 17232.75s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17232.75s Find: Identity Binding
+    t = 17232.76s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17232.89s Find: Descendants matching type Any
+    t = 17232.89s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17232.90s Find: Identity Binding
+    t = 17232.90s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17232.90s Find: Descendants matching type Any
+    t = 17232.91s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17232.91s Find: Identity Binding
+    t = 17232.91s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17233.03s Find: Descendants matching type Any
+    t = 17233.03s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17233.04s Find: Identity Binding
+    t = 17233.04s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17233.05s Find: Descendants matching type Any
+    t = 17233.05s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17233.05s Find: Identity Binding
+    t = 17233.06s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17233.19s Find: Descendants matching type Any
+    t = 17233.19s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17233.20s Find: Identity Binding
+    t = 17233.20s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17233.20s Find: Descendants matching type Any
+    t = 17233.21s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17233.21s Find: Identity Binding
+    t = 17233.21s Find the Window
+    t = 17233.22s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17233.36s     Find: Descendants matching type Any
+    t = 17233.36s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17233.36s     Find: Identity Binding
+    t = 17233.55s Find the Window
+    t = 17233.55s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17233.69s     Find: Descendants matching type Any
+    t = 17233.70s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17233.70s     Find: Identity Binding
+    t = 17235.04s Find the Other
+    t = 17235.05s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17235.18s     Find: Descendants matching type Any
+    t = 17235.18s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17235.19s     Find: Identity Binding
+    t = 17236.47s Find the Window
+    t = 17236.48s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17236.56s     Find: Descendants matching type Any
+    t = 17236.57s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17236.57s     Find: Identity Binding
+    t = 17236.71s Find the Window
+    t = 17236.71s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17236.82s     Find: Descendants matching type Any
+    t = 17236.83s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17236.83s     Find: Identity Binding
+    t = 17236.92s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17237.07s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17237.23s Find: Descendants matching type Other
+    t = 17237.24s Find: Elements matching predicate 'wdUID IN {"47000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17237.24s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"47000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17237.24s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17237.37s     Find: Descendants matching type Other
+    t = 17237.38s     Find: Elements matching predicate 'wdUID IN {"47000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17237.38s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17237.55s Find: Descendants matching type Other
+    t = 17237.55s Find: Elements matching predicate 'wdUID IN {"47000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17237.56s Find: Identity Binding
+    t = 17237.56s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17237.56s Find: Descendants matching type Other
+    t = 17237.57s Find: Elements matching predicate 'wdUID IN {"47000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17237.57s Find: Identity Binding
+    t = 17237.63s Find the Application "com.apple.springboard" 0x6040000d44a0
+    t = 17237.63s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17240.64s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17240.65s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17240.65s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17240.75s     Find: Descendants matching type Any
+    t = 17240.75s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17240.76s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17240.86s Find: Descendants matching type Any
+    t = 17240.87s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17240.87s Find: Identity Binding
+    t = 17240.88s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17240.88s Find: Descendants matching type Any
+    t = 17240.88s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17240.88s Find: Identity Binding
+    t = 17240.89s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17240.98s Find: Descendants matching type Any
+    t = 17240.98s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17240.98s Find: Identity Binding
+    t = 17240.98s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17240.99s Find: Descendants matching type Any
+    t = 17240.99s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17240.99s Find: Identity Binding
+    t = 17241.00s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17241.08s Find: Descendants matching type Any
+    t = 17241.09s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17241.09s Find: Identity Binding
+    t = 17241.09s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17241.10s Find: Descendants matching type Any
+    t = 17241.10s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17241.10s Find: Identity Binding
+    t = 17241.11s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17241.22s Find: Descendants matching type Any
+    t = 17241.22s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17241.23s Find: Identity Binding
+    t = 17241.23s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17241.23s Find: Descendants matching type Any
+    t = 17241.23s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17241.24s Find: Identity Binding
+    t = 17241.24s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17241.36s Find: Descendants matching type Any
+    t = 17241.37s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17241.37s Find: Identity Binding
+    t = 17241.37s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17241.38s Find: Descendants matching type Any
+    t = 17241.38s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17241.38s Find: Identity Binding
+    t = 17241.39s Find the Window
+    t = 17241.39s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17241.53s     Find: Descendants matching type Any
+    t = 17241.53s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17241.54s     Find: Identity Binding
+    t = 17241.69s Find the Window
+    t = 17241.69s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17241.80s     Find: Descendants matching type Any
+    t = 17241.81s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17241.81s     Find: Identity Binding
+    t = 17242.97s Find the Other
+    t = 17242.97s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17243.06s     Find: Descendants matching type Any
+    t = 17243.07s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17243.07s     Find: Identity Binding
+    t = 17244.22s Find the Window
+    t = 17244.22s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17244.33s     Find: Descendants matching type Any
+    t = 17244.33s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17244.34s     Find: Identity Binding
+    t = 17244.50s Find the Window
+    t = 17244.50s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17244.63s     Find: Descendants matching type Any
+    t = 17244.63s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17244.64s     Find: Identity Binding
+    t = 17244.74s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17244.98s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17245.10s Find: Descendants matching type Other
+    t = 17245.10s Find: Elements matching predicate 'wdUID IN {"48000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17245.10s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"48000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17245.10s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17245.21s     Find: Descendants matching type Other
+    t = 17245.21s     Find: Elements matching predicate 'wdUID IN {"48000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17245.22s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17245.33s Find: Descendants matching type Other
+    t = 17245.33s Find: Elements matching predicate 'wdUID IN {"48000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17245.34s Find: Identity Binding
+    t = 17245.34s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17245.34s Find: Descendants matching type Other
+    t = 17245.34s Find: Elements matching predicate 'wdUID IN {"48000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17245.35s Find: Identity Binding
+    t = 17245.39s Find the Application "com.apple.springboard" 0x6040000d44a0
+    t = 17245.39s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17248.58s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17248.59s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17248.59s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17248.70s     Find: Descendants matching type Any
+    t = 17248.70s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17248.71s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17248.85s Find: Descendants matching type Any
+    t = 17248.85s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17248.85s Find: Identity Binding
+    t = 17248.86s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17248.86s Find: Descendants matching type Any
+    t = 17248.86s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17248.87s Find: Identity Binding
+    t = 17248.87s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17248.99s Find: Descendants matching type Any
+    t = 17248.99s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17249.00s Find: Identity Binding
+    t = 17249.00s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17249.00s Find: Descendants matching type Any
+    t = 17249.00s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17249.01s Find: Identity Binding
+    t = 17249.01s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17249.10s Find: Descendants matching type Any
+    t = 17249.10s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17249.11s Find: Identity Binding
+    t = 17249.11s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17249.11s Find: Descendants matching type Any
+    t = 17249.11s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17249.12s Find: Identity Binding
+    t = 17249.12s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17249.21s Find: Descendants matching type Any
+    t = 17249.22s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17249.22s Find: Identity Binding
+    t = 17249.22s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17249.23s Find: Descendants matching type Any
+    t = 17249.23s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17249.23s Find: Identity Binding
+    t = 17249.24s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17249.33s Find: Descendants matching type Any
+    t = 17249.33s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17249.33s Find: Identity Binding
+    t = 17249.34s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17249.34s Find: Descendants matching type Any
+    t = 17249.34s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17249.34s Find: Identity Binding
+    t = 17249.35s Find the Window
+    t = 17249.35s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17249.46s     Find: Descendants matching type Any
+    t = 17249.46s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17249.47s     Find: Identity Binding
+    t = 17249.63s Find the Window
+    t = 17249.64s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17249.77s     Find: Descendants matching type Any
+    t = 17249.78s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17249.78s     Find: Identity Binding
+    t = 17251.05s Find the Other
+    t = 17251.06s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17251.16s     Find: Descendants matching type Any
+    t = 17251.16s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17251.16s     Find: Identity Binding
+    t = 17252.39s Find the Window
+    t = 17252.40s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17252.49s     Find: Descendants matching type Any
+    t = 17252.50s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17252.50s     Find: Identity Binding
+    t = 17252.63s Find the Window
+    t = 17252.63s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17252.73s     Find: Descendants matching type Any
+    t = 17252.73s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17252.74s     Find: Identity Binding
+    t = 17252.81s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17252.92s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17253.02s Find: Descendants matching type Other
+    t = 17253.02s Find: Elements matching predicate 'wdUID IN {"49000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17253.03s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"49000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17253.03s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17253.12s     Find: Descendants matching type Other
+    t = 17253.12s     Find: Elements matching predicate 'wdUID IN {"49000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17253.13s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17253.23s Find: Descendants matching type Other
+    t = 17253.24s Find: Elements matching predicate 'wdUID IN {"49000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17253.24s Find: Identity Binding
+    t = 17253.24s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17253.24s Find: Descendants matching type Other
+    t = 17253.25s Find: Elements matching predicate 'wdUID IN {"49000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17253.25s Find: Identity Binding
+    t = 17253.30s Find the Application "com.apple.springboard" 0x6040000d44a0
+    t = 17253.30s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17253.38s Get all elements bound by accessibility element for: Elements matching predicate '"Home screen icons" IN identifiers'
+    t = 17253.38s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17253.50s     Find: Descendants matching type Any
+    t = 17253.51s     Find: Elements matching predicate '"Home screen icons" IN identifiers'
+    t = 17253.51s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17253.61s Find: Descendants matching type Any
+    t = 17253.61s Find: Elements matching predicate '"Home screen icons" IN identifiers'
+    t = 17253.61s Find: Identity Binding
+    t = 17253.62s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17253.62s Find: Descendants matching type Any
+    t = 17253.62s Find: Elements matching predicate '"Home screen icons" IN identifiers'
+    t = 17253.63s Find: Identity Binding
+    t = 17260.47s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17260.55s Find: Descendants matching type NavigationBar
+    t = 17260.55s Get all elements bound by accessibility element for: Descendants matching type NavigationBar
+    t = 17260.56s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17260.64s     Find: Descendants matching type NavigationBar
+    t = 17260.68s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17260.78s Find: Descendants matching type NavigationBar
+    t = 17260.78s Find: Identity Binding
+    t = 17260.78s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17260.79s Find: Descendants matching type NavigationBar
+    t = 17260.79s Find: Identity Binding
+    t = 17260.81s Find the "UIView" NavigationBar
+    t = 17260.81s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17260.88s     Find: Descendants matching type NavigationBar
+    t = 17260.89s     Find: Identity Binding
+    t = 17260.90s Find the "UIView" NavigationBar
+    t = 17260.91s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17260.99s     Find: Descendants matching type NavigationBar
+    t = 17260.99s     Find: Identity Binding
+    t = 17261.00s Get all elements bound by accessibility element for: Descendants matching type Button
+    t = 17261.00s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17261.09s     Find: Descendants matching type NavigationBar
+    t = 17261.09s     Find: Identity Binding
+    t = 17261.09s     Find: Descendants matching type Button
+    t = 17261.65s Find the Application "com.apple.springboard" 0x6040000d44a0
+    t = 17261.65s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17265.00s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17265.00s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17265.01s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17265.15s     Find: Descendants matching type Any
+    t = 17265.15s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17265.17s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17265.32s Find: Descendants matching type Any
+    t = 17265.33s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17265.33s Find: Identity Binding
+    t = 17265.33s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17265.33s Find: Descendants matching type Any
+    t = 17265.34s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17265.34s Find: Identity Binding
+    t = 17265.35s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17265.49s Find: Descendants matching type Any
+    t = 17265.50s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17265.50s Find: Identity Binding
+    t = 17265.50s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17265.51s Find: Descendants matching type Any
+    t = 17265.51s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17265.51s Find: Identity Binding
+    t = 17265.52s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17265.64s Find: Descendants matching type Any
+    t = 17265.64s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17265.65s Find: Identity Binding
+    t = 17265.65s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17265.65s Find: Descendants matching type Any
+    t = 17265.65s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17265.65s Find: Identity Binding
+    t = 17265.66s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17265.76s Find: Descendants matching type Any
+    t = 17265.77s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17265.77s Find: Identity Binding
+    t = 17265.77s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17265.77s Find: Descendants matching type Any
+    t = 17265.77s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17265.78s Find: Identity Binding
+    t = 17265.78s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17265.91s Find: Descendants matching type Any
+    t = 17265.92s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17265.92s Find: Identity Binding
+    t = 17265.92s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17265.92s Find: Descendants matching type Any
+    t = 17265.93s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17265.93s Find: Identity Binding
+    t = 17265.93s Find the Window
+    t = 17265.94s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17266.06s     Find: Descendants matching type Any
+    t = 17266.06s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17266.07s     Find: Identity Binding
+    t = 17266.23s Find the Window
+    t = 17266.24s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17266.38s     Find: Descendants matching type Any
+    t = 17266.38s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17266.38s     Find: Identity Binding
+    t = 17267.70s Find the Other
+    t = 17267.70s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17267.82s     Find: Descendants matching type Any
+    t = 17267.83s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17267.83s     Find: Identity Binding
+    t = 17269.18s Find the Window
+    t = 17269.18s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17269.30s     Find: Descendants matching type Any
+    t = 17269.31s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17269.31s     Find: Identity Binding
+    t = 17269.46s Find the Window
+    t = 17269.47s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17269.57s     Find: Descendants matching type Any
+    t = 17269.57s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17269.58s     Find: Identity Binding
+    t = 17269.78s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17269.87s Find: Descendants matching type NavigationBar
+    t = 17269.87s Get all elements bound by accessibility element for: Descendants matching type NavigationBar
+    t = 17269.87s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17269.95s     Find: Descendants matching type NavigationBar
+    t = 17269.98s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17270.05s Find: Descendants matching type NavigationBar
+    t = 17270.05s Find: Identity Binding
+    t = 17270.05s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17270.06s Find: Descendants matching type NavigationBar
+    t = 17270.06s Find: Identity Binding
+    t = 17270.07s Find the "UIView" NavigationBar
+    t = 17270.07s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17270.17s     Find: Descendants matching type NavigationBar
+    t = 17270.18s     Find: Identity Binding
+    t = 17270.21s Find the "UIView" NavigationBar
+    t = 17270.21s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17270.30s     Find: Descendants matching type NavigationBar
+    t = 17270.30s     Find: Identity Binding
+    t = 17270.31s Get all elements bound by accessibility element for: Descendants matching type Button
+    t = 17270.31s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17270.40s     Find: Descendants matching type NavigationBar
+    t = 17270.41s     Find: Identity Binding
+    t = 17270.41s     Find: Descendants matching type Button
+    t = 17271.33s Find the Application "com.apple.springboard" 0x6040000d44a0
+    t = 17271.33s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17274.55s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17274.55s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17274.55s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17274.67s     Find: Descendants matching type Any
+    t = 17274.67s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17274.68s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17274.79s Find: Descendants matching type Any
+    t = 17274.80s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17274.80s Find: Identity Binding
+    t = 17274.80s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17274.80s Find: Descendants matching type Any
+    t = 17274.81s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17274.81s Find: Identity Binding
+    t = 17274.82s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17274.95s Find: Descendants matching type Any
+    t = 17274.95s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17274.95s Find: Identity Binding
+    t = 17274.96s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17274.96s Find: Descendants matching type Any
+    t = 17274.96s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17274.97s Find: Identity Binding
+    t = 17274.97s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17275.07s Find: Descendants matching type Any
+    t = 17275.07s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17275.07s Find: Identity Binding
+    t = 17275.08s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17275.08s Find: Descendants matching type Any
+    t = 17275.08s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17275.09s Find: Identity Binding
+    t = 17275.09s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17275.21s Find: Descendants matching type Any
+    t = 17275.21s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17275.22s Find: Identity Binding
+    t = 17275.22s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17275.22s Find: Descendants matching type Any
+    t = 17275.22s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17275.23s Find: Identity Binding
+    t = 17275.23s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17275.36s Find: Descendants matching type Any
+    t = 17275.36s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17275.36s Find: Identity Binding
+    t = 17275.37s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17275.37s Find: Descendants matching type Any
+    t = 17275.37s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17275.38s Find: Identity Binding
+    t = 17275.38s Find the Window
+    t = 17275.38s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17275.49s     Find: Descendants matching type Any
+    t = 17275.50s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17275.50s     Find: Identity Binding
+    t = 17275.65s Find the Window
+    t = 17275.65s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17275.76s     Find: Descendants matching type Any
+    t = 17275.76s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17275.76s     Find: Identity Binding
+    t = 17276.96s Find the Other
+    t = 17276.97s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17277.08s     Find: Descendants matching type Any
+    t = 17277.08s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17277.09s     Find: Identity Binding
+    t = 17278.38s Find the Window
+    t = 17278.38s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17278.51s     Find: Descendants matching type Any
+    t = 17278.51s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17278.51s     Find: Identity Binding
+    t = 17278.66s Find the Window
+    t = 17278.66s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17278.77s     Find: Descendants matching type Any
+    t = 17278.77s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17278.78s     Find: Identity Binding
+    t = 17307.30s Find the Application "com.apple.springboard" 0x6040000d44a0
+    t = 17307.30s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17310.72s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17310.76s Get all elements bound by accessibility element for: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17310.76s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17310.86s     Find: Descendants matching type Any
+    t = 17310.87s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17310.88s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17310.99s Find: Descendants matching type Any
+    t = 17310.99s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17311.00s Find: Identity Binding
+    t = 17311.00s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17311.00s Find: Descendants matching type Any
+    t = 17311.01s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17311.01s Find: Identity Binding
+    t = 17311.02s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17311.14s Find: Descendants matching type Any
+    t = 17311.14s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17311.15s Find: Identity Binding
+    t = 17311.15s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17311.15s Find: Descendants matching type Any
+    t = 17311.16s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17311.16s Find: Identity Binding
+    t = 17311.16s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17311.29s Find: Descendants matching type Any
+    t = 17311.29s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17311.30s Find: Identity Binding
+    t = 17311.30s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17311.30s Find: Descendants matching type Any
+    t = 17311.31s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17311.31s Find: Identity Binding
+    t = 17311.32s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17311.44s Find: Descendants matching type Any
+    t = 17311.44s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17311.45s Find: Identity Binding
+    t = 17311.45s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17311.45s Find: Descendants matching type Any
+    t = 17311.46s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17311.46s Find: Identity Binding
+    t = 17311.46s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17311.58s Find: Descendants matching type Any
+    t = 17311.59s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17311.59s Find: Identity Binding
+    t = 17311.59s Snapshot accessibility hierarchy for app with pid 1214
+    t = 17311.60s Find: Descendants matching type Any
+    t = 17311.60s Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17311.60s Find: Identity Binding
+    t = 17311.61s Find the Window
+    t = 17311.61s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17311.73s     Find: Descendants matching type Any
+    t = 17311.74s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17311.74s     Find: Identity Binding
+    t = 17311.90s Find the Window
+    t = 17311.90s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17312.00s     Find: Descendants matching type Any
+    t = 17312.01s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17312.01s     Find: Identity Binding
+    t = 17313.33s Find the Other
+    t = 17313.33s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17313.43s     Find: Descendants matching type Any
+    t = 17313.44s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17313.44s     Find: Identity Binding
+    t = 17314.53s Find the Window
+    t = 17314.53s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17314.62s     Find: Descendants matching type Any
+    t = 17314.63s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17314.63s     Find: Identity Binding
+    t = 17314.78s Find the Window
+    t = 17314.78s     Snapshot accessibility hierarchy for app with pid 1214
+    t = 17314.88s     Find: Descendants matching type Any
+    t = 17314.89s     Find: Elements matching predicate 'wdUID IN {"43000000-0000-0000-BE04-000000000000", "42000000-0000-0000-BE04-000000000000", "44000000-0000-0000-BE04-000000000000", "45000000-0000-0000-BE04-000000000000", "46000000-0000-0000-BE04-000000000000"} AND (1 == 1 OR identifier == 0 OR frame == 0 OR value == 0 OR title == 0 OR label == 0 OR elementType == 0 OR enabled == 0 OR placeholderValue == 0)'
+    t = 17314.89s     Find: Identity Binding

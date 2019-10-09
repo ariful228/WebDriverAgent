@@ -1,0 +1,541 @@
+objc[9262]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x122ea24d0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x121fcee38). One of the two will be used. Which one is undefined.
+2019-10-03 03:40:48.186588-0700 IntegrationTests_3-Runner[9262:198853] +[CATransaction synchronize] called within transaction
+2019-10-03 03:40:48.377457-0700 IntegrationTests_3-Runner[9262:198853] Running tests...
+objc[9262]: Class GCDAsyncSocketPreBuffer is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x124747738) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x1246ba620). One of the two will be used. Which one is undefined.
+objc[9262]: Class GCDAsyncReadPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x124747788) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x1246ba670). One of the two will be used. Which one is undefined.
+objc[9262]: Class GCDAsyncWritePacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x1247477d8) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x1246ba6c0). One of the two will be used. Which one is undefined.
+objc[9262]: Class GCDAsyncSpecialPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x124747828) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x1246ba710). One of the two will be used. Which one is undefined.
+objc[9262]: Class GCDAsyncSocket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x124747878) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x1246ba760). One of the two will be used. Which one is undefined.
+2019-10-03 03:40:48.945753-0700 IntegrationTests_3-Runner[9262:198853] Continuing to run tests in the background with task ID 1
+Test Suite 'All tests' started at 2019-10-03 03:40:49.952
+Test Suite 'WebDriverAgentLib.framework' started at 2019-10-03 03:40:49.956
+Test Suite 'WebDriverAgentLib.framework' passed at 2019-10-03 03:40:49.959.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.004) seconds
+Test Suite 'IntegrationTests_3.xctest' started at 2019-10-03 03:40:49.965
+Test Suite 'FBAppiumMultiTouchActionsIntegrationTests' started at 2019-10-03 03:40:49.969
+Test Case '-[FBAppiumMultiTouchActionsIntegrationTests testErroneousGestures]' started.
+    t =     0.00s Start Test at 2019-10-03 03:40:49.973
+    t =     0.14s Set Up
+    t =     0.20s     Open com.facebook.wda.integrationApp
+    t =     0.30s         Launch com.facebook.wda.integrationApp
+    t =     3.66s             Wait for com.facebook.wda.integrationApp to idle
+    t =    11.68s     Find the "Alerts" Button
+    t =    11.69s         Snapshot accessibility hierarchy for app with pid 9270
+    t =    11.78s         Find: Descendants matching type Button
+    t =    11.79s         Find: Elements matching predicate '"Alerts" IN identifiers'
+2019-10-03 03:41:01.763169-0700 IntegrationTests_3-Runner[9262:198853] Using singleton test manager
+    t =    13.11s     Set device orientation to Portrait
+    t =    14.72s     Tap "Alerts" Button
+    t =    14.73s         Wait for com.facebook.wda.integrationApp to idle
+    t =    14.81s         Find the "Alerts" Button
+    t =    14.81s             Snapshot accessibility hierarchy for app with pid 9270
+    t =    14.87s             Find: Descendants matching type Button
+    t =    14.88s             Find: Elements matching predicate '"Alerts" IN identifiers'
+    t =    15.01s         Synthesize event
+    t =    15.17s         Wait for com.facebook.wda.integrationApp to idle
+    t =    15.35s     Find the "Create App Alert" Button
+    t =    15.36s         Snapshot accessibility hierarchy for app with pid 9270
+    t =    15.45s         Find: Descendants matching type Button
+    t =    15.45s         Find: Elements matching predicate '"Create App Alert" IN identifiers'
+    t =    15.47s     Find the "Create Sheet Alert" Button
+    t =    15.47s         Snapshot accessibility hierarchy for app with pid 9270
+    t =    15.48s         Find: Descendants matching type Button
+    t =    15.48s         Find: Elements matching predicate '"Create Sheet Alert" IN identifiers'
+    t =    15.51s Tear Down
+    t =    15.52s     Snapshot accessibility hierarchy for app with pid 9270
+    t =    15.52s     Find: Descendants matching type Alert
+    t =    15.52s     Snapshot accessibility hierarchy for app with pid 9270
+    t =    15.53s     Find: Descendants matching type Sheet
+    t =    15.53s     Snapshot accessibility hierarchy for app with pid 1967
+    t =    15.60s     Find: Descendants matching type Alert
+    t =    15.61s     Snapshot accessibility hierarchy for app with pid 1967
+    t =    15.61s     Find: Descendants matching type Sheet
+Test Case '-[FBAppiumMultiTouchActionsIntegrationTests testErroneousGestures]' passed (15.815 seconds).
+Test Case '-[FBAppiumMultiTouchActionsIntegrationTests testSymmetricTwoFingersTap]' started.
+    t =     0.00s Start Test at 2019-10-03 03:41:05.789
+    t =     0.07s Set Up
+    t =     0.22s Set device orientation to Portrait
+    t =     1.81s Get number of matches for: Descendants matching type Alert
+    t =     1.88s     Snapshot accessibility hierarchy for app with pid 9270
+    t =     1.92s     Find: Descendants matching type Alert
+    t =     1.93s Snapshot accessibility hierarchy for app with pid 9270
+    t =     1.93s Find: Descendants matching type Button
+    t =     1.93s Find: Elements matching predicate '"Create App Alert" IN identifiers'
+    t =     1.95s Snapshot accessibility hierarchy for app with pid 9270
+    t =     2.00s Find: Descendants matching type Button
+    t =     2.00s Find: Elements matching predicate '"Create App Alert" IN identifiers'
+    t =     2.23s Get number of matches for: Descendants matching type Alert
+    t =     2.32s     Snapshot accessibility hierarchy for app with pid 9270
+    t =     2.42s     Find: Descendants matching type Alert
+    t =     2.42s Tear Down
+    t =     2.43s     Snapshot accessibility hierarchy for app with pid 9270
+    t =     2.43s     Find: Descendants matching type Alert
+    t =     2.44s     Snapshot accessibility hierarchy for app with pid 9270
+    t =     2.44s     Find: Descendants matching type Alert
+    t =     2.44s     Find the Alert
+    t =     2.45s         Snapshot accessibility hierarchy for app with pid 9270
+    t =     2.45s         Find: Descendants matching type Alert
+    t =     2.45s     Get all elements bound by accessibility element for: Descendants matching type Button
+    t =     2.60s         Snapshot accessibility hierarchy for app with pid 9270
+    t =     2.68s         Find: Descendants matching type Alert
+    t =     2.68s         Find: Descendants matching type Button
+    t =     2.81s     Find the "Magic" Alert
+    t =     2.81s         Snapshot accessibility hierarchy for app with pid 9270
+    t =     2.88s         Find: Descendants matching type Alert
+    t =     2.88s     Find the "Will do" Button
+    t =     2.89s         Snapshot accessibility hierarchy for app with pid 9270
+    t =     2.89s         Find: Descendants matching type Alert
+    t =     2.89s         Find: Descendants matching type Button
+    t =     2.90s         Find: Identity Binding
+    t =     3.03s     Find the "Will do" Button
+    t =     3.04s         Snapshot accessibility hierarchy for app with pid 9270
+    t =     3.11s         Find: Descendants matching type Alert
+    t =     3.12s         Find: Descendants matching type Button
+    t =     3.12s         Find: Identity Binding
+    t =     3.16s     Find the "Will do" Button
+    t =     3.16s         Snapshot accessibility hierarchy for app with pid 9270
+    t =     3.24s         Find: Descendants matching type Alert
+    t =     3.24s         Find: Descendants matching type Button
+    t =     3.25s         Find: Identity Binding
+    t =     3.25s     Snapshot accessibility hierarchy for app with pid 9270
+    t =     3.25s     Find: Descendants matching type Alert
+    t =     3.25s     Find: Descendants matching type Button
+    t =     3.26s     Find: Identity Binding
+Test Case '-[FBAppiumMultiTouchActionsIntegrationTests testSymmetricTwoFingersTap]' passed (3.484 seconds).
+Test Suite 'FBAppiumMultiTouchActionsIntegrationTests' passed at 2019-10-03 03:41:09.273.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 19.299 (19.303) seconds
+Test Suite 'FBAppiumTouchActionsIntegrationTestsPart1' started at 2019-10-03 03:41:09.275
+Test Case '-[FBAppiumTouchActionsIntegrationTestsPart1 testDoubleTap]' started.
+    t =     0.00s Start Test at 2019-10-03 03:41:09.276
+    t =     0.12s Set Up
+    t =     0.24s     Open com.facebook.wda.integrationApp
+    t =     0.36s         Launch com.facebook.wda.integrationApp
+    t =     0.36s             Terminate com.facebook.wda.integrationApp:9270
+    t =     4.64s             Wait for com.facebook.wda.integrationApp to idle
+    t =    11.33s                 Unable to monitor animations
+    t =    11.34s                 Unable to monitor event loop
+    t =    12.69s     Find the "Alerts" Button
+    t =    12.70s         Snapshot accessibility hierarchy for app with pid 9279
+    t =    14.20s         Find: Descendants matching type Button
+    t =    14.21s         Find: Elements matching predicate '"Alerts" IN identifiers'
+    t =    15.55s     Set device orientation to Portrait
+    t =    17.19s     Tap "Alerts" Button
+    t =    17.19s         Wait for com.facebook.wda.integrationApp to idle
+    t =    17.30s         Find the "Alerts" Button
+    t =    17.31s             Snapshot accessibility hierarchy for app with pid 9279
+    t =    17.39s             Find: Descendants matching type Button
+    t =    17.39s             Find: Elements matching predicate '"Alerts" IN identifiers'
+    t =    17.52s             Check for UI interruption: Descendants matching type Alert
+    t =    17.52s                 Snapshot accessibility hierarchy for app with pid 9279
+    t =    17.57s                 Find: Descendants matching type Alert
+    t =    17.57s         Synthesize event
+    t =    17.73s         Wait for com.facebook.wda.integrationApp to idle
+    t =    17.90s     Find the "Create App Alert" Button
+    t =    17.90s         Snapshot accessibility hierarchy for app with pid 9279
+    t =    17.99s         Find: Descendants matching type Button
+    t =    17.99s         Find: Elements matching predicate '"Create App Alert" IN identifiers'
+    t =    18.01s     Find the "Create Sheet Alert" Button
+    t =    18.01s         Snapshot accessibility hierarchy for app with pid 9279
+    t =    18.01s         Find: Descendants matching type Button
+    t =    18.01s         Find: Elements matching predicate '"Create Sheet Alert" IN identifiers'
+    t =    18.11s Set device orientation to LandscapeLeft
+    t =    19.79s Get number of matches for: Descendants matching type Alert
+    t =    19.87s     Snapshot accessibility hierarchy for app with pid 9279
+    t =    19.92s     Find: Descendants matching type Alert
+    t =    19.92s Snapshot accessibility hierarchy for app with pid 9279
+    t =    19.92s Find: Descendants matching type Button
+    t =    19.92s Find: Elements matching predicate '"Create App Alert" IN identifiers'
+    t =    20.26s Get number of matches for: Descendants matching type Alert
+    t =    20.37s     Snapshot accessibility hierarchy for app with pid 9279
+    t =    20.45s     Find: Descendants matching type Alert
+    t =    20.46s Tear Down
+    t =    20.46s     Snapshot accessibility hierarchy for app with pid 9279
+    t =    20.46s     Find: Descendants matching type Alert
+    t =    20.46s     Snapshot accessibility hierarchy for app with pid 9279
+    t =    20.47s     Find: Descendants matching type Alert
+    t =    20.47s     Find the Alert
+    t =    20.47s         Snapshot accessibility hierarchy for app with pid 9279
+    t =    20.48s         Find: Descendants matching type Alert
+    t =    20.48s     Get all elements bound by accessibility element for: Descendants matching type Button
+    t =    20.62s         Snapshot accessibility hierarchy for app with pid 9279
+    t =    20.71s         Find: Descendants matching type Alert
+    t =    20.71s         Find: Descendants matching type Button
+    t =    20.82s     Find the "Magic" Alert
+    t =    20.82s         Snapshot accessibility hierarchy for app with pid 9279
+    t =    20.90s         Find: Descendants matching type Alert
+    t =    20.90s     Find the "Will do" Button
+    t =    20.90s         Snapshot accessibility hierarchy for app with pid 9279
+    t =    20.91s         Find: Descendants matching type Alert
+    t =    20.91s         Find: Descendants matching type Button
+    t =    20.91s         Find: Identity Binding
+    t =    21.05s     Find the "Will do" Button
+    t =    21.06s         Snapshot accessibility hierarchy for app with pid 9279
+    t =    21.12s         Find: Descendants matching type Alert
+    t =    21.12s         Find: Descendants matching type Button
+    t =    21.13s         Find: Identity Binding
+    t =    21.16s     Find the "Will do" Button
+    t =    21.16s         Snapshot accessibility hierarchy for app with pid 9279
+    t =    21.23s         Find: Descendants matching type Alert
+    t =    21.23s         Find: Descendants matching type Button
+    t =    21.23s         Find: Identity Binding
+    t =    21.24s     Snapshot accessibility hierarchy for app with pid 9279
+    t =    21.24s     Find: Descendants matching type Alert
+    t =    21.24s     Find: Descendants matching type Button
+    t =    21.24s     Find: Identity Binding
+Test Case '-[FBAppiumTouchActionsIntegrationTestsPart1 testDoubleTap]' passed (21.675 seconds).
+Test Case '-[FBAppiumTouchActionsIntegrationTestsPart1 testErroneousGestures]' started.
+    t =     0.00s Start Test at 2019-10-03 03:41:30.951
+    t =     0.13s Set Up
+    t =     0.24s Find the Target Application 0x6040002c04d0
+    t =     0.24s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     0.28s Find the Target Application 0x6040002c04d0
+    t =     0.28s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     0.28s Tear Down
+    t =     0.29s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     0.29s     Find: Descendants matching type Alert
+    t =     0.30s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     0.30s     Find: Descendants matching type Sheet
+    t =     0.30s     Snapshot accessibility hierarchy for app with pid 1967
+    t =     0.38s     Find: Descendants matching type Alert
+    t =     0.39s     Snapshot accessibility hierarchy for app with pid 1967
+    t =     0.39s     Find: Descendants matching type Sheet
+Test Case '-[FBAppiumTouchActionsIntegrationTestsPart1 testErroneousGestures]' passed (0.395 seconds).
+Test Case '-[FBAppiumTouchActionsIntegrationTestsPart1 testForcePress]' started.
+    t =     0.00s Start Test at 2019-10-03 03:41:31.347
+    t =     0.07s Set Up
+    t =     0.22s Set device orientation to Portrait
+    t =     1.81s Get number of matches for: Descendants matching type Alert
+    t =     1.88s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     1.93s     Find: Descendants matching type Alert
+    t =     1.94s Snapshot accessibility hierarchy for app with pid 9279
+    t =     1.94s Find: Descendants matching type Button
+    t =     1.94s Find: Elements matching predicate '"Create Alert (Force Touch)" IN identifiers'
+    t =     2.35s Get number of matches for: Descendants matching type Alert
+    t =     2.48s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.59s     Find: Descendants matching type Alert
+    t =     2.60s Tear Down
+    t =     2.60s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.60s     Find: Descendants matching type Alert
+    t =     2.61s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.61s     Find: Descendants matching type Alert
+    t =     2.61s     Find the Alert
+    t =     2.62s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.62s         Find: Descendants matching type Alert
+    t =     2.62s     Get all elements bound by accessibility element for: Descendants matching type Button
+    t =     2.75s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.82s         Find: Descendants matching type Alert
+    t =     2.82s         Find: Descendants matching type Button
+    t =     2.91s     Find the "Magic" Alert
+    t =     2.92s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.99s         Find: Descendants matching type Alert
+    t =     2.99s     Find the "Will do" Button
+    t =     3.00s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.00s         Find: Descendants matching type Alert
+    t =     3.00s         Find: Descendants matching type Button
+    t =     3.00s         Find: Identity Binding
+    t =     3.15s     Find the "Will do" Button
+    t =     3.16s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.22s         Find: Descendants matching type Alert
+    t =     3.23s         Find: Descendants matching type Button
+    t =     3.23s         Find: Identity Binding
+    t =     3.26s     Find the "Will do" Button
+    t =     3.26s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.33s         Find: Descendants matching type Alert
+    t =     3.34s         Find: Descendants matching type Button
+    t =     3.34s         Find: Identity Binding
+    t =     3.34s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.35s     Find: Descendants matching type Alert
+    t =     3.35s     Find: Descendants matching type Button
+    t =     3.35s     Find: Identity Binding
+Test Case '-[FBAppiumTouchActionsIntegrationTestsPart1 testForcePress]' passed (3.579 seconds).
+Test Case '-[FBAppiumTouchActionsIntegrationTestsPart1 testLongPress]' started.
+    t =     0.00s Start Test at 2019-10-03 03:41:34.927
+    t =     0.12s Set Up
+    t =     0.29s Set device orientation to LandscapeLeft
+    t =     1.90s Find the "Create App Alert" Button
+    t =     1.90s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     1.94s     Find: Descendants matching type Button
+    t =     1.95s     Find: Elements matching predicate '"Create App Alert" IN identifiers'
+    t =     2.01s Set device orientation to LandscapeLeft
+    t =     3.62s Get number of matches for: Descendants matching type Alert
+    t =     3.69s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.73s     Find: Descendants matching type Alert
+    t =     3.74s Find the Target Application 0x6000000d6570
+    t =     3.74s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     4.35s Get number of matches for: Descendants matching type Alert
+    t =     4.42s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     4.49s     Find: Descendants matching type Alert
+    t =     4.50s Tear Down
+    t =     4.50s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     4.50s     Find: Descendants matching type Alert
+    t =     4.51s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     4.51s     Find: Descendants matching type Alert
+    t =     4.51s     Find the Alert
+    t =     4.52s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     4.52s         Find: Descendants matching type Alert
+    t =     4.52s     Get all elements bound by accessibility element for: Descendants matching type Button
+    t =     4.65s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     4.72s         Find: Descendants matching type Alert
+    t =     4.72s         Find: Descendants matching type Button
+    t =     4.83s     Find the "Magic" Alert
+    t =     4.84s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     4.91s         Find: Descendants matching type Alert
+    t =     4.91s     Find the "Will do" Button
+    t =     4.91s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     4.92s         Find: Descendants matching type Alert
+    t =     4.92s         Find: Descendants matching type Button
+    t =     4.92s         Find: Identity Binding
+    t =     5.06s     Find the "Will do" Button
+    t =     5.07s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     5.14s         Find: Descendants matching type Alert
+    t =     5.14s         Find: Descendants matching type Button
+    t =     5.15s         Find: Identity Binding
+    t =     5.18s     Find the "Will do" Button
+    t =     5.18s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     5.26s         Find: Descendants matching type Alert
+    t =     5.26s         Find: Descendants matching type Button
+    t =     5.27s         Find: Identity Binding
+    t =     5.27s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     5.27s     Find: Descendants matching type Alert
+    t =     5.27s     Find: Descendants matching type Button
+    t =     5.28s     Find: Identity Binding
+Test Case '-[FBAppiumTouchActionsIntegrationTestsPart1 testLongPress]' passed (5.502 seconds).
+Test Case '-[FBAppiumTouchActionsIntegrationTestsPart1 testPress]' started.
+    t =     0.00s Start Test at 2019-10-03 03:41:40.430
+    t =     0.12s Set Up
+    t =     0.28s Set device orientation to LandscapeRight
+    t =     1.94s Get number of matches for: Descendants matching type Alert
+    t =     2.01s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.05s     Find: Descendants matching type Alert
+    t =     2.05s Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.05s Find: Descendants matching type Button
+    t =     2.06s Find: Elements matching predicate '"Create App Alert" IN identifiers'
+    t =     2.06s Find the Target Application 0x60c0000d8fe0
+    t =     2.06s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.98s Get number of matches for: Descendants matching type Alert
+    t =     3.08s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.15s     Find: Descendants matching type Alert
+    t =     3.16s Tear Down
+    t =     3.16s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.16s     Find: Descendants matching type Alert
+    t =     3.17s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.17s     Find: Descendants matching type Alert
+    t =     3.18s     Find the Alert
+    t =     3.18s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.18s         Find: Descendants matching type Alert
+    t =     3.19s     Get all elements bound by accessibility element for: Descendants matching type Button
+    t =     3.32s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.38s         Find: Descendants matching type Alert
+    t =     3.39s         Find: Descendants matching type Button
+    t =     3.48s     Find the "Magic" Alert
+    t =     3.49s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.58s         Find: Descendants matching type Alert
+    t =     3.58s     Find the "Will do" Button
+    t =     3.58s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.59s         Find: Descendants matching type Alert
+    t =     3.59s         Find: Descendants matching type Button
+    t =     3.59s         Find: Identity Binding
+    t =     3.72s     Find the "Will do" Button
+    t =     3.73s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.80s         Find: Descendants matching type Alert
+    t =     3.80s         Find: Descendants matching type Button
+    t =     3.80s         Find: Identity Binding
+    t =     3.84s     Find the "Will do" Button
+    t =     3.84s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.91s         Find: Descendants matching type Alert
+    t =     3.91s         Find: Descendants matching type Button
+    t =     3.91s         Find: Identity Binding
+    t =     3.92s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.92s     Find: Descendants matching type Alert
+    t =     3.92s     Find: Descendants matching type Button
+    t =     3.93s     Find: Identity Binding
+Test Case '-[FBAppiumTouchActionsIntegrationTestsPart1 testPress]' passed (4.152 seconds).
+Test Case '-[FBAppiumTouchActionsIntegrationTestsPart1 testTap]' started.
+    t =     0.00s Start Test at 2019-10-03 03:41:44.583
+    t =     0.13s Set Up
+    t =     0.28s Set device orientation to Portrait
+    t =     1.95s Get number of matches for: Descendants matching type Alert
+    t =     2.01s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.06s     Find: Descendants matching type Alert
+    t =     2.06s Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.07s Find: Descendants matching type Button
+    t =     2.07s Find: Elements matching predicate '"Create App Alert" IN identifiers'
+    t =     2.30s Get number of matches for: Descendants matching type Alert
+    t =     2.44s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.53s     Find: Descendants matching type Alert
+    t =     2.53s Tear Down
+    t =     2.53s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.54s     Find: Descendants matching type Alert
+    t =     2.54s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.54s     Find: Descendants matching type Alert
+    t =     2.54s     Find the Alert
+    t =     2.55s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.56s         Find: Descendants matching type Alert
+    t =     2.56s     Get all elements bound by accessibility element for: Descendants matching type Button
+    t =     2.68s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.77s         Find: Descendants matching type Alert
+    t =     2.78s         Find: Descendants matching type Button
+    t =     2.87s     Find the "Magic" Alert
+    t =     2.87s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.95s         Find: Descendants matching type Alert
+    t =     2.95s     Find the "Will do" Button
+    t =     2.96s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.96s         Find: Descendants matching type Alert
+    t =     2.96s         Find: Descendants matching type Button
+    t =     2.96s         Find: Identity Binding
+    t =     3.11s     Find the "Will do" Button
+    t =     3.11s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.19s         Find: Descendants matching type Alert
+    t =     3.19s         Find: Descendants matching type Button
+    t =     3.19s         Find: Identity Binding
+    t =     3.23s     Find the "Will do" Button
+    t =     3.24s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.31s         Find: Descendants matching type Alert
+    t =     3.31s         Find: Descendants matching type Button
+    t =     3.31s         Find: Identity Binding
+    t =     3.32s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.32s     Find: Descendants matching type Alert
+    t =     3.32s     Find: Descendants matching type Button
+    t =     3.32s     Find: Identity Binding
+Test Case '-[FBAppiumTouchActionsIntegrationTestsPart1 testTap]' passed (3.548 seconds).
+Test Case '-[FBAppiumTouchActionsIntegrationTestsPart1 testTapByCoordinates]' started.
+    t =     0.00s Start Test at 2019-10-03 03:41:48.132
+    t =     0.11s Set Up
+    t =     0.21s Find the "Create App Alert" Button
+    t =     0.22s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     0.27s     Find: Descendants matching type Button
+    t =     0.27s     Find: Elements matching predicate '"Create App Alert" IN identifiers'
+    t =     0.31s Set device orientation to Portrait
+    t =     1.94s Get number of matches for: Descendants matching type Alert
+    t =     2.01s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.06s     Find: Descendants matching type Alert
+    t =     2.06s Find the Target Application 0x6080000d8bf0
+    t =     2.07s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.27s Get number of matches for: Descendants matching type Alert
+    t =     2.40s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.47s     Find: Descendants matching type Alert
+    t =     2.48s Tear Down
+    t =     2.48s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.48s     Find: Descendants matching type Alert
+    t =     2.49s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.49s     Find: Descendants matching type Alert
+    t =     2.49s     Find the Alert
+    t =     2.50s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.50s         Find: Descendants matching type Alert
+    t =     2.50s     Get all elements bound by accessibility element for: Descendants matching type Button
+    t =     2.61s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.68s         Find: Descendants matching type Alert
+    t =     2.68s         Find: Descendants matching type Button
+    t =     2.79s     Find the "Magic" Alert
+    t =     2.79s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.87s         Find: Descendants matching type Alert
+    t =     2.87s     Find the "Will do" Button
+    t =     2.87s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     2.88s         Find: Descendants matching type Alert
+    t =     2.88s         Find: Descendants matching type Button
+    t =     2.88s         Find: Identity Binding
+    t =     3.02s     Find the "Will do" Button
+    t =     3.03s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.10s         Find: Descendants matching type Alert
+    t =     3.10s         Find: Descendants matching type Button
+    t =     3.10s         Find: Identity Binding
+    t =     3.14s     Find the "Will do" Button
+    t =     3.14s         Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.22s         Find: Descendants matching type Alert
+    t =     3.22s         Find: Descendants matching type Button
+    t =     3.22s         Find: Identity Binding
+    t =     3.23s     Snapshot accessibility hierarchy for app with pid 9279
+    t =     3.23s     Find: Descendants matching type Alert
+    t =     3.23s     Find: Descendants matching type Button
+    t =     3.24s     Find: Identity Binding
+Test Case '-[FBAppiumTouchActionsIntegrationTestsPart1 testTapByCoordinates]' passed (3.467 seconds).
+Test Suite 'FBAppiumTouchActionsIntegrationTestsPart1' passed at 2019-10-03 03:41:51.599.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 42.318 (42.325) seconds
+Test Suite 'FBAppiumTouchActionsIntegrationTestsPart2' started at 2019-10-03 03:41:51.601
+Test Case '-[FBAppiumTouchActionsIntegrationTestsPart2 testSwipePickerWheelWithAbsoluteCoordinates]' started.
+    t =     0.00s Start Test at 2019-10-03 03:41:51.603
+    t =     0.11s Set Up
+    t =     0.21s     Open com.facebook.wda.integrationApp
+    t =     0.37s         Launch com.facebook.wda.integrationApp
+    t =     0.37s             Terminate com.facebook.wda.integrationApp:9279
+    t =     4.72s             Wait for com.facebook.wda.integrationApp to idle
+    t =    11.32s                 Unable to monitor animations
+    t =    11.32s                 Unable to monitor event loop
+    t =    14.61s     Find the "Alerts" Button
+    t =    14.61s         Snapshot accessibility hierarchy for app with pid 9296
+    t =    15.63s         Find the "Alerts" Button (retry 1)
+    t =    15.63s             Snapshot accessibility hierarchy for app with pid 9296
+    t =    16.64s         Find the "Alerts" Button (retry 2)
+    t =    16.64s             Snapshot accessibility hierarchy for app with pid 9296
+    t =    17.26s         Assertion Failure: FBIntegrationTestCase.m:46: Error getting main window -25215
+2019-10-03 03:42:09.022837-0700 IntegrationTests_3-Runner[9262:198853] *** Terminating app due to uncaught exception '_XCTestCaseInterruptionException', reason: 'Interrupting test'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x00000001045f51e6 __exceptionPreprocess + 294
+	1   libobjc.A.dylib                     0x0000000103c8a031 objc_exception_throw + 48
+	2   CoreFoundation                      0x000000010466a975 +[NSException raise:format:] + 197
+	3   XCTest                              0x000000010356b1d7 -[XCTestCase(Failures) _recordFailureWithDescription:inFile:atLine:expected:] + 586
+	4   XCTest                              0x00000001035107c4 -[XCTestCase recordFailureWithDescription:inFile:atLine:expected:] + 67
+	5   XCTest                              0x000000010356a79d -[XCTestCase(Failures) _dequeueFailures] + 1133
+	6   XCTest                              0x000000010356ac33 -[XCTestCase(Failures) _enqueueFailureWithDescription:inFile:atLine:expected:breakWhenDequeued:] + 989
+	7   XCTest                              0x000000010351d4be _XCTFailureHandler + 510
+	8   XCTest                              0x000000010350fbca _XCTFailInCurrentTest + 412
+	9   XCTest                              0x000000010354ffb3 __43-[XCUIElement resolveHandleUIInterruption:]_block_invoke + 1981
+	10  XCTest                              0x000000010357798d -[XCTContext _runActivityNamed:type:block:] + 245
+	11  XCTest                              0x0000000103519518 -[XCTestCase startActivityWithTitle:type:block:] + 218
+	12  XCTest                              0x00000001035196f5 -[XCTestCase startActivityWithTitle:block:] + 60
+	13  XCTest                              0x000000010354f7d4 -[XCUIElement resolveHandleUIInterruption:] + 155
+	14  WebDriverAgentLib                   0x00000001245d0caf -[XCUIElement(FBUtilities) fb_snapshotWithAttributes] + 95
+	15  WebDriverAgentLib                   0x00000001245b4c7b -[XCUIElement(FBIsVisible) fb_isVisible] + 43
+	16  IntegrationTests_3                  0x000000012455ccd7 __42-[FBIntegrationTestCase launchApplication]_block_invoke + 151
+	17  WebDriverAgentLib                   0x00000001245bbc50 -[FBRunLoopSpinner spinUntilTrue:error:] + 128
+	18  WebDriverAgentLib                   0x00000001245bbba0 -[FBRunLoopSpinner spinUntilTrue:] + 64
+	19  IntegrationTests_3                  0x000000012455bfbb -[FBIntegrationTestCase launchApplication] + 331
+	20  IntegrationTests_3                  0x000000012456b72a __50-[FBAppiumTouchActionsIntegrationTestsPart2 setUp]_block_invoke + 42
+	21  libdispatch.dylib                   0x0000000108d85709 _dispatch_client_callout + 8
+	22  libdispatch.dylib                   0x0000000108d86b9a dispatch_once_f + 55
+	23  IntegrationTests_3                  0x000000012456b61a -[FBAppiumTouchActionsIntegrationTestsPart2 setUp] + 202
+	24  XCTest                              0x000000010356bae3 +[XCTestCase(Failures) performFailableBlock:shouldInterruptTest:] + 36
+	25  XCTest                              0x000000010356ba2e -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 54
+	26  XCTest                              0x0000000103510f67 __24-[XCTestCase invokeTest]_block_invoke_3 + 89
+	27  XCTest                              0x000000010357798d -[XCTContext _runActivityNamed:type:block:] + 245
+	28  XCTest                              0x0000000103519518 -[XCTestCase startActivityWithTitle:type:block:] + 218
+	29  XCTest                              0x00000001035196f5 -[XCTestCase startActivityWithTitle:block:] + 60
+	30  XCTest                              0x0000000103510aea __24-[XCTestCase invokeTest]_block_invoke + 342
+	31  XCTest                              0x0000000103570a7d -[XCUITestContext performInScope:] + 248
+	32  XCTest                              0x000000010351097f -[XCTestCase invokeTest] + 175
+	33  XCTest                              0x0000000103512555 __26-[XCTestCase performTest:]_block_invoke_2 + 42
+	34  XCTest                              0x000000010356bae3 +[XCTestCase(Failures) performFailableBlock:shouldInterruptTest:] + 36
+	35  XCTest                              0x000000010356ba2e -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 54
+	36  XCTest                              0x0000000103512402 __26-[XCTestCase performTest:]_block_invoke.318 + 90
+	37  XCTest                              0x0000000103578061 +[XCTContext runInContextForTestCase:block:] + 225
+	38  XCTest                              0x0000000103511aff -[XCTestCase performTest:] + 673
+	39  XCTest                              0x0000000103554727 -[XCTest runTest] + 57
+	40  XCTest                              0x000000010350d341 __27-[XCTestSuite performTest:]_block_invoke + 365
+	41  XCTest                              0x000000010350cb1d -[XCTestSuite _performProtectedSectionForTest:testSection:] + 55
+	42  XCTest                              0x000000010350cdde -[XCTestSuite performTest:] + 296
+	43  XCTest                              0x0000000103554727 -[XCTest runTest] + 57
+	44  XCTest                              0x000000010350d341 __27-[XCTestSuite performTest:]_block_invoke + 365
+	45  XCTest                              0x000000010350cb1d -[XCTestSuite _performProtectedSectionForTest:testSection:] + 55
+	46  XCTest                              0x000000010350cdde -[XCTestSuite performTest:] + 296
+	47  XCTest                              0x0000000103554727 -[XCTest runTest] + 57
+	48  XCTest                              0x000000010350d341 __27-[XCTestSuite performTest:]_block_invoke + 365
+	49  XCTest                              0x000000010350cb1d -[XCTestSuite _performProtectedSectionForTest:testSection:] + 55
+	50  XCTest                              0x000000010350cdde -[XCTestSuite performTest:] + 296
+	51  XCTest                              0x0000000103554727 -[XCTest runTest] + 57
+	52  XCTest                              0x0000000103581fa6 __44-[XCTTestRunSession runTestsAndReturnError:]_block_invoke + 40
+	53  XCTest                              0x0000000103525389 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 594
+	54  XCTest                              0x0000000103581db1 -[XCTTestRunSession runTestsAndReturnError:] + 369
+	55  XCTest                              0x00000001034f3c71 -[XCTestDriver runTestsAndReturnError:] + 447
+	56  XCTest                              0x0000000103576bb1 _XCTestMain + 960
+	57  IntegrationTests_3-Runner           0x000000010321d49f _XCTRunnerRunTests + 57
+	58  CoreFoundation                      0x0000000104597b0c __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 12
+	59  CoreFoundation                      0x000000010457c2db __CFRunLoopDoBlocks + 331
+	60  CoreFoundation                      0x000000010457ba84 __CFRunLoopRun + 1284
+	61  CoreFoundation                      0x000000010457b30b CFRunLoopRunSpecific + 635
+	62  GraphicsServices                    0x000000010791ca73 GSEventRunModal + 62
+	63  UIKit                               0x0000000104a72057 UIApplicationMain + 159
+	64  IntegrationTests_3-Runner           0x000000010321d6dc main + 42
+	65  libdyld.dylib                       0x0000000108dfa955 start + 1
+)
+libc++abi.dylib: terminating with uncaught exception of type _XCTestCaseInterruptionException

@@ -1,0 +1,114 @@
+objc[5081]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x12042a4d0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x11eed7e38). One of the two will be used. Which one is undefined.
+2019-10-03 01:09:31.325036-0700 IntegrationTests_2-Runner[5081:102404] +[CATransaction synchronize] called within transaction
+2019-10-03 01:09:31.534363-0700 IntegrationTests_2-Runner[5081:102404] Running tests...
+objc[5081]: Class GCDAsyncSocketPreBuffer is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x121d2e738) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x121ca1620). One of the two will be used. Which one is undefined.
+objc[5081]: Class GCDAsyncReadPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x121d2e788) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x121ca1670). One of the two will be used. Which one is undefined.
+objc[5081]: Class GCDAsyncWritePacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x121d2e7d8) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x121ca16c0). One of the two will be used. Which one is undefined.
+objc[5081]: Class GCDAsyncSpecialPacket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x121d2e828) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x121ca1710). One of the two will be used. Which one is undefined.
+objc[5081]: Class GCDAsyncSocket is implemented in both /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket (0x121d2e878) and /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentLib.framework/Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer (0x121ca1760). One of the two will be used. Which one is undefined.
+2019-10-03 01:09:32.251454-0700 IntegrationTests_2-Runner[5081:102404] Continuing to run tests in the background with task ID 1
+Test Suite 'Selected tests' started at 2019-10-03 01:09:33.027
+Test Suite 'IntegrationTests_2.xctest' started at 2019-10-03 01:09:33.029
+Test Suite 'FBTypingTest' started at 2019-10-03 01:09:33.031
+Test Case '-[FBTypingTest testTextTypingOnFocusedElement]' started.
+    t =     0.00s Start Test at 2019-10-03 01:09:33.036
+    t =     0.18s Set Up
+    t =     0.21s     Open com.facebook.wda.integrationApp
+    t =     0.35s         Launch com.facebook.wda.integrationApp
+    t =     4.14s             Wait for com.facebook.wda.integrationApp to idle
+    t =    10.16s     Find the "Alerts" Button
+    t =    10.16s         Snapshot accessibility hierarchy for app with pid 5090
+    t =    10.32s         Find: Descendants matching type Button
+    t =    10.32s         Find: Elements matching predicate '"Alerts" IN identifiers'
+2019-10-03 01:09:43.360928-0700 IntegrationTests_2-Runner[5081:102404] Using singleton test manager
+    t =    11.62s     Set device orientation to Portrait
+    t =    13.22s     Tap "Attributes" Button
+    t =    13.22s         Wait for com.facebook.wda.integrationApp to idle
+    t =    13.30s         Find the "Attributes" Button
+    t =    13.30s             Snapshot accessibility hierarchy for app with pid 5090
+    t =    13.35s             Find: Descendants matching type Button
+    t =    13.35s             Find: Elements matching predicate '"Attributes" IN identifiers'
+    t =    13.47s         Synthesize event
+    t =    13.61s         Wait for com.facebook.wda.integrationApp to idle
+    t =    14.23s     Find the "Button" Button
+    t =    14.24s         Snapshot accessibility hierarchy for app with pid 5090
+    t =    14.50s         Find: Descendants matching type Button
+    t =    14.50s         Find: Elements matching predicate '"Button" IN identifiers'
+    t =    14.52s Tap "aIdentifier" TextField
+    t =    14.52s     Wait for com.facebook.wda.integrationApp to idle
+    t =    14.61s     Find the "aIdentifier" TextField
+    t =    14.62s         Snapshot accessibility hierarchy for app with pid 5090
+    t =    14.67s         Find: Descendants matching type TextField
+    t =    14.68s         Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    14.80s     Synthesize event
+    t =    14.96s     Wait for com.facebook.wda.integrationApp to idle
+    t =    15.76s Find the "aIdentifier" TextField
+    t =    15.76s     Snapshot accessibility hierarchy for app with pid 5090
+    t =    16.14s     Find: Descendants matching type TextField
+    t =    16.15s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    16.16s Snapshot accessibility hierarchy for app with pid 5090
+    t =    16.16s Find: Descendants matching type Keyboard
+    t =    16.16s Get all elements bound by accessibility element for: Descendants matching type Keyboard
+    t =    16.27s     Snapshot accessibility hierarchy for app with pid 5090
+    t =    16.38s     Find: Descendants matching type Keyboard
+    t =    16.42s Find the Keyboard
+    t =    16.42s     Snapshot accessibility hierarchy for app with pid 5090
+    t =    16.55s     Find: Descendants matching type Keyboard
+    t =    16.55s     Find: Identity Binding
+    t =    17.53s Find the "aIdentifier" TextField
+    t =    17.54s     Snapshot accessibility hierarchy for app with pid 5090
+    t =    17.54s     Find: Descendants matching type TextField
+    t =    17.54s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    17.65s Find the "aIdentifier" TextField
+    t =    17.65s     Snapshot accessibility hierarchy for app with pid 5090
+    t =    17.76s     Find: Descendants matching type TextField
+    t =    17.77s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    17.77s Find the "aIdentifier" TextField
+    t =    17.78s     Snapshot accessibility hierarchy for app with pid 5090
+    t =    17.78s     Find: Descendants matching type TextField
+    t =    17.79s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    17.79s Snapshot accessibility hierarchy for app with pid 5090
+    t =    17.80s Find: Descendants matching type TextField
+    t =    17.80s Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    18.03s Snapshot accessibility hierarchy for app with pid 5090
+    t =    18.12s Find: Descendants matching type Keyboard
+    t =    18.12s Get all elements bound by accessibility element for: Descendants matching type Keyboard
+    t =    18.20s     Snapshot accessibility hierarchy for app with pid 5090
+    t =    18.37s     Find: Descendants matching type Keyboard
+    t =    18.41s Find the Keyboard
+    t =    18.41s     Snapshot accessibility hierarchy for app with pid 5090
+    t =    18.53s     Find: Descendants matching type Keyboard
+    t =    18.53s     Find: Identity Binding
+    t =    19.60s Find the "aIdentifier" TextField
+    t =    19.60s     Snapshot accessibility hierarchy for app with pid 5090
+    t =    19.73s     Find: Descendants matching type TextField
+    t =    19.73s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    19.84s Find the "aIdentifier" TextField
+    t =    19.84s     Snapshot accessibility hierarchy for app with pid 5090
+    t =    19.96s     Find: Descendants matching type TextField
+    t =    19.96s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    19.97s Find the "aIdentifier" TextField
+    t =    19.97s     Snapshot accessibility hierarchy for app with pid 5090
+    t =    19.97s     Find: Descendants matching type TextField
+    t =    19.98s     Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    19.98s Snapshot accessibility hierarchy for app with pid 5090
+    t =    19.99s Find: Descendants matching type TextField
+    t =    19.99s Find: Elements matching predicate '"aIdentifier" IN identifiers'
+    t =    20.35s Snapshot accessibility hierarchy for app with pid 5090
+    t =    20.45s Find: Descendants matching type Keyboard
+    t =    20.46s Get all elements bound by accessibility element for: Descendants matching type Keyboard
+    t =    20.55s     Snapshot accessibility hierarchy for app with pid 5090
+    t =    20.63s     Find: Descendants matching type Keyboard
+    t =    20.67s Find the Keyboard
+    t =    20.67s     Snapshot accessibility hierarchy for app with pid 5090
+    t =    20.79s     Find: Descendants matching type Keyboard
+    t =    20.79s     Find: Identity Binding
+    t =    21.87s Assertion Failure: FBTypingTest.m:44: (([textField fb_typeText:text error:&error]) is true) failed
+    t =    21.99s Tear Down
+Test Case '-[FBTypingTest testTextTypingOnFocusedElement]' failed (22.198 seconds).
+Test Suite 'FBTypingTest' failed at 2019-10-03 01:09:55.238.
+	 Executed 1 test, with 1 failure (0 unexpected) in 22.198 (22.208) seconds
+Test Suite 'IntegrationTests_2.xctest' failed at 2019-10-03 01:09:55.241.
+	 Executed 1 test, with 1 failure (0 unexpected) in 22.198 (22.212) seconds
+Test Suite 'Selected tests' failed at 2019-10-03 01:09:55.245.
+	 Executed 1 test, with 1 failure (0 unexpected) in 22.198 (22.218) seconds

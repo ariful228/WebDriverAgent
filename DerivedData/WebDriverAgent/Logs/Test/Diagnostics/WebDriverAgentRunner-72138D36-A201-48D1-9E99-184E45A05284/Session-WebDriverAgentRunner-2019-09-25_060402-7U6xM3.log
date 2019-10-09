@@ -1,0 +1,1546 @@
+(null) xcodebuild[10890:149932] Beginning test session WebDriverAgentRunner-0603E7D5-9A14-48F1-9A14-ED47A3EE377F at 2019-09-25 06:04:02.438 with Xcode 9F2000 on target <DVTiPhoneSimulator: 0x7fd63a5e0180> {
+		SimDevice: iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)
+} (11.4 (15F79))
+(null) xcodebuild[10890:149932] 	/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+build-for-testing
+test-without-building
+-project
+/Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj
+-scheme
+WebDriverAgentRunner
+-destination
+id=209EFB0A-BF46-4A77-9705-479F1C7A985A
+IPHONEOS_DEPLOYMENT_TARGET=11.4
+(null) xcodebuild[10890:149932] Launching with Xcode.IDEFoundation.Launcher.PosixSpawn
+06:04:02.439 xcodebuild[10890:149932] Appending test standard output and standard error to /var/folders/36/bcd7dltd5r386ksvpcvp3bq80000gn/T/com.apple.dt.XCTest/IDETestRunSession-7CC8D685-F017-46A1-BBB6-D0938BFDDF01/WebDriverAgentRunner-72138D36-A201-48D1-9E99-184E45A05284/StandardOutputAndStandardError.txt
+06:04:02.813 xcodebuild[10890:149932] Setting up test runner session
+06:04:02.815 xcodebuild[10890:149932] Launch session started.
+06:04:03.522 xcodebuild[10890:149932] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Received sim device notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.522 xcodebuild[10890:161373] Got a sim device notification for iPhone 8 Plus: {
+    notification = "availableDevices_changed";
+}
+06:04:03.523 xcodebuild[10890:149932] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Received sim device notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.523 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.523 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.523 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.523 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.523 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.523 xcodebuild[10890:161373] Got a sim device notification for iPhone 8 Plus: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.523 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.523 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.524 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.523 xcodebuild[10890:161373] Sim iPhone 8 Plus state changed to 1
+06:04:03.524 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.524 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.524 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.524 xcodebuild[10890:161422] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.524 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.524 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.524 xcodebuild[10890:161423] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.524 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.524 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.524 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.524 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.525 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.525 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.525 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.524 xcodebuild[10890:161422] Preparing to update list of devices in SimDeviceSet SimDeviceSet : /Users/ariful/Library/Developer/CoreSimulator/Devices
+06:04:03.525 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.525 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.525 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.525 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.525 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.525 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.525 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.525 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.526 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.526 xcodebuild[10890:149932] Updating list of devices in SimDeviceSet
+06:04:03.530 xcodebuild[10890:149932] Adding any devices not yet represented in list for device set SimDeviceSet : /Users/ariful/Library/Developer/CoreSimulator/Devices
+06:04:03.530 xcodebuild[10890:149932] Removing any devices that have been removed from device set SimDeviceSet : /Users/ariful/Library/Developer/CoreSimulator/Devices
+06:04:03.534 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.535 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.535 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.535 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.537 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.537 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.538 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.538 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.538 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.538 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.538 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.538 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.538 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.543 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.543 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.543 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.543 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.544 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.544 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.544 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.544 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.544 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.544 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.544 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.544 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.544 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.544 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+06:04:03.554 xcodebuild[10890:149932] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Received sim device notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.555 xcodebuild[10890:149932] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Received sim device notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.556 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.556 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.556 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.556 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.556 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.557 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.557 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.557 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.557 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.557 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.557 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.557 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.557 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.557 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.557 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.557 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.557 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.558 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.556 xcodebuild[10890:160954] Got a sim device notification for iPhone 8 Plus: {
+    notification = "availableDevices_changed";
+}
+06:04:03.558 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.558 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.558 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.558 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.558 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.558 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.558 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.558 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.558 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.558 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.559 xcodebuild[10890:161423] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.558 xcodebuild[10890:160954] Got a sim device notification for iPhone 8 Plus: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.559 xcodebuild[10890:160954] Sim iPhone 8 Plus state changed to 2
+06:04:03.559 xcodebuild[10890:161423] Preparing to update list of devices in SimDeviceSet SimDeviceSet : /Users/ariful/Library/Developer/CoreSimulator/Devices
+06:04:03.559 xcodebuild[10890:149932] Updating list of devices in SimDeviceSet
+06:04:03.563 xcodebuild[10890:149932] Adding any devices not yet represented in list for device set SimDeviceSet : /Users/ariful/Library/Developer/CoreSimulator/Devices
+06:04:03.564 xcodebuild[10890:149932] Removing any devices that have been removed from device set SimDeviceSet : /Users/ariful/Library/Developer/CoreSimulator/Devices
+06:04:03.564 xcodebuild[10890:160954] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.573 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.573 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.573 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.573 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.573 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.573 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.573 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.574 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.574 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.574 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.574 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.574 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.574 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.574 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.574 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.575 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.575 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.575 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.575 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.575 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.575 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.575 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.575 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.576 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.576 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.576 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.576 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.576 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+06:04:03.782 xcodebuild[10890:149932] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.782 xcodebuild[10890:161195] Got a sim device notification for iPhone 8 Plus: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.782 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.782 xcodebuild[10890:161422] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.783 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.783 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.783 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.783 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.783 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.783 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.784 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.784 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.784 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.784 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.784 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.784 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.785 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.785 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.785 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.785 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.785 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.785 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.785 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.786 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.786 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.786 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.786 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.786 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.786 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.787 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.787 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:03.922 xcodebuild[10890:161374] Simulator 209EFB0A-BF46-4A77-9705-479F1C7A985A was claimed by LaunchSessionClaim_0x7fd63ac7c240
+06:04:03.923 xcodebuild[10890:149932] Adding console adaptor <IDEConsoleAdaptor: 0x7fd63af7c380 'target' stdin: <IDEMasterPtyFileHandle: 0x7fd63ac7ed80 MasterFH: <NSConcreteFileHandle: 0x7fd63ac88290> 39 SlaveFH: <NSConcreteFileHandle: 0x7fd63af17050> 40> 39 stdout: <IDEMasterPtyFileHandle: 0x7fd63ac7ed80 MasterFH: <NSConcreteFileHandle: 0x7fd63ac88290> 39 SlaveFH: <NSConcreteFileHandle: 0x7fd63af17050> 40> 39 stderr: (null) 0> for test session 0603E7D5-9A14-48F1-9A14-ED47A3EE377F.
+06:04:03.928 xcodebuild[10890:161423] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Registered for sim device notification, got token 9
+06:04:03.973 xcodebuild[10890:149932] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Received sim device notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.973 xcodebuild[10890:160954] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Received sim device notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.973 xcodebuild[10890:149932] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Received sim device notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.973 xcodebuild[10890:149936] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Received sim device notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.973 xcodebuild[10890:149936] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Unregistering for sim device notification with token 9
+06:04:03.974 xcodebuild[10890:161423] Simulator 209EFB0A-BF46-4A77-9705-479F1C7A985A was claimed by LaunchSessionClaim_0x7fd63ac7c240
+06:04:03.974 xcodebuild[10890:161423] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Registered for sim device notification, got token 10
+06:04:03.974 xcodebuild[10890:161195] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Unregistering for sim device notification with token 10
+06:04:03.973 xcodebuild[10890:161422] Got a sim device notification for iPhone 8 Plus: {
+    notification = "availableDevices_changed";
+}
+06:04:03.975 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.974 xcodebuild[10890:161422] Got a sim device notification for iPhone 8 Plus: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.975 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.975 xcodebuild[10890:161422] Sim iPhone 8 Plus state changed to 3
+06:04:03.975 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.975 xcodebuild[10890:161422] Sim iPhone 8 Plus: Unregistering for sim device notification with token 8
+06:04:03.975 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.975 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.975 xcodebuild[10890:161422] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+06:04:03.975 xcodebuild[10890:149936] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.975 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.975 xcodebuild[10890:149936] Preparing to update list of devices in SimDeviceSet SimDeviceSet : /Users/ariful/Library/Developer/CoreSimulator/Devices
+06:04:03.975 xcodebuild[10890:161451] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.975 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.976 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.976 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.976 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.976 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.976 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.976 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.976 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.976 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.976 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.976 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.976 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.976 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.977 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.977 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.977 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.977 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.977 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.977 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.977 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.977 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.977 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:03.977 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.977 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.977 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.977 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.978 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.978 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.978 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.978 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.979 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.979 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.979 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.979 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.979 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.979 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.979 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.979 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.980 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.980 xcodebuild[10890:161423] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Installing app at path: /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentRunner-Runner.app and options: (null)
+06:04:03.980 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.980 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.980 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.980 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.980 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.980 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.980 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.980 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.981 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.981 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.981 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+06:04:03.981 xcodebuild[10890:149932] Updating list of devices in SimDeviceSet
+06:04:04.031 xcodebuild[10890:149932] Adding any devices not yet represented in list for device set SimDeviceSet : /Users/ariful/Library/Developer/CoreSimulator/Devices
+06:04:04.031 xcodebuild[10890:149932] Removing any devices that have been removed from device set SimDeviceSet : /Users/ariful/Library/Developer/CoreSimulator/Devices
+06:04:04.244 xcodebuild[10890:161422] Sim iPhone 8 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.KFjbWN6Esw/com.apple.testmanagerd.unix-domain.socket
+06:04:04.244 xcodebuild[10890:161422] Validating test connection socket path (/private/tmp/com.apple.launchd.KFjbWN6Esw/com.apple.testmanagerd.unix-domain.socket)
+06:04:04.244 xcodebuild[10890:161422] Constructing transport for test connection socket
+06:04:04.245 xcodebuild[10890:161422] Connected socket 38 to testmanagerd for Sim iPhone 8 Plus
+06:04:04.245 xcodebuild[10890:161422] Received connection for test runner session
+06:04:04.246 xcodebuild[10890:161422] Listening for proxy connection request from the test bundle
+06:04:04.246 xcodebuild[10890:149932] Test runner session acquired connection.
+06:04:04.246 xcodebuild[10890:149932] Waiting for test process to launch.
+06:04:04.246 xcodebuild[10890:161422] Initiating session with identifier: 0603E7D5-9A14-48F1-9A14-ED47A3EE377F
+06:04:10.526 xcodebuild[10890:161630] Closing socket 38 to testmanagerd for Sim iPhone 8 Plus
+06:04:10.526 xcodebuild[10890:161632] Got reply to session initiation request with identifier 0603E7D5-9A14-48F1-9A14-ED47A3EE377F (result:error): (null): Error Domain=DTXProxyChannel Code=1 "(null)" UserInfo={DTXProxyChannelErrorMessage=Channel disconnected}
+06:04:10.527 xcodebuild[10890:149932] Failed to make test runner session:
+Error Domain=DTXProxyChannel Code=1 "(null)" UserInfo={DTXProxyChannelErrorMessage=Channel disconnected}
+06:04:10.958 xcodebuild[10890:161423] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Failed to install app at path: /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/DerivedData/WebDriverAgent/Build/Products/Debug-iphonesimulator/WebDriverAgentRunner-Runner.app and options: (null) (error = Error Domain=com.apple.CoreSimulator.SimError Code=164 "Invalid device state" UserInfo={SimCallingSelector=installApplication:withOptions:error:, NSLocalizedDescription=Invalid device state, NSUnderlyingError=0x7fd63af2c620 {Error Domain=NSMachErrorDomain Code=-308 "(ipc/mig) server died"}})
+06:04:10.960 xcodebuild[10890:161373] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:10.960 xcodebuild[10890:161373] Preparing to update list of devices in SimDeviceSet SimDeviceSet : /Users/ariful/Library/Developer/CoreSimulator/Devices
+06:04:10.960 xcodebuild[10890:161374] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:10.960 xcodebuild[10890:161450] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.039 xcodebuild[10890:149932] Claim LaunchSessionClaim_0x7fd63ac7c240 on simulator 209EFB0A-BF46-4A77-9705-479F1C7A985A was relinquished
+06:04:11.039 xcodebuild[10890:149932] Claim LaunchSessionClaim_0x7fd63ac7c240 on simulator 209EFB0A-BF46-4A77-9705-479F1C7A985A was relinquished
+06:04:11.040 xcodebuild[10890:149932] Updating list of devices in SimDeviceSet
+06:04:11.045 xcodebuild[10890:149932] Adding any devices not yet represented in list for device set SimDeviceSet : /Users/ariful/Library/Developer/CoreSimulator/Devices
+06:04:11.045 xcodebuild[10890:149932] Removing any devices that have been removed from device set SimDeviceSet : /Users/ariful/Library/Developer/CoreSimulator/Devices
+06:04:11.050 xcodebuild[10890:149932] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Received sim device notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.050 xcodebuild[10890:149932] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Received sim device notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.050 xcodebuild[10890:149932] 209EFB0A-BF46-4A77-9705-479F1C7A985A: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.050 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.050 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.050 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.050 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.050 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.051 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.051 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.051 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.051 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.051 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.051 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.051 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.051 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.051 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.051 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.052 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.052 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.052 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.052 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.052 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.052 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.052 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.052 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.052 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.052 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.052 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.053 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.053 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+06:04:11.053 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.053 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.053 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.053 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.053 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.054 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.054 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.054 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.054 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.054 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.054 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.054 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.055 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.055 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.055 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.055 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.055 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.055 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.055 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.055 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.056 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.056 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.056 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.056 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.056 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.057 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.057 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.057 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+06:04:11.057 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.057 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.057 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.057 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.057 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.058 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.058 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.058 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.058 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.058 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.058 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.058 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.058 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.059 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.059 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.059 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.059 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.059 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.059 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.059 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.060 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.060 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.060 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.060 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.060 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.060 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.060 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.061 xcodebuild[10890:149932] /Users/ariful/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutting Down)";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+06:04:11.061 xcodebuild[10890:149932] Test operation failure: The operation couldn’t be completed. (DTXProxyChannel error 1.)
+06:04:11.061 xcodebuild[10890:149932] _finishWithError:Error Domain=IDETestOperationsObserverErrorDomain Code=3 "The operation couldn’t be completed. (DTXProxyChannel error 1.)" UserInfo={NSLocalizedDescription=The operation couldn’t be completed. (DTXProxyChannel error 1.)}

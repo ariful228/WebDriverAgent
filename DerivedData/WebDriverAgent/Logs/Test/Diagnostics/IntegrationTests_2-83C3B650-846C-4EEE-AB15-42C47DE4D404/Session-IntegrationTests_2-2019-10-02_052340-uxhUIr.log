@@ -1,0 +1,10 @@
+05:23:40.516 Xcode[646:6780] Beginning test session IntegrationTests_2-694CD255-1347-40EC-9140-14A9D2790A91 at 2019-10-02 05:23:40.516 with Xcode 9F2000 on target <DVTiPhoneSimulator: 0x7ff96e82c630> {
+		SimDevice: iPhone 8 Plus (209EFB0A-BF46-4A77-9705-479F1C7A985A, iOS 11.4, Shutdown)
+} (11.4 (15F79))
+05:23:40.516 Xcode[646:6780] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+05:23:40.517 Xcode[646:6780] Appending test standard output and standard error to /var/folders/36/bcd7dltd5r386ksvpcvp3bq80000gn/T/com.apple.dt.XCTest/IDETestRunSession-7CBB27DC-E136-4542-98FD-5E38DBE69F99/IntegrationTests_2-83C3B650-846C-4EEE-AB15-42C47DE4D404/StandardOutputAndStandardError.txt
+05:23:40.610 Xcode[646:6780] Claim LaunchSessionClaim_0x7ff96031cc10 on simulator 209EFB0A-BF46-4A77-9705-479F1C7A985A was relinquished
+05:23:40.610 Xcode[646:6780] Claim LaunchSessionClaim_0x7ff96031cc10 on simulator 209EFB0A-BF46-4A77-9705-479F1C7A985A was relinquished
+05:23:40.689 Xcode[646:6780] Got death notice for pid 2549, removing from SimulatorSessionMap
+05:23:40.689 Xcode[646:6780] Test operation failure: Test operation was canceled.
+05:23:40.689 Xcode[646:6780] _finishWithError:Error Domain=IDETestOperationsObserverErrorDomain Code=14 "Test operation was canceled." UserInfo={NSLocalizedDescription=Test operation was canceled.}

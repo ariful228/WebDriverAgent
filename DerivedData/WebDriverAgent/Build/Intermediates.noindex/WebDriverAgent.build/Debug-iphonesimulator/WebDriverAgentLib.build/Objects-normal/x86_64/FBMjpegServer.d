@@ -1,0 +1,20 @@
+dependencies: \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Utilities/FBMjpegServer.m \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/libxml2/module.modulemap \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/Carthage/Build/iOS/CocoaAsyncSocket.framework/Modules/module.modulemap \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/Carthage/Build/iOS/CocoaAsyncSocket.framework/Headers/GCDAsyncUdpSocket.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/Carthage/Build/iOS/CocoaAsyncSocket.framework/Headers/GCDAsyncSocket.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/Carthage/Build/iOS/CocoaAsyncSocket.framework/Headers/CocoaAsyncSocket.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Utilities/FBMjpegServer.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Routing/FBTCPSocket.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/FBApplication.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/PrivateHeaders/XCTest/XCUIApplication.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Utilities/FBConfiguration.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Utilities/FBLogger.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/PrivateHeaders/XCTest/XCTestManager_ManagerInterface-Protocol.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Utilities/FBXCTestDaemonsProxy.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/PrivateHeaders/XCTest/XCSynthesizedEventRecord.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/PrivateHeaders/XCTest/XCElementSnapshot.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/PrivateHeaders/XCTest/CDStructures.h \
+  /Applications/Appium.app/Contents/Resources/app/node_modules/appium-xcuitest-driver/WebDriverAgent/PrivateHeaders/XCTest/XCUIScreen.h
